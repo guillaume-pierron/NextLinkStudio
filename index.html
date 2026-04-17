@@ -1,1 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextLink Studio — Sites web pour artisans & indépendants</title>
+  <meta name="description" content="NextLink Studio crée des sites web professionnels pour plombiers, électriciens et artisans du BTP. Devis en ligne, réservation de créneaux, logo et présence LinkedIn." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <!-- NAVIGATION -->
+  <header class="nav-wrapper">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">NextLink<strong>Studio</strong></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#comment">Comment ça marche</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Devis gratuit</a>
+      <button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#services" onclick="toggleMenu()">Services</a>
+      <a href="#comment" onclick="toggleMenu()">Comment ça marche</a>
+      <a href="#realisations" onclick="toggleMenu()">Réalisations</a>
+      <a href="#tarifs" onclick="toggleMenu()">Tarifs</a>
+      <a href="#temoignages" onclick="toggleMenu()">Témoignages</a>
+      <a href="#contact" class="btn btn-primary" onclick="toggleMenu()">Devis gratuit</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">🔧 Spécialiste artisans & BTP</div>
+      <h1 class="hero-title">
+        Votre site web pro,<br />
+        <span class="gradient-text">pendant que vous travaillez.</span>
+      </h1>
+      <p class="hero-subtitle">
+        On crée votre site vitrine avec devis en ligne et réservation de créneaux — livré en 7 jours. Vous vous concentrez sur votre métier, on s'occupe du reste.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary btn-lg">Obtenir mon devis gratuit</a>
+        <a href="#realisations" class="btn btn-ghost btn-lg">Voir nos réalisations →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>+120</strong>
+          <span>artisans équipés</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <strong>7 jours</strong>
+          <span>délai de livraison</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>satisfaction client</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="mockup-browser">
+        <div class="mockup-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="mockup-url">www.martin-plomberie.fr</span>
+        </div>
+        <div class="mockup-screen">
+          <div class="mock-hero-bg"></div>
+          <div class="mock-content">
+            <div class="mock-badge">Plombier Paris 15e</div>
+            <div class="mock-title"></div>
+            <div class="mock-subtitle"></div>
+            <div class="mock-btn"></div>
+          </div>
+          <div class="mock-cards">
+            <div class="mock-card">
+              <div class="mock-icon">🔧</div>
+              <div class="mock-card-lines">
+                <div></div><div></div>
+              </div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-icon">📅</div>
+              <div class="mock-card-lines">
+                <div></div><div></div>
+              </div>
+            </div>
+            <div class="mock-card">
+              <div class="mock-icon">⭐</div>
+              <div class="mock-card-lines">
+                <div></div><div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLÈME / ACCROCHE -->
+  <section class="pain container">
+    <div class="pain-grid">
+      <div class="pain-text">
+        <h2>Vos clients cherchent en ligne.<br /><span class="gradient-text">Êtes-vous visible ?</span></h2>
+        <p>Plus de 80 % des particuliers cherchent un artisan sur Google avant d'appeler. Sans site web, vous perdez des chantiers face à des concurrents moins qualifiés que vous, mais mieux référencés.</p>
+        <p>NextLink Studio règle ça — rapidement, sans prise de tête et à un prix juste.</p>
+      </div>
+      <div class="pain-cards">
+        <div class="pain-card bad">
+          <div class="pain-card-icon">😤</div>
+          <p><strong>Sans site web</strong></p>
+          <ul>
+            <li>Invisible sur Google</li>
+            <li>Bouche-à-oreille seulement</li>
+            <li>Devis par téléphone, chronophage</li>
+            <li>Pas de crédibilité en ligne</li>
+          </ul>
+        </div>
+        <div class="pain-card good">
+          <div class="pain-card-icon">🚀</div>
+          <p><strong>Avec NextLink Studio</strong></p>
+          <ul>
+            <li>Visible sur Google dès le lancement</li>
+            <li>Devis reçus 24h/24, 7j/7</li>
+            <li>Réservations automatiques</li>
+            <li>Image professionnelle instantanée</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Nos services</div>
+        <h2>Tout ce qu'il faut pour<br /><span class="gradient-text">dominer votre secteur local</span></h2>
+        <p>Une offre complète pensée pour les artisans qui veulent des résultats concrets, pas du jargon digital.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>Site web professionnel</h3>
+          <p>Design sur mesure, mobile-first, rapide et optimisé pour apparaître en tête sur Google dans votre zone géographique.</p>
+          <ul class="service-list">
+            <li>Design personnalisé à votre image</li>
+            <li>Optimisé SEO local</li>
+            <li>Livré en 7 jours</li>
+          </ul>
+        </div>
+        <div class="service-card featured">
+          <div class="featured-badge">⭐ Populaire</div>
+          <div class="service-icon">📋</div>
+          <h3>Devis en ligne</h3>
+          <p>Formulaire intelligent intégré à votre site. Vos clients remplissent, vous recevez des demandes qualifiées directement par email ou SMS.</p>
+          <ul class="service-list">
+            <li>Formulaire multi-étapes</li>
+            <li>Notification instantanée</li>
+            <li>Export des demandes</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📅</div>
+          <h3>Réservation de créneaux</h3>
+          <p>Vos clients bookent directement dans votre agenda en ligne. Fini les allers-retours téléphoniques pour caler un rendez-vous.</p>
+          <ul class="service-list">
+            <li>Agenda synchronisé</li>
+            <li>Rappels automatiques</li>
+            <li>Zéro double réservation</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Création de logo</h3>
+          <p>Un logo professionnel qui représente votre métier et inspire confiance dès le premier regard. Livré en formats print et web.</p>
+          <ul class="service-list">
+            <li>3 propositions créatives</li>
+            <li>Révisions illimitées</li>
+            <li>Fichiers sources inclus</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💼</div>
+          <h3>Posts LinkedIn</h3>
+          <p>On rédige et publie des posts LinkedIn qui valorisent vos chantiers et attirent des clients professionnels et des partenaires.</p>
+          <ul class="service-list">
+            <li>4 à 8 posts/mois</li>
+            <li>Rédaction + visuels</li>
+            <li>Stratégie de contenu</li>
+          </ul>
+        </div>
+        <div class="service-card service-card-cta">
+          <div class="service-icon">💬</div>
+          <h3>Accompagnement offert</h3>
+          <p>Un interlocuteur dédié qui parle votre langue, pas du jargon. On vous forme à utiliser votre site et on reste disponibles.</p>
+          <a href="#contact" class="btn btn-primary">Parler à un expert →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMENT ÇA MARCHE -->
+  <section class="how" id="comment">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Simple & rapide</div>
+        <h2>Votre site en ligne<br /><span class="gradient-text">en 3 étapes</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Échange de 30 min</h3>
+            <p>On discute de votre activité, de vos clients cibles, de votre zone géographique. On cerne exactement ce dont vous avez besoin.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>On crée, vous validez</h3>
+            <p>On conçoit votre site et vous montrez l'avancement. Vous donnez votre avis, on ajuste jusqu'à ce que ce soit parfait.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Mise en ligne & suivi</h3>
+            <p>Votre site est en ligne en 7 jours. On vous forme, on s'assure que tout fonctionne, et on reste disponibles pour la suite.</p>
+          </div>
+        </div>
+      </div>
+      <div class="how-cta">
+        <a href="#contact" class="btn btn-primary btn-lg">Commencer maintenant — c'est gratuit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÉALISATIONS -->
+  <section class="realisations" id="realisations">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Réalisations</div>
+        <h2>Ils nous ont fait confiance,<br /><span class="gradient-text">regardez le résultat</span></h2>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-preview plombier">
+            <div class="preview-nav">
+              <div class="preview-dot"></div><div class="preview-dot"></div><div class="preview-dot"></div>
+            </div>
+            <div class="preview-hero blue">
+              <div class="preview-logo">🔧 Martin Plomberie</div>
+              <div class="preview-lines">
+                <div class="preview-line w80"></div>
+                <div class="preview-line w60"></div>
+              </div>
+              <div class="preview-cta-mock"></div>
+            </div>
+            <div class="preview-services-row">
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Plomberie</span>
+            <h4>Martin Plomberie</h4>
+            <p>Site + devis en ligne + réservation</p>
+            <div class="portfolio-result">+34 demandes/mois en 60 jours</div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-preview electricien">
+            <div class="preview-nav">
+              <div class="preview-dot"></div><div class="preview-dot"></div><div class="preview-dot"></div>
+            </div>
+            <div class="preview-hero orange">
+              <div class="preview-logo">⚡ Élec Pro 69</div>
+              <div class="preview-lines">
+                <div class="preview-line w80"></div>
+                <div class="preview-line w60"></div>
+              </div>
+              <div class="preview-cta-mock"></div>
+            </div>
+            <div class="preview-services-row">
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Électricité</span>
+            <h4>Élec Pro 69</h4>
+            <p>Site + logo + posts LinkedIn</p>
+            <div class="portfolio-result">Page 1 Google en 45 jours</div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-preview menuisier">
+            <div class="preview-nav">
+              <div class="preview-dot"></div><div class="preview-dot"></div><div class="preview-dot"></div>
+            </div>
+            <div class="preview-hero green">
+              <div class="preview-logo">🪵 Atelier Dubois</div>
+              <div class="preview-lines">
+                <div class="preview-line w80"></div>
+                <div class="preview-line w60"></div>
+              </div>
+              <div class="preview-cta-mock"></div>
+            </div>
+            <div class="preview-services-row">
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+              <div class="preview-service-block"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Menuiserie</span>
+            <h4>Atelier Dubois</h4>
+            <p>Site complet + agenda en ligne</p>
+            <div class="portfolio-result">3× plus de contacts en 30 jours</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TARIFS -->
+  <section class="tarifs" id="tarifs">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Tarifs</div>
+        <h2>Des offres claires,<br /><span class="gradient-text">sans mauvaises surprises</span></h2>
+        <p>Pas d'abonnement caché, pas de frais supplémentaires. Vous savez ce que vous payez avant de signer.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-name">Essentiel</div>
+          <div class="pricing-price"><span class="price-amount">790</span><span class="price-currency">€</span></div>
+          <div class="pricing-sub">paiement unique</div>
+          <ul class="pricing-features">
+            <li>✅ Site vitrine 5 pages</li>
+            <li>✅ Design professionnel</li>
+            <li>✅ Optimisation SEO local</li>
+            <li>✅ Formulaire de contact</li>
+            <li>✅ Adapté mobile</li>
+            <li>✅ Hébergement 1 an offert</li>
+            <li class="disabled">❌ Devis en ligne</li>
+            <li class="disabled">❌ Réservation créneaux</li>
+            <li class="disabled">❌ Logo</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choisir Essentiel</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-popular">⭐ Le plus choisi</div>
+          <div class="pricing-name">Pro</div>
+          <div class="pricing-price"><span class="price-amount">1 290</span><span class="price-currency">€</span></div>
+          <div class="pricing-sub">paiement unique</div>
+          <ul class="pricing-features">
+            <li>✅ Site vitrine 8 pages</li>
+            <li>✅ Design premium sur mesure</li>
+            <li>✅ SEO local avancé</li>
+            <li>✅ <strong>Devis en ligne intégré</strong></li>
+            <li>✅ <strong>Réservation de créneaux</strong></li>
+            <li>✅ Logo offert</li>
+            <li>✅ Hébergement 1 an offert</li>
+            <li>✅ Formation à l'utilisation</li>
+            <li class="disabled">❌ Posts LinkedIn</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Choisir Pro</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-name">Prestige</div>
+          <div class="pricing-price"><span class="price-amount">1 890</span><span class="price-currency">€</span></div>
+          <div class="pricing-sub">+ 149€/mois (LinkedIn)</div>
+          <ul class="pricing-features">
+            <li>✅ Tout le pack Pro</li>
+            <li>✅ Site illimité en pages</li>
+            <li>✅ Blog / actualités</li>
+            <li>✅ <strong>Posts LinkedIn (8/mois)</strong></li>
+            <li>✅ Stratégie de contenu</li>
+            <li>✅ Rapport mensuel</li>
+            <li>✅ Support prioritaire</li>
+            <li>✅ Mises à jour incluses</li>
+            <li>✅ Hébergement offert à vie</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Choisir Prestige</a>
+        </div>
+      </div>
+      <p class="pricing-note">💡 Pas sûr de votre choix ? On vous conseille gratuitement lors d'un appel de 30 min. <a href="#contact">Prenez rendez-vous →</a></p>
+    </div>
+  </section>
+
+  <!-- TÉMOIGNAGES -->
+  <section class="temoignages" id="temoignages">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Témoignages</div>
+        <h2>Ce que disent<br /><span class="gradient-text">nos artisans</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"En 3 semaines, j'avais déjà reçu 15 demandes de devis via mon site. Avant, j'étais invisible sur internet. Franchement, je regrette de ne pas l'avoir fait plus tôt."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CM</div>
+            <div>
+              <strong>Christophe M.</strong>
+              <span>Plombier — Lyon</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Le système de réservation en ligne m'a changé la vie. Plus de coup de fil à n'en plus finir pour caler un RDV. Les clients bookent, moi je travaille."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SR</div>
+            <div>
+              <strong>Sophie R.</strong>
+              <span>Électricienne — Bordeaux</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"L'équipe parle vraiment notre langue. Pas de blabla technique, ils ont compris mon métier et livré exactement ce que je voulais en une semaine."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TB</div>
+            <div>
+              <strong>Thomas B.</strong>
+              <span>Menuisier — Nantes</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Mon logo est top, mes posts LinkedIn tournent bien, et le site remonte chaque mois dans les résultats Google. Tout ce qu'il me fallait dans un seul endroit."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">KD</div>
+            <div>
+              <strong>Karim D.</strong>
+              <span>Peintre en bâtiment — Paris</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / DEVIS -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-text">
+          <div class="section-badge">Contact</div>
+          <h2>Parlons de<br /><span class="gradient-text">votre projet</span></h2>
+          <p>Remplissez ce formulaire et on vous recontacte sous 24h — sans engagement, sans jargon, juste une vraie conversation sur ce qu'on peut faire pour vous.</p>
+          <div class="contact-reassurance">
+            <div class="reassurance-item">
+              <span class="ri-icon">⚡</span>
+              <span>Réponse sous 24h garantie</span>
+            </div>
+            <div class="reassurance-item">
+              <span class="ri-icon">🎯</span>
+              <span>Devis personnalisé et gratuit</span>
+            </div>
+            <div class="reassurance-item">
+              <span class="ri-icon">🤝</span>
+              <span>Sans engagement</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required />
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" placeholder="Dupont" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="metier">Votre métier *</label>
+            <select id="metier" name="metier" required>
+              <option value="">Sélectionnez votre métier</option>
+              <option>Plombier</option>
+              <option>Électricien</option>
+              <option>Menuisier</option>
+              <option>Peintre en bâtiment</option>
+              <option>Carreleur</option>
+              <option>Maçon</option>
+              <option>Couvreur</option>
+              <option>Serrurier</option>
+              <option>Chauffagiste</option>
+              <option>Autre artisan / indépendant</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="jean@exemple.fr" required />
+            </div>
+            <div class="form-group">
+              <label for="tel">Téléphone</label>
+              <input type="tel" id="tel" name="tel" placeholder="06 12 34 56 78" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="offre">Offre qui vous intéresse</label>
+            <select id="offre" name="offre">
+              <option value="">Je ne sais pas encore</option>
+              <option>Essentiel — 790€</option>
+              <option>Pro — 1 290€</option>
+              <option>Prestige — 1 890€</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Dites-nous en plus (optionnel)</label>
+            <textarea id="message" name="message" rows="3" placeholder="Votre zone d'intervention, vos besoins spécifiques..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">
+            <span class="btn-text">Envoyer ma demande →</span>
+            <span class="btn-loading" style="display:none">Envoi en cours...</span>
+          </button>
+          <p class="form-legal">En soumettant ce formulaire, vous acceptez d'être recontacté par NextLink Studio. Aucune donnée n'est revendue.</p>
+        </form>
+        <div class="form-success" id="formSuccess" style="display:none">
+          <div class="success-icon">✅</div>
+          <h3>Demande envoyée !</h3>
+          <p>Merci, on vous recontacte sous 24h pour discuter de votre projet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">NextLink<strong>Studio</strong></span>
+        </a>
+        <p>On aide les artisans et indépendants à se faire connaître en ligne — rapidement, simplement, efficacement.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Site web pro</a></li>
+          <li><a href="#services">Devis en ligne</a></li>
+          <li><a href="#services">Réservation</a></li>
+          <li><a href="#services">Logo</a></li>
+          <li><a href="#services">Posts LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Agence</h5>
+        <ul>
+          <li><a href="#comment">Comment ça marche</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#temoignages">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@nextlinkstudio.fr">hello@nextlinkstudio.fr</a></li>
+          <li><a href="tel:+33600000000">06 00 00 00 00</a></li>
+          <li>Paris — France</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2024 NextLink Studio — Tous droits réservés</p>
+      <div class="footer-legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
