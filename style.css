@@ -294,22 +294,45 @@ body {
   margin-bottom: 64px;
   justify-content: center;
 }
-.hero-stats {
+
+/* ── MARQUEE TAGS ── */
+.hero-marquee {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.marquee-row {
+  width: 100%;
+  max-width: 560px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 18%, black 82%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, black 18%, black 82%, transparent 100%);
+}
+.marquee-track {
+  display: flex;
+  gap: 12px;
+  width: max-content;
+  animation: marquee-left 12s linear infinite;
+  will-change: transform;
+}
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-tag {
   display: inline-flex;
   align-items: center;
-  gap: 0;
-  flex-wrap: wrap;
-  justify-content: center;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-lg);
-  padding: 20px 36px;
+  gap: 6px;
+  white-space: nowrap;
+  padding: 9px 20px;
+  border-radius: 99px;
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(175,102,232,0.12);
+  color: var(--purple-vivid);
+  border: 1.5px solid rgba(175,102,232,0.3);
+  cursor: default;
 }
-.stat { display: flex; flex-direction: column; align-items: center; padding: 0 28px; }
-.stat strong { font-size: 28px; font-weight: 800; color: var(--text); line-height: 1; }
-.stat span { font-size: 13px; color: var(--text-subtle); margin-top: 4px; }
-.stat-sep { width: 1px; height: 36px; background: var(--border-strong); flex-shrink: 0; }
-
 
 /* ── PAIN SECTION ── */
 .pain { padding: 80px 24px; background: var(--bg); }
@@ -1143,12 +1166,7 @@ body {
   .hero-actions   { flex-direction: column; align-items: center; }
   .hero-actions .btn { width: 100%; max-width: 340px; }
   .form-row       { grid-template-columns: 1fr; }
-  .hero-stats     { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; padding: 16px 0; gap: 0; }
-  .stat           { padding: 12px 0; border-right: 1px solid var(--border-strong); }
-  .stat:last-child{ border-right: none; }
-  .stat strong    { font-size: 22px; }
-  .stat-sep       { display: none; }
-  .deliverables-grid { grid-template-columns: 1fr; }
+.deliverables-grid { grid-template-columns: 1fr; }
   .options-grid   { grid-template-columns: 1fr; }
   .expertise-cta-block { flex-direction: column; }
   .expertise-cta-block .btn { width: 100%; }
