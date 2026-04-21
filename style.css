@@ -187,9 +187,22 @@ body {
   padding: 8px;
   margin-left: auto;
 }
-.menu-toggle span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: var(--transition); }
+.menu-toggle span { 
+  display: block; 
+  width: 22px; 
+  height: 2px; 
+  background: var(--text); 
+  border-radius: 2px; 
+  transition: var(--transition); 
+  transform-origin: center;
+}
+/* Animation du bouton Hamburger en X */
+.menu-toggle.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.menu-toggle.active span:nth-child(2) { opacity: 0; transform: translateX(-10px); }
+.menu-toggle.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 .nav-mobile {
-  display: none;
+  display: flex; /* Toujours en flex pour permettre l'animation */
   flex-direction: column;
   position: fixed;
   top: 68px;
@@ -204,6 +217,13 @@ body {
   -webkit-backdrop-filter: blur(32px);
   z-index: 99;
   overflow-y: auto;
+  
+  /* État initial caché */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-mobile a {
   color: var(--text-muted);
@@ -213,10 +233,31 @@ body {
   padding: 12px 0;
   border-bottom: 1px solid var(--border);
   transition: var(--transition);
+  /* Préparation de l'apparition en cascade */
+  opacity: 0;
+  transform: translateX(-10px);
 }
 .nav-mobile a:hover, .nav-mobile a.btn { color: var(--text); border-bottom-color: transparent; }
 .nav-mobile .btn { margin-top: 12px; text-align: center; }
-.nav-mobile.open { display: flex; }
+
+/* État ouvert avec animation */
+.nav-mobile.open { 
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Animation des liens en cascade */
+.nav-mobile.open a {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nav-mobile.open a:nth-child(1) { transition-delay: 0.1s; }
+.nav-mobile.open a:nth-child(2) { transition-delay: 0.15s; }
+.nav-mobile.open a:nth-child(3) { transition-delay: 0.2s; }
+.nav-mobile.open a:nth-child(4) { transition-delay: 0.25s; }
+.nav-mobile.open a:nth-child(5) { transition-delay: 0.3s; }
 
 /* ── HERO ── */
 .hero {
