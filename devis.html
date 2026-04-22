@@ -53,11 +53,15 @@
     </nav>
   </header>
   <div class="nav-mobile" id="navMobile">
-    <a href="expertise.html" onclick="toggleMenu()">Expertise</a>
-    <a href="site-web.html" class="nav-mobile-sub" onclick="toggleMenu()">🌐 Création de site web</a>
-    <a href="identite-visuelle.html" class="nav-mobile-sub" onclick="toggleMenu()">🎨 Identité visuelle</a>
-    <a href="posts-linkedin.html" class="nav-mobile-sub" onclick="toggleMenu()">💼 Posts LinkedIn</a>
-    <a href="creation-print.html" class="nav-mobile-sub" onclick="toggleMenu()">🖨️ Création print</a>
+    <div class="nav-mobile-group">
+      <button class="nav-mobile-toggle" onclick="toggleExpertise(this)">Expertise <span class="nav-mobile-arrow">▾</span></button>
+      <div class="nav-mobile-submenu"><div class="nav-mobile-submenu-inner">
+        <a href="site-web.html" onclick="toggleMenu()">🌐 Création de site web</a>
+        <a href="identite-visuelle.html" onclick="toggleMenu()">🎨 Identité visuelle</a>
+        <a href="posts-linkedin.html" onclick="toggleMenu()">💼 Posts LinkedIn</a>
+        <a href="creation-print.html" onclick="toggleMenu()">🖨️ Création print</a>
+      </div></div>
+    </div>
     <a href="realisations.html" onclick="toggleMenu()">Nos réalisations</a>
     <a href="tarifs.html" onclick="toggleMenu()">Tarifs</a>
     <a href="index.html#temoignages" onclick="toggleMenu()">Témoignages</a>

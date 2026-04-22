@@ -6,19 +6,25 @@ function toggleMenu() {
   const menuToggle = document.querySelector('.menu-toggle');
   const isOpen = navMobile.classList.toggle('open');
   if (menuToggle) menuToggle.classList.toggle('active');
-  
-  // Empêche le défilement de la page en arrière-plan quand le menu est ouvert
   document.body.style.overflow = isOpen ? 'hidden' : '';
+  if (!isOpen) {
+    document.querySelectorAll('.nav-mobile-group.open').forEach(g => g.classList.remove('open'));
+  }
+}
+
+function toggleExpertise(btn) {
+  btn.closest('.nav-mobile-group').classList.toggle('open');
 }
 
 document.addEventListener('click', function(e) {
   const nav = document.querySelector('.nav-wrapper');
   const navMobile = document.getElementById('navMobile');
   const menuToggle = document.querySelector('.menu-toggle');
-  if (nav && !nav.contains(e.target) && navMobile.classList.contains('open')) {
+  if (nav && !nav.contains(e.target) && !navMobile.contains(e.target) && navMobile.classList.contains('open')) {
     navMobile.classList.remove('open');
     if (menuToggle) menuToggle.classList.remove('active');
     document.body.style.overflow = '';
+    document.querySelectorAll('.nav-mobile-group.open').forEach(g => g.classList.remove('open'));
   }
 });
 
