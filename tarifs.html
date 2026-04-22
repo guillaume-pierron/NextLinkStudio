@@ -59,19 +59,29 @@
     </nav>
   </header>
   <div class="nav-mobile" id="navMobile">
-    <div class="nav-mobile-group">
-      <button class="nav-mobile-toggle" onclick="toggleExpertise(this)">Expertise <span class="nav-mobile-arrow">▾</span></button>
-      <div class="nav-mobile-submenu"><div class="nav-mobile-submenu-inner">
-        <a href="site-web.html" onclick="toggleMenu()">🌐 Création de site web</a>
-        <a href="identite-visuelle.html" onclick="toggleMenu()">🎨 Identité visuelle</a>
-        <a href="posts-linkedin.html" onclick="toggleMenu()">💼 Posts LinkedIn</a>
-        <a href="creation-print.html" onclick="toggleMenu()">🖨️ Création print</a>
-      </div></div>
+    <div class="nav-mobile-inner">
+      <div class="nav-mobile-nav">
+        <div class="nav-mobile-group">
+          <button class="nav-mobile-toggle" onclick="toggleExpertise(this)">
+            <span class="nav-mobile-toggle-left"><span class="nm-num">01</span>Expertise</span>
+            <span class="nav-mobile-arrow">▾</span>
+          </button>
+          <div class="nav-mobile-submenu"><div class="nav-mobile-submenu-inner">
+            <a href="site-web.html" onclick="toggleMenu()"><span class="nm-service-icon">🌐</span>Création de site web</a>
+            <a href="identite-visuelle.html" onclick="toggleMenu()"><span class="nm-service-icon">🎨</span>Identité visuelle</a>
+            <a href="posts-linkedin.html" onclick="toggleMenu()"><span class="nm-service-icon">💼</span>Posts LinkedIn</a>
+            <a href="creation-print.html" onclick="toggleMenu()"><span class="nm-service-icon">🖨️</span>Création print</a>
+          </div></div>
+        </div>
+        <a href="realisations.html" onclick="toggleMenu()"><span class="nm-num">02</span>Nos réalisations</a>
+        <a href="tarifs.html" onclick="toggleMenu()"><span class="nm-num">03</span>Tarifs</a>
+        <a href="index.html#temoignages" onclick="toggleMenu()"><span class="nm-num">04</span>Témoignages</a>
+      </div>
+      <div class="nav-mobile-cta">
+        <a href="devis.html" class="btn btn-primary" onclick="toggleMenu()">Devis gratuit →</a>
+        <p class="nav-mobile-tagline">Votre projet mérite le meilleur.</p>
+      </div>
     </div>
-    <a href="realisations.html" onclick="toggleMenu()">Nos réalisations</a>
-    <a href="tarifs.html" onclick="toggleMenu()">Tarifs</a>
-    <a href="index.html#temoignages" onclick="toggleMenu()">Témoignages</a>
-    <a href="devis.html" class="btn btn-primary btn-lg" onclick="toggleMenu()">Devis gratuit</a>
   </div>
 
   <!-- PAGE HERO -->
