@@ -747,6 +747,7 @@ body {
   border: 1px solid var(--border);
   overflow: hidden;
   transition: var(--transition);
+  position: relative;
 }
 .portfolio-card--featured:hover {
   transform: translateY(-5px);
@@ -756,22 +757,34 @@ body {
 .portfolio-featured-img img {
   width: 100%;
   display: block;
-  height: 340px;
+  height: 380px;
   object-fit: cover;
   object-position: top;
   transition: transform 0.55s ease;
 }
 .portfolio-card--featured:hover .portfolio-featured-img img { transform: scale(1.03); }
 .portfolio-featured-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding: 20px 24px 24px;
   flex-wrap: wrap;
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, transparent 100%);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
-.portfolio-featured-left h4 { font-size: 17px; font-weight: 700; color: var(--text); margin: 6px 0 4px; }
-.portfolio-featured-left p  { font-size: 13px; color: var(--text-muted); }
+.portfolio-card--featured:hover .portfolio-featured-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+.portfolio-featured-left h4 { font-size: 17px; font-weight: 700; color: #fff; margin: 6px 0 4px; }
+.portfolio-featured-left p  { font-size: 13px; color: rgba(255,255,255,0.7); }
 
 /* ── ÉTUDE DE CAS ── */
 .case-hero { padding: 120px 0 80px; background: var(--bg); border-bottom: 1px solid var(--border); overflow: hidden; }
