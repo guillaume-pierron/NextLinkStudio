@@ -131,13 +131,91 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-  '.service-card, .portfolio-card, .portfolio-card-full, .testimonial, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item, .logo-item, .bm-item'
+  '.service-card, .portfolio-card, .portfolio-card-full, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item, .logo-item, .bm-item'
 ).forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(24px)';
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
 });
+
+/* ── TESTIMONIALS AUTO-SCROLL + DRAG / SWIPE ── */
+(function () {
+  const carousel = document.querySelector('.testimonials-carousel');
+  const track    = document.querySelector('.testimonials-track');
+  if (!carousel || !track) return;
+
+  const SPEED = 0.6; // px par frame (~36 px/s à 60 fps)
+  let halfWidth  = 0;
+  let position   = 0;
+  let paused     = false;
+  let isDragging = false;
+  let lastX      = 0;
+  let velocity   = 0;
+
+  function wrap(pos) {
+    if (halfWidth === 0) return 0;
+    let p = pos % (-halfWidth);
+    if (p > 0) p -= halfWidth;
+    return p;
+  }
+
+  function tick() {
+    if (!isDragging && !paused) {
+      position = wrap(position - SPEED);
+      track.style.transform = 'translateX(' + position + 'px)';
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function startDrag(x) {
+    isDragging = true;
+    lastX      = x;
+    velocity   = 0;
+    carousel.classList.add('dragging');
+  }
+
+  function moveDrag(x) {
+    const delta = x - lastX;
+    velocity    = delta;
+    lastX       = x;
+    position    = wrap(position + delta);
+    track.style.transform = 'translateX(' + position + 'px)';
+  }
+
+  function endDrag() {
+    if (!isDragging) return;
+    isDragging = false;
+    carousel.classList.remove('dragging');
+    position = wrap(position + velocity * 4);
+  }
+
+  // Hover pause (desktop)
+  carousel.addEventListener('mouseenter', () => { paused = true;  });
+  carousel.addEventListener('mouseleave', () => { paused = false; });
+
+  // Souris
+  carousel.addEventListener('mousedown', e => { startDrag(e.clientX); e.preventDefault(); });
+  window.addEventListener('mousemove',   e => { if (isDragging) moveDrag(e.clientX); });
+  window.addEventListener('mouseup',     endDrag);
+
+  // Tactile
+  carousel.addEventListener('touchstart', e => {
+    paused = true;
+    startDrag(e.touches[0].clientX);
+  }, { passive: true });
+  carousel.addEventListener('touchmove', e => {
+    if (isDragging) { moveDrag(e.touches[0].clientX); e.preventDefault(); }
+  }, { passive: false });
+  window.addEventListener('touchend', () => { endDrag(); paused = false; });
+
+  function init() {
+    halfWidth = track.scrollWidth / 2;
+    if (halfWidth > 0) tick();
+  }
+  if (document.readyState === 'complete') { init(); }
+  else { window.addEventListener('load', init); }
+})();
 
 /* ── EXPERTISE NAV ACTIVE ON SCROLL ── */
 const expertiseSections = document.querySelectorAll('.expertise-section');

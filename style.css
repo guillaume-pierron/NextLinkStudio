@@ -1183,13 +1183,9 @@ body {
   display: flex;
   gap: 24px;
   width: max-content;
-  animation: scroll-testimonials 40s linear infinite;
 }
-.testimonials-track:hover { animation-play-state: paused; }
-@keyframes scroll-testimonials {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
+.testimonials-carousel          { cursor: grab; }
+.testimonials-carousel.dragging { cursor: grabbing; user-select: none; }
 .testimonial {
   width: 380px;
   flex-shrink: 0;
