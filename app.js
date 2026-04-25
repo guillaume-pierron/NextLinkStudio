@@ -31,7 +31,7 @@ document.addEventListener('click', function(e) {
 /* ── NAV SHADOW ── */
 window.addEventListener('scroll', () => {
   const nav = document.querySelector('.nav-wrapper');
-  if (nav) nav.style.boxShadow = window.scrollY > 20 ? '0 4px 40px rgba(0,0,0,0.6), 0 1px 0 rgba(175,102,232,0.12)' : 'none';
+  if (nav) nav.style.boxShadow = window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.08), 0 1px 0 rgba(124,58,237,0.08)' : '';
 });
 
 /* ── FORMULAIRE CONTACT ── */
@@ -92,7 +92,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-  '.service-card, .portfolio-card, .portfolio-card-full, .testimonial, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item'
+  '.service-card, .portfolio-card, .portfolio-card-full, .testimonial, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item'
 ).forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(24px)';
