@@ -387,20 +387,22 @@ body {
 .hero-parallax-bg,
 .pain-parallax-bg {
   position: absolute;
-  top: -20%;
   left: 0;
   right: 0;
-  bottom: -20%;
   background-size: cover;
   background-repeat: no-repeat;
   will-change: transform;
   pointer-events: none;
 }
 .hero-parallax-bg {
+  top: -8%;
+  bottom: -8%;
   background-image: url('images/header_artisan.png');
   background-position: center top;
 }
 .pain-parallax-bg {
+  top: -20%;
+  bottom: -20%;
   background-image: url('images/artisan.png');
   background-position: center right;
 }
