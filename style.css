@@ -2280,12 +2280,12 @@ body {
   .portfolio-grid { grid-template-columns: 1fr; }
   .footer-inner   { grid-template-columns: 1fr; gap: 32px; }
   .hero {
-    min-height: 100vh;
-    min-height: 100svh;
+    min-height: calc(100vh - 68px);
+    min-height: calc(100svh - 68px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 72px 0 32px;
+    padding: 16px 0;
   }
   .hero-badge        { margin-bottom: 14px; padding: 5px 14px; font-size: 12px; }
   .hero-title        { font-size: clamp(30px, 8vw, 46px); margin-bottom: 12px; }
