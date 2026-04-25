@@ -80,6 +80,15 @@ function toggleFaq(btn) {
   }
 }
 
+/* ── LEAD MAGNET ── */
+function handleLeadMagnet(e) {
+  e.preventDefault();
+  const form = e.target;
+  const success = form.parentElement.querySelector('.lead-magnet-success');
+  form.style.display = 'none';
+  if (success) success.style.display = 'block';
+}
+
 /* ── SCROLL REVEAL ── */
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -92,7 +101,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-  '.service-card, .portfolio-card, .portfolio-card-full, .testimonial, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item'
+  '.service-card, .portfolio-card, .portfolio-card-full, .testimonial, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item, .logo-item, .bm-item'
 ).forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(24px)';
