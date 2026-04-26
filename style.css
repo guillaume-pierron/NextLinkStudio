@@ -1212,6 +1212,7 @@ body {
 }
 .temoignages .container { position: relative; z-index: 1; }
 .temoignages .section-header { margin-bottom: 56px; }
+.testimonials-section { padding: 80px 0; background: var(--bg); }
 .temoignages .section-badge  { background: rgba(124,58,237,0.1); color: var(--purple-vivid); border-color: rgba(124,58,237,0.25); }
 .temoignages .section-header h2 { color: var(--text); }
 /* Carousel */
@@ -2913,6 +2914,13 @@ body {
   line-height: 1.75;
   margin-bottom: 24px;
 }
+.spotlight-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  display: block;
+}
+
 .spotlight-list {
   list-style: none;
   display: flex;
