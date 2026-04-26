@@ -2762,7 +2762,6 @@ body {
 .logos-strip {
   padding: 48px 0;
   background: var(--bg);
-  border-top: 1px solid var(--border);
 }
 .logos-strip-label {
   text-align: center;
