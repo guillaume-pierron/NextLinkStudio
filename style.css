@@ -405,6 +405,7 @@ body {
   bottom: -20%;
   background-image: url('images/artisan.png');
   background-position: center right;
+  z-index: 0;
 }
 
 /* Purple gradient bloom en haut + grid overlay */
@@ -683,7 +684,7 @@ body {
 /* ── PAIN SECTION ── */
 .pain {
   padding: 96px 0;
-  background: linear-gradient(160deg, rgba(124,58,237,0.04) 0%, var(--bg) 50%);
+  background: #0d0a1a;
   position: relative;
   overflow: hidden;
 }
@@ -691,42 +692,54 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg, rgba(255,255,255,0.97) 0%, rgba(255,255,255,0.88) 45%, rgba(255,255,255,0.62) 100%);
+  background:
+    radial-gradient(ellipse 70% 60% at 10% 55%, rgba(124,58,237,0.25) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 40% at 90% 20%, rgba(109,40,217,0.16) 0%, transparent 55%),
+    rgba(13,10,26,0.97);
   z-index: 1;
   pointer-events: none;
 }
 
 .pain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; position: relative; z-index: 2; }
-.pain-text h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(26px,3.5vw,38px); font-weight: 800; line-height: 1.15; letter-spacing: -0.025em; color: var(--text); margin-bottom: 20px; }
-.pain-text p { color: var(--text-muted); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
+.pain-text h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(28px,3.5vw,42px); font-weight: 800; line-height: 1.15; letter-spacing: -0.03em; color: #fff; margin-bottom: 20px; }
+.pain-text p { color: rgba(255,255,255,0.58); font-size: 16px; line-height: 1.75; margin-bottom: 14px; }
+.pain .btn-outline {
+  color: rgba(255,255,255,0.75);
+  border-color: rgba(255,255,255,0.20);
+}
+.pain .btn-outline:hover {
+  color: #fff;
+  border-color: var(--purple);
+  background: rgba(124,58,237,0.12);
+}
 
 .pain-cards { display: flex; flex-direction: column; gap: 16px; }
 
 .pain-card {
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(0,0,0,0.07);
+  border: 1px solid rgba(255,255,255,0.08);
   overflow: hidden;
   position: relative;
-  background: rgba(255,255,255,0.38);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   transition: transform 0.28s cubic-bezier(0.22,1,0.36,1), box-shadow 0.28s ease;
 }
 .pain-card:hover { transform: translateY(-4px); }
 
 .pain-card.bad {
-  border-left: 4px solid rgba(239,68,68,0.65);
-  box-shadow: 0 2px 8px rgba(239,68,68,0.05), 0 10px 36px rgba(239,68,68,0.08);
+  border-left: 4px solid rgba(239,68,68,0.70);
+  box-shadow: 0 2px 8px rgba(239,68,68,0.06), 0 10px 36px rgba(239,68,68,0.12);
 }
 .pain-card.bad:hover {
-  box-shadow: 0 4px 16px rgba(239,68,68,0.08), 0 20px 56px rgba(239,68,68,0.12);
+  box-shadow: 0 4px 16px rgba(239,68,68,0.12), 0 20px 56px rgba(239,68,68,0.18);
 }
 .pain-card.good {
   border-left: 4px solid var(--purple);
-  box-shadow: 0 2px 8px rgba(124,58,237,0.06), 0 10px 36px rgba(124,58,237,0.10);
+  box-shadow: 0 2px 8px rgba(124,58,237,0.08), 0 10px 36px rgba(124,58,237,0.16);
 }
 .pain-card.good:hover {
-  box-shadow: 0 4px 16px rgba(124,58,237,0.10), 0 20px 56px rgba(124,58,237,0.14);
+  box-shadow: 0 4px 16px rgba(124,58,237,0.16), 0 20px 56px rgba(124,58,237,0.22);
 }
 
 .pain-card-header {
@@ -734,10 +747,10 @@ body {
   align-items: center;
   gap: 14px;
   padding: 18px 22px 18px 20px;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
 }
-.pain-card.bad  .pain-card-header { background: rgba(239,68,68,0.04); }
-.pain-card.good .pain-card-header { background: rgba(124,58,237,0.04); }
+.pain-card.bad  .pain-card-header { background: rgba(239,68,68,0.08); }
+.pain-card.good .pain-card-header { background: rgba(124,58,237,0.08); }
 
 .pain-card-icon {
   font-size: 26px;
@@ -747,22 +760,21 @@ body {
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
 }
-.pain-card.bad  .pain-card-icon { background: rgba(239,68,68,0.08); }
-.pain-card.good .pain-card-icon { background: rgba(124,58,237,0.08); }
+.pain-card.bad  .pain-card-icon { background: rgba(239,68,68,0.14); }
+.pain-card.good .pain-card-icon { background: rgba(124,58,237,0.14); }
 
 .pain-card-label {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 15px;
   font-weight: 800;
-  color: var(--text);
   letter-spacing: -0.01em;
   flex: 1;
 }
-.pain-card.bad  .pain-card-label { color: rgba(185,28,28,0.9); }
-.pain-card.good .pain-card-label { color: var(--purple-dark); }
+.pain-card.bad  .pain-card-label { color: rgba(252,165,165,0.95); }
+.pain-card.good .pain-card-label { color: rgba(196,181,253,0.95); }
 
 .pain-card-items { padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 12px; }
-.pain-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--text-muted); line-height: 1.5; }
+.pain-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: rgba(255,255,255,0.58); line-height: 1.5; }
 
 .pi-icon {
   flex-shrink: 0;
@@ -772,8 +784,8 @@ body {
   font-size: 11px; font-weight: 800;
   margin-top: 1px;
 }
-.pi-icon.bad  { background: rgba(239,68,68,0.10); color: rgb(220,38,38);  border: 1.5px solid rgba(239,68,68,0.25); }
-.pi-icon.good { background: rgba(5,150,105,0.10);  color: rgb(5,150,105);  border: 1.5px solid rgba(5,150,105,0.25); }
+.pi-icon.bad  { background: rgba(239,68,68,0.14); color: rgba(252,165,165,1); border: 1.5px solid rgba(239,68,68,0.30); }
+.pi-icon.good { background: rgba(5,150,105,0.14); color: rgb(52,211,153);     border: 1.5px solid rgba(5,150,105,0.30); }
 
 /* ── SERVICES ── */
 .services { padding: 96px 0; background: var(--bg-alt); position: relative; overflow: hidden; }
