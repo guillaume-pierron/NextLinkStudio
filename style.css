@@ -1844,6 +1844,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.print-visual-hero::before {
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 85%;
+  background: linear-gradient(135deg, rgba(124,58,237,0.18) 0%, rgba(109,40,217,0.08) 100%);
+  border-radius: 20px;
+  filter: blur(24px);
+  z-index: 0;
+}
+.print-visual-hero .print-visual-img {
+  position: relative;
+  z-index: 1;
 }
 .print-visual-img {
   max-width: 300px;
@@ -1864,6 +1879,45 @@ body {
     drop-shadow(0 10px 20px rgba(0,0,0,0.18))
     drop-shadow(0 32px 64px rgba(0,0,0,0.22))
     drop-shadow(0 64px 96px rgba(0,0,0,0.14));
+}
+
+.print-formats {
+  margin-top: 28px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, rgba(124,58,237,0.05) 0%, rgba(255,255,255,0) 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.print-formats-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--purple-vivid);
+  margin-bottom: 12px;
+}
+.print-formats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.print-formats-grid span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+.print-formats-note {
+  font-size: 12px;
+  color: var(--text-subtle);
+  line-height: 1.6;
+  margin: 0;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
 }
 
 /* Section réalisations print */
