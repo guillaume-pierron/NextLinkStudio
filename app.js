@@ -217,6 +217,37 @@ document.querySelectorAll(
   else { window.addEventListener('load', init); }
 })();
 
+/* ── RÉALISATIONS PREVIEW — cascade reveal ── */
+(function () {
+  const grid = document.querySelector('.realisations-preview .portfolio-grid--triple');
+  if (!grid) return;
+  const gridObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        gridObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  gridObserver.observe(grid);
+})();
+
+/* ── SPOTLIGHT VISUAL REVEAL + FLOAT ── */
+(function () {
+  const spotlightObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        spotlightObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.spotlight-visual').forEach(el => {
+    spotlightObserver.observe(el);
+  });
+})();
+
 /* ── EXPERTISE NAV ACTIVE ON SCROLL ── */
 const expertiseSections = document.querySelectorAll('.expertise-section');
 if (expertiseSections.length) {
