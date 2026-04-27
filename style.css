@@ -1692,11 +1692,31 @@ body {
 .page-hero-content { position: relative; }
 .page-hero--split .page-hero-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   gap: 48px;
   align-items: center;
 }
 .page-hero-text { position: relative; }
+
+.about-hero-logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 36px 44px;
+  box-shadow:
+    0 4px 16px rgba(0,0,0,0.06),
+    0 16px 48px rgba(124,58,237,0.10),
+    0 1px 0 rgba(255,255,255,0.6) inset;
+}
+.about-hero-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 4px 12px rgba(124,58,237,0.20));
+}
 .page-hero-img img {
   width: 100%;
   height: auto;
@@ -2702,6 +2722,7 @@ body {
   .contact-grid      { grid-template-columns: 1fr; }
   .page-hero--split .page-hero-content { grid-template-columns: 1fr; }
   .page-hero-img { order: -1; }
+  .about-hero-logo-wrap { display: none; }
   .iv-analogy        { grid-template-columns: 1fr; gap: 32px; }
   .iv-includes-grid  { grid-template-columns: 1fr; }
   .expertise-grid    { grid-template-columns: 1fr; }
