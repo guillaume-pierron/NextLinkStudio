@@ -2533,9 +2533,9 @@ body {
   border-radius: 999px;
   border: 1px solid;
 }
-.pf-badge--gold  { background: rgba(245,158,11,0.18); color: #b45309; border-color: rgba(245,158,11,0.40); }
-.pf-badge--green { background: rgba(16,185,129,0.18); color: #065f46; border-color: rgba(16,185,129,0.40); }
-.pf-badge--wood  { background: rgba(180,120,60,0.18); color: #92400e; border-color: rgba(180,120,60,0.40); }
+.pf-badge--gold  { background: #fef3c7; color: #b45309; border-color: rgba(245,158,11,0.40); }
+.pf-badge--green { background: #d1fae5; color: #065f46; border-color: rgba(16,185,129,0.40); }
+.pf-badge--wood  { background: #fde8d0; color: #92400e; border-color: rgba(180,120,60,0.40); }
 .pf-card-body {
   display: flex;
   flex-direction: column;
@@ -2583,7 +2583,17 @@ body {
   gap: 8px;
   padding: 8px 4px;
 }
-.pf-stat-icon { font-size: 15px; flex-shrink: 0; }
+.pf-stat-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--purple-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
 .pf-stat-text { display: flex; flex-direction: column; gap: 1px; }
 .pf-stat-value { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.1; }
 .pf-stat-label { font-size: 10px; color: var(--text-muted); line-height: 1.3; }
