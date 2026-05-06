@@ -173,6 +173,7 @@ body {
 }
 .nav-wrapper:not(.scrolled) .nav-arrow { opacity: 0.7; color: rgba(255,255,255,0.8); }
 .nav-wrapper:not(.scrolled) .logo img  { filter: brightness(0) invert(1); }
+.nav-wrapper:not(.scrolled):has(.menu-toggle.active) .logo img { filter: none; }
 .nav-wrapper:not(.scrolled) .menu-toggle span { background: #fff; }
 .nav { display: flex; align-items: center; gap: 32px; height: 68px; }
 .logo { display: flex; align-items: center; text-decoration: none; }
@@ -217,20 +218,21 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  background: rgba(0,0,0,0.04);
-  border: 1px solid var(--border-strong);
-  border-radius: 10px;
+  background: rgba(124,58,237,0.06);
+  border: 1.5px solid rgba(124,58,237,0.30);
+  border-radius: 14px;
   cursor: pointer;
   padding: 0;
   margin-left: auto;
   width: 42px;
   height: 42px;
   flex-shrink: 0;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
 }
 .menu-toggle:hover {
-  background: var(--purple-light);
-  border-color: var(--border-purple);
+  background: rgba(124,58,237,0.12);
+  border-color: rgba(124,58,237,0.55);
+  box-shadow: 0 0 0 4px rgba(124,58,237,0.12);
 }
 .menu-toggle span {
   display: block;
@@ -294,7 +296,8 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 16px;
 }
 
 /* Main links & toggle (big typographic style) */
@@ -1742,22 +1745,23 @@ body {
 .nav-mobile-group.open .nav-mobile-submenu { grid-template-rows: 1fr; }
 .nav-mobile-submenu-inner {
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  display: flex;
+  flex-direction: column;
   padding: 0;
   transition: padding 0.35s ease;
 }
-.nav-mobile-group.open .nav-mobile-submenu-inner { padding: 14px 0 20px; }
+.nav-mobile-group.open .nav-mobile-submenu-inner { padding: 8px 0 16px; }
 .nav-mobile-submenu-inner a {
   display: flex !important;
-  flex-direction: column !important;
-  gap: 8px !important;
-  padding: 14px 12px !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 12px !important;
-  background: rgba(124,58,237,0.04) !important;
-  font-size: 12px !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 11px 8px !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  font-size: 15px !important;
   font-weight: 500 !important;
   font-family: 'Inter', sans-serif !important;
   color: var(--text-muted) !important;
@@ -1765,15 +1769,12 @@ body {
   opacity: 1 !important;
   transform: none !important;
   letter-spacing: normal !important;
-  line-height: 1.35 !important;
-  transition: background 0.2s, border-color 0.2s, color 0.2s !important;
+  line-height: 1 !important;
+  transition: color 0.2s !important;
 }
-.nav-mobile-submenu-inner a:hover {
-  background: rgba(175,102,232,0.08) !important;
-  border-color: rgba(175,102,232,0.35) !important;
-  color: var(--text) !important;
-}
-.nm-service-icon { font-size: 20px; line-height: 1; }
+.nav-mobile-submenu-inner a:last-child { border-bottom: none !important; }
+.nav-mobile-submenu-inner a:hover { color: var(--purple) !important; }
+.nm-service-icon { font-size: 18px; line-height: 1; flex-shrink: 0; }
 
 /* ── MOBILE CTA SECTION ── */
 .nav-mobile-cta {
@@ -2939,8 +2940,9 @@ body {
   .hero-title        { font-size: clamp(38px, 10vw, 58px); margin-bottom: 12px; }
   .hero-subtitle     { font-size: 14px; line-height: 1.55; margin-bottom: 18px; }
   .hero-actions      { margin-bottom: 20px; gap: 10px; }
-  .hero-service-tag  { padding: 7px 13px; font-size: 12px; }
-  .hero-services     { gap: 6px; }
+  .hero-service-tag  { padding: 7px 13px; font-size: 12px; flex-shrink: 0; }
+  .hero-services     { gap: 8px; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 2px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .hero-services::-webkit-scrollbar { display: none; }
   .hero-actions   { flex-direction: column; align-items: center; }
   .hero-actions .btn { width: 100%; max-width: 340px; }
   .form-row       { grid-template-columns: 1fr; }
