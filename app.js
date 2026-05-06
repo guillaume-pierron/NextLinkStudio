@@ -58,11 +58,24 @@ document.addEventListener('click', function(e) {
   update();
 })();
 
-/* ── NAV SHADOW ── */
-window.addEventListener('scroll', () => {
+/* ── NAV TRANSPARENTE → BLANCHE AU SCROLL ── */
+(function () {
   const nav = document.querySelector('.nav-wrapper');
-  if (nav) nav.style.boxShadow = window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.08), 0 1px 0 rgba(124,58,237,0.08)' : '';
-});
+  if (!nav) return;
+
+  const hasHero = !!document.querySelector('.hero');
+
+  function updateNav() {
+    if (window.scrollY > 10 || !hasHero) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  }
+
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+})();
 
 /* ── FORMULAIRE CONTACT ── */
 function handleSubmit(e) {
