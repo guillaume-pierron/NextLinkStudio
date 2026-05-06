@@ -595,6 +595,11 @@ body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.20);
 }
 
+/* Desktop : masquer les éléments internes spécifiques */
+.hst-content { display: contents; }
+.hst-desc    { display: none; }
+.hst-title   { font-size: 14px; font-weight: 600; }
+
 /* ── RÉSULTATS (stats band) ── */
 .resultats {
   background: linear-gradient(130deg, #1e1b4b 0%, #3b0764 45%, #4c1d95 100%);
@@ -2940,9 +2945,57 @@ body {
   .hero-title        { font-size: clamp(38px, 10vw, 58px); margin-bottom: 12px; }
   .hero-subtitle     { font-size: 14px; line-height: 1.55; margin-bottom: 18px; }
   .hero-actions      { margin-bottom: 20px; gap: 10px; }
-  .hero-service-tag  { padding: 7px 13px; font-size: 12px; flex-shrink: 0; }
-  .hero-services     { gap: 8px; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 2px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-  .hero-services::-webkit-scrollbar { display: none; }
+  .hero-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: unset;
+    overflow: visible;
+    justify-content: unset;
+  }
+  .hero-service-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px 14px;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: left;
+    flex-shrink: unset;
+    font-size: unset;
+  }
+  .hst-icon {
+    font-size: 16px;
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: rgba(124,58,237,0.35);
+    border: 1px solid rgba(124,58,237,0.40);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .hst-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .hst-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+  }
+  .hst-desc {
+    display: block;
+    font-size: 12px;
+    color: rgba(255,255,255,0.60);
+    line-height: 1.35;
+    font-weight: 400;
+  }
   .hero-actions   { flex-direction: column; align-items: center; }
   .hero-actions .btn { width: 100%; max-width: 340px; }
   .form-row       { grid-template-columns: 1fr; }
