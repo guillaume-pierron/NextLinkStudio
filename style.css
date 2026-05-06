@@ -755,25 +755,29 @@ body {
   flex: 1;
   min-width: 0;
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
   overflow: hidden;
   position: relative;
-  background: var(--bg);
   transition: transform 0.28s cubic-bezier(0.22,1,0.36,1), box-shadow 0.28s ease;
 }
-.pain-card.bad:hover  { transform: translateY(-4px); box-shadow: 0 4px 16px rgba(239,68,68,0.08), 0 16px 48px rgba(239,68,68,0.12); }
 
 .pain-card.bad {
-  border-left: 4px solid rgba(239,68,68,0.65);
-  box-shadow: 0 2px 8px rgba(239,68,68,0.04), 0 8px 28px rgba(239,68,68,0.08);
+  background: linear-gradient(150deg, #ffecec 0%, #fff8f8 45%, #ffffff 100%);
+  border: 1.5px solid rgba(239,68,68,0.30);
+  box-shadow: 0 2px 8px rgba(239,68,68,0.05), 0 8px 32px rgba(239,68,68,0.09);
 }
+.pain-card.bad:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(239,68,68,0.09), 0 16px 48px rgba(239,68,68,0.13);
+}
+
 .pain-card.good {
-  border-left: 4px solid var(--purple);
-  box-shadow: 0 4px 16px rgba(124,58,237,0.10), 0 16px 48px rgba(124,58,237,0.18);
+  background: linear-gradient(150deg, #ede8ff 0%, #f5f1ff 45%, #ffffff 100%);
+  border: 1.5px solid rgba(124,58,237,0.30);
+  box-shadow: 0 4px 16px rgba(124,58,237,0.08), 0 16px 48px rgba(124,58,237,0.12);
   transform: translateY(-6px);
 }
 .pain-card.good:hover {
-  box-shadow: 0 8px 32px rgba(124,58,237,0.16), 0 24px 64px rgba(124,58,237,0.22);
+  box-shadow: 0 8px 32px rgba(124,58,237,0.14), 0 24px 64px rgba(124,58,237,0.18);
   transform: translateY(-10px);
 }
 
@@ -799,46 +803,146 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 16px 14px 16px;
+  padding: 18px 20px;
   border-bottom: 1px solid var(--border);
 }
-.pain-card.bad  .pain-card-header { background: rgba(239,68,68,0.04); }
-.pain-card.good .pain-card-header { background: rgba(124,58,237,0.04); }
+.pain-card.bad  .pain-card-header { background: transparent; border-bottom-color: rgba(239,68,68,0.15); }
+.pain-card.good .pain-card-header { background: transparent; border-bottom-color: rgba(124,58,237,0.15); }
 
 .pain-card-icon {
   font-size: 22px;
   line-height: 1;
-  width: 36px; height: 36px;
-  border-radius: 10px;
+  width: 42px; height: 42px;
+  border-radius: 12px;
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
 }
 .pain-card.bad  .pain-card-icon { background: rgba(239,68,68,0.08); }
 .pain-card.good .pain-card-icon { background: rgba(124,58,237,0.08); }
 
+.pain-card-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
 .pain-card-label {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 15px;
   font-weight: 800;
   letter-spacing: -0.01em;
-  flex: 1;
 }
 .pain-card.bad  .pain-card-label { color: rgba(185,28,28,0.9); }
 .pain-card.good .pain-card-label { color: var(--purple-dark); }
 
-.pain-card-items { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 10px; }
-.pain-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--text-muted); line-height: 1.5; }
+.pain-card-subtitle {
+  font-size: 12px;
+  color: var(--text-subtle);
+  font-weight: 500;
+}
+
+.pain-confidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(5,150,105,0.10);
+  color: #059669;
+  border: 1px solid rgba(5,150,105,0.25);
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pain-card-items { padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+.pain-item { display: flex; align-items: flex-start; gap: 14px; }
+
+.pain-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.pain-item-text strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+}
+.pain-item-text span {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
 
 .pi-icon {
   flex-shrink: 0;
-  width: 22px; height: 22px;
+  width: 24px; height: 24px;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 11px; font-weight: 800;
-  margin-top: 1px;
+  margin-top: 2px;
 }
-.pi-icon.bad  { background: rgba(239,68,68,0.10); color: rgb(220,38,38);  border: 1.5px solid rgba(239,68,68,0.25); }
-.pi-icon.good { background: rgba(5,150,105,0.10); color: rgb(5,150,105);  border: 1.5px solid rgba(5,150,105,0.25); }
+.pi-icon.bad  { background: rgb(220,38,38);   color: #ffffff; }
+.pi-icon.good { background: rgb(5,150,105);   color: #ffffff; }
+
+/* ── PAIN RESULT BAR ── */
+.pain-result {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  box-shadow: var(--shadow);
+}
+.pain-result-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  min-width: 0;
+}
+.pain-result-icon {
+  font-size: 28px;
+  width: 56px; height: 56px;
+  border-radius: 16px;
+  background: var(--purple-soft);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.pain-result-body strong {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text);
+  display: block;
+  margin-bottom: 4px;
+}
+.pain-result-body p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.55;
+  max-width: 420px;
+}
+.pain-result-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.pain-result-audit {
+  font-size: 12px;
+  color: #059669;
+  font-weight: 600;
+}
 
 /* ── SERVICES ── */
 .services { padding: 96px 0; background: var(--bg-alt); position: relative; overflow: hidden; }
@@ -2772,6 +2876,10 @@ body {
   .testimonial { width: 300px; }
   .footer-inner      { grid-template-columns: 1fr 1fr; }
   .pain-cards        { flex-direction: column; align-items: stretch; }
+  .pain-result       { flex-direction: column; align-items: flex-start; gap: 20px; padding: 20px; }
+  .pain-result-right { width: 100%; align-items: stretch; }
+  .pain-result-right .btn { width: 100%; justify-content: center; }
+  .pain-confidence-badge { display: none; }
   .steps             { grid-template-columns: 1fr; }
   .steps::before     { display: none; }
   .contact-grid      { grid-template-columns: 1fr; }
