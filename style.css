@@ -1612,7 +1612,7 @@ body {
   letter-spacing: -0.025em;
   color: var(--text); margin-bottom: 16px;
 }
-.contact-text p { color: var(--text-muted); font-size: 16px; line-height: 1.7; margin-bottom: 32px; }
+.contact-text p { color: var(--text-muted); font-size: 15px; line-height: 1.7; margin-bottom: 32px; }
 .contact-reassurance { display: flex; flex-direction: column; gap: 14px; }
 .reassurance-item { display: flex; align-items: center; gap: 12px; font-size: 15px; color: var(--text-muted); font-weight: 500; }
 .ri-icon { font-size: 20px; }
@@ -1976,7 +1976,7 @@ body {
   font-weight: 900; letter-spacing: -0.03em; line-height: 1.08;
   color: var(--text); margin-bottom: 16px;
 }
-.page-hero-content p { font-size: 18px; color: var(--text-muted); max-width: 560px; }
+.page-hero-content p { font-size: 17px; color: var(--text-muted); max-width: 560px; }
 
 /* ── EXPERTISE NAV ── */
 .expertise-nav {
@@ -2031,7 +2031,7 @@ body {
   color: var(--text);
   margin: 12px 0 16px;
 }
-.iv-explainer-header p { font-size: 16px; color: var(--text-muted); line-height: 1.7; }
+.iv-explainer-header p { font-size: 15px; color: var(--text-muted); line-height: 1.7; }
 
 .iv-analogy {
   display: grid;
@@ -2040,7 +2040,7 @@ body {
   align-items: center;
   margin-bottom: 64px;
 }
-.iv-analogy-text p { font-size: 16px; color: var(--text-muted); line-height: 1.75; margin-bottom: 14px; }
+.iv-analogy-text p { font-size: 15px; color: var(--text-muted); line-height: 1.75; margin-bottom: 14px; }
 .iv-analogy-text strong { color: var(--text); }
 .iv-analogy-solo { max-width: 680px; margin: 0 auto 64px; text-align: center; }
 
@@ -2295,7 +2295,7 @@ body {
   border-radius: var(--radius-lg);
   display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
 }
-.expertise-cta-block p { color: var(--text-muted); font-size: 16px; flex: 1; margin: 0; }
+.expertise-cta-block p { color: var(--text-muted); font-size: 15px; flex: 1; margin: 0; }
 .expertise-cta-block strong { color: var(--text); }
 .expertise-cta-block .btn-outline { color: var(--text-muted); border-color: var(--border-strong); }
 .expertise-cta-block .btn-outline:hover { color: var(--text); border-color: var(--purple); }
@@ -3333,7 +3333,7 @@ body {
 }
 /* subtitle */
 .ap-hero-sub {
-  font-size: 18px;
+  font-size: 17px;
   color: var(--text-muted);
   line-height: 1.65;
   margin: 0;
@@ -4062,7 +4062,7 @@ body {
 }
 .av-title-underline svg { width: 100%; height: 100%; }
 .av-subtitle {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--text-muted);
   line-height: 1.65;
   margin: 0;
