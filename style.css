@@ -1618,7 +1618,7 @@ body {
 .contact-text p { color: var(--text-muted); font-size: 15px; line-height: 1.7; margin-bottom: 32px; }
 .contact-reassurance { display: flex; flex-direction: column; gap: 14px; }
 .reassurance-item { display: flex; align-items: center; gap: 12px; font-size: 15px; color: var(--text-muted); font-weight: 500; }
-.ri-icon { font-size: 20px; }
+.ri-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--purple-soft); border: 1.5px solid var(--border-purple); display: flex; align-items: center; justify-content: center; color: var(--purple-vivid); flex-shrink: 0; }
 
 /* Form */
 .contact-form { display: flex; flex-direction: column; gap: 18px; }
@@ -3063,7 +3063,7 @@ body {
   transition: var(--transition);
 }
 .option-item:hover { border-color: var(--border-purple); background: var(--bg-card-hover); }
-.option-icon { font-size: 24px; }
+.option-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--purple-soft); border: 1.5px solid var(--border-purple); display: flex; align-items: center; justify-content: center; color: var(--purple-vivid); flex-shrink: 0; }
 .option-item strong { display: block; font-size: 14px; font-weight: 700; color: var(--text); }
 .option-item span:last-child { font-size: 13px; color: var(--purple-vivid); font-weight: 600; }
 
@@ -3422,8 +3422,9 @@ body {
   gap: 6px;
 }
 .ap-stat-icon {
-  color: var(--purple-vivid);
   display: flex; align-items: center; justify-content: center;
+  color: var(--purple-vivid);
+  flex-shrink: 0;
 }
 .ap-hero-stat strong {
   font-size: 17px;
@@ -4785,14 +4786,15 @@ body {
   flex: 1;
 }
 .spotlight-stat-icon {
-  font-size: 20px;
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 50%;
   background: var(--purple-soft);
+  border: 1.5px solid var(--border-purple);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--purple-vivid);
   flex-shrink: 0;
 }
 .spotlight-stat-body {
