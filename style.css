@@ -3503,7 +3503,7 @@ body {
   box-shadow: 0 8px 48px rgba(0,0,0,0.12);
   padding: 20px 24px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   width: 100%;
   position: relative;
@@ -3930,6 +3930,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+.ab-text-col .section-badge { align-self: flex-start; }
 .ab-heading {
   display: flex;
   flex-direction: column;
@@ -4119,9 +4120,10 @@ body {
   margin-bottom: 28px;
 }
 .at-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 .at-stat {
   display: flex;
