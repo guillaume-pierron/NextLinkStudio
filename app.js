@@ -58,11 +58,24 @@ document.addEventListener('click', function(e) {
   update();
 })();
 
-/* ── NAV SHADOW ── */
-window.addEventListener('scroll', () => {
+/* ── NAV TRANSPARENTE → BLANCHE AU SCROLL ── */
+(function () {
   const nav = document.querySelector('.nav-wrapper');
-  if (nav) nav.style.boxShadow = window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.08), 0 1px 0 rgba(124,58,237,0.08)' : '';
-});
+  if (!nav) return;
+
+  const hasHero = !!document.querySelector('.hero');
+
+  function updateNav() {
+    if (window.scrollY > 10 || !hasHero) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  }
+
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+})();
 
 /* ── FORMULAIRE CONTACT ── */
 function handleSubmit(e) {
@@ -139,97 +152,32 @@ document.querySelectorAll(
   observer.observe(el);
 });
 
-/* ── TESTIMONIALS AUTO-SCROLL + DRAG / SWIPE ── */
+/* ── TESTIMONIALS NAV ── */
 (function () {
-  const carousel = document.querySelector('.testimonials-carousel');
-  const track    = document.querySelector('.testimonials-track');
-  if (!carousel || !track) return;
+  const cards = Array.from(document.querySelectorAll('.tm-card'));
+  if (!cards.length) return;
+  const N = cards.length;
+  let featuredIdx = 1;
 
-  const SPEED = 0.6; // px par frame (~36 px/s à 60 fps)
-  let halfWidth        = 0;
-  let position         = 0;
-  let paused           = false;
-  let isDragging       = false;
-  let lastX            = 0;
-  let velocity         = 0;
-  let touchStartX      = 0;
-  let touchStartY      = 0;
-  let touchDirectionLocked = null; // 'h' | 'v' | null
-
-  function wrap(pos) {
-    if (halfWidth === 0) return 0;
-    let p = pos % (-halfWidth);
-    if (p > 0) p -= halfWidth;
-    return p;
+  function update() {
+    const prev = (featuredIdx - 1 + N) % N;
+    const next = (featuredIdx + 1) % N;
+    cards.forEach(function (c, i) {
+      c.classList.remove('tm-featured', 'tm-hidden');
+      if (i === featuredIdx) {
+        c.classList.add('tm-featured');
+      } else if (i !== prev && i !== next) {
+        c.classList.add('tm-hidden');
+      }
+    });
   }
 
-  function tick() {
-    if (!isDragging && !paused) {
-      position = wrap(position - SPEED);
-      track.style.transform = 'translateX(' + position + 'px)';
-    }
-    requestAnimationFrame(tick);
-  }
+  window.tmNav = function (dir) {
+    featuredIdx = (featuredIdx + dir + N) % N;
+    update();
+  };
 
-  function startDrag(x) {
-    isDragging = true;
-    lastX      = x;
-    velocity   = 0;
-    carousel.classList.add('dragging');
-  }
-
-  function moveDrag(x) {
-    const delta = x - lastX;
-    velocity    = delta;
-    lastX       = x;
-    position    = wrap(position + delta);
-    track.style.transform = 'translateX(' + position + 'px)';
-  }
-
-  function endDrag() {
-    if (!isDragging) return;
-    isDragging = false;
-    carousel.classList.remove('dragging');
-    position = wrap(position + velocity * 4);
-  }
-
-  // Hover pause (desktop)
-  carousel.addEventListener('mouseenter', () => { paused = true;  });
-  carousel.addEventListener('mouseleave', () => { paused = false; });
-
-  // Souris
-  carousel.addEventListener('mousedown', e => { startDrag(e.clientX); e.preventDefault(); });
-  window.addEventListener('mousemove',   e => { if (isDragging) moveDrag(e.clientX); });
-  window.addEventListener('mouseup',     endDrag);
-
-  // Tactile
-  carousel.addEventListener('touchstart', e => {
-    touchStartX = e.touches[0].clientX;
-    touchStartY = e.touches[0].clientY;
-    touchDirectionLocked = null;
-    paused = true;
-    startDrag(e.touches[0].clientX);
-  }, { passive: true });
-  carousel.addEventListener('touchmove', e => {
-    if (!isDragging) return;
-    if (touchDirectionLocked === null) {
-      const dx = Math.abs(e.touches[0].clientX - touchStartX);
-      const dy = Math.abs(e.touches[0].clientY - touchStartY);
-      if (dx > 6 || dy > 6) touchDirectionLocked = dx > dy ? 'h' : 'v';
-    }
-    if (touchDirectionLocked === 'h') {
-      moveDrag(e.touches[0].clientX);
-      e.preventDefault();
-    }
-  }, { passive: false });
-  window.addEventListener('touchend', () => { endDrag(); paused = false; touchDirectionLocked = null; });
-
-  function init() {
-    halfWidth = track.scrollWidth / 2;
-    if (halfWidth > 0) tick();
-  }
-  if (document.readyState === 'complete') { init(); }
-  else { window.addEventListener('load', init); }
+  update();
 })();
 
 /* ── RÉALISATIONS PREVIEW — cascade reveal ── */
