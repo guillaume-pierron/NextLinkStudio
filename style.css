@@ -40,14 +40,14 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-html { scroll-behavior: smooth; overflow-x: clip; }
+html { scroll-behavior: smooth; overflow-x: clip; background: var(--bg); }
 body {
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: var(--text);
   background: var(--bg);
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
 
@@ -405,7 +405,7 @@ body {
   min-height: 100vh;
   min-height: 100svh;
   padding: clamp(100px, 12vh, 160px) 0 clamp(48px, 6vh, 120px);
-  overflow: hidden;
+  clip-path: inset(-200px 0 0 0);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -424,8 +424,8 @@ body {
   pointer-events: none;
 }
 .hero-parallax-bg {
-  top: 0%;
-  bottom: 0%;
+  top: -200px;
+  bottom: 0;
   background-image: url('images/header_artisan.png');
   background-position: center top;
 }
@@ -433,10 +433,13 @@ body {
 /* Purple gradient bloom en haut + grid overlay */
 .hero-bg {
   position: absolute;
-  inset: 0;
+  top: -200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(15,5,50,0.88) 0%, rgba(60,20,140,0.70) 40%, rgba(91,33,182,0.48) 75%, rgba(124,58,237,0.25) 100%),
+    linear-gradient(180deg, rgba(15,5,50,0.52) 0%, rgba(15,5,50,0.88) 12%, rgba(60,20,140,0.70) 40%, rgba(91,33,182,0.48) 75%, rgba(124,58,237,0.25) 100%),
     radial-gradient(ellipse 90% 65% at 50% 0%, rgba(109,40,217,0.38) 0%, transparent 60%),
     radial-gradient(ellipse 55% 50% at 10% 0%, rgba(124,58,237,0.18) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 90% 5%, rgba(139,92,246,0.14) 0%, transparent 55%);

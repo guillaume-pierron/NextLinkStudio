@@ -27,7 +27,7 @@ function nextlinkstudio_enqueue() {
         'nextlinkstudio-theme',
         get_template_directory_uri() . '/assets/css/theme.css',
         [ 'google-fonts' ],
-        '1.1.6'
+        '1.1.7'
     );
     wp_enqueue_script(
         'nextlinkstudio-app',
