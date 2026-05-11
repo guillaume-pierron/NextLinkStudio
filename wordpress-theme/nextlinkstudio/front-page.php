@@ -528,13 +528,13 @@ get_header();
       <div class="portfolio-grid--triple">
         <a href="<?php echo nls_page_url( 'etude-de-cas-elec-prime' ); ?>" class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_elecprime.jpg" alt="Élec Prime — site web électricien Île-de-France">
-            <span class="pf-badge pf-badge--gold">Électricité</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_elecprime.png" alt="Élec Prime — site web électricien Île-de-France">
+            <span class="pf-badge pf-badge--gold">Site web</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--gold"></div>
-              <div><h4 class="pf-card-title">Élec Prime</h4><p class="pf-card-desc">Site web + identité visuelle</p></div>
+              <div><h4 class="pf-card-title">Maison Volt</h4><p class="pf-card-desc">Électricien</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+140%</span><span class="pf-stat-label">de visibilité</span></div></div>
@@ -546,13 +546,13 @@ get_header();
         </a>
         <a href="<?php echo nls_page_url( 'etude-de-cas-vert-nature' ); ?>" class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_vert_nature.jpg" alt="Vert-Nature — site web jardinier paysagiste">
-            <span class="pf-badge pf-badge--green">Paysagisme</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Vert-Nature — site web jardinier paysagiste">
+            <span class="pf-badge pf-badge--green">Site web</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Site web + identité visuelle</p></div>
+              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Jardinier</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+85%</span><span class="pf-stat-label">de trafic web</span></div></div>

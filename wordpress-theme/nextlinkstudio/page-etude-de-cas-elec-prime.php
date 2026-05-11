@@ -1,12 +1,13 @@
 <?php
 /**
- * Template Name: Étude de cas — Élec Prime
+ * Template Name: Étude de cas — Maison Volt
  */
 get_header();
 ?>
 
   <!-- HERO -->
   <section class="ep-hero">
+    <div class="page-hero-bg"></div>
     <div class="container">
       <div class="ep-hero-inner">
         <div class="ep-hero-content">
@@ -15,11 +16,15 @@ get_header();
             <span>/</span>
             <a href="<?php echo nls_page_url('realisations'); ?>">Mes réalisations</a>
             <span>/</span>
-            <span>Élec Prime</span>
+            <span>Maison Volt</span>
           </div>
           <div class="case-badge">⚡ Étude de cas — Électricité</div>
-          <h1 class="ep-hero-title">Comment on a bâti<br>la présence digitale<br>d'<span class="gradient-text">Élec Prime</span></h1>
+          <h1 class="ep-hero-title">Comment on a bâti<br>la présence digitale<br>de <span class="gradient-text">Maison Volt</span></h1>
           <p class="ep-hero-subtitle">Site web premium, identité visuelle forte et système de réservation en ligne — une transformation complète pour un électricien indépendant en Île-de-France.</p>
+          <div class="ep-hero-services">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            Site web · Logo · Réservation en ligne
+          </div>
           <div class="ep-hero-badges">
             <span class="ep-hero-badge">
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
@@ -40,58 +45,11 @@ get_header();
           </div>
         </div>
         <div class="ep-hero-visual">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elecprime_mockup.png" alt="Mockup multi-device Élec Prime" class="ep-hero-mockup">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elecprime_mockup.png" alt="Mockup multi-device Maison Volt" class="ep-hero-mockup">
         </div>
       </div>
     </div>
   </section>
-
-  <!-- INFO BAR -->
-  <div class="ep-info-bar">
-    <div class="container">
-      <div class="ep-info-inner">
-        <div class="ep-info-item">
-          <div class="ep-info-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <div class="ep-info-label">Client</div>
-          <div class="ep-info-value">Julien Martin</div>
-        </div>
-        <div class="ep-info-sep"></div>
-        <div class="ep-info-item">
-          <div class="ep-info-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          </div>
-          <div class="ep-info-label">Secteur</div>
-          <div class="ep-info-value">Électricité</div>
-        </div>
-        <div class="ep-info-sep"></div>
-        <div class="ep-info-item">
-          <div class="ep-info-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </div>
-          <div class="ep-info-label">Zone</div>
-          <div class="ep-info-value">Île-de-France</div>
-        </div>
-        <div class="ep-info-sep"></div>
-        <div class="ep-info-item">
-          <div class="ep-info-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          </div>
-          <div class="ep-info-label">Services</div>
-          <div class="ep-info-value">Site web · Logo · Réservation en ligne</div>
-        </div>
-        <div class="ep-info-sep"></div>
-        <div class="ep-info-item">
-          <div class="ep-info-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          </div>
-          <div class="ep-info-label">Durée</div>
-          <div class="ep-info-value">7 jours</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- LE PROJET -->
   <section class="ep-projet">
@@ -100,7 +58,7 @@ get_header();
         <div class="ep-projet-text">
           <div class="case-label">Le Projet</div>
           <h2 class="case-title">Un site à la hauteur<br>de leur expertise</h2>
-          <p class="case-body">Élec Prime avait besoin d'un site moderne, rapide et rassurant pour développer sa notoriété locale et simplifier la prise de rendez-vous.</p>
+          <p class="case-body">Maison Volt avait besoin d'un site moderne, rapide et rassurant pour développer sa notoriété locale et simplifier la prise de rendez-vous.</p>
           <ul class="ep-checks">
             <li>
               <span class="ep-check-icon">✓</span>
@@ -115,14 +73,21 @@ get_header();
               Offrir une expérience fluide sur tous les écrans
             </li>
           </ul>
+          <div class="ep-captures-grid">
+            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_1.png" alt="Capture site Maison Volt"></div>
+            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_2.png" alt="Capture site Maison Volt"></div>
+            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_3.png" alt="Capture site Maison Volt"></div>
+            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_4.png" alt="Capture site Maison Volt"></div>
+          </div>
+          <p class="case-body" style="margin-top:24px">Chaque section du site a été pensée pour répondre aux questions des visiteurs et les guider naturellement vers une prise de contact — du premier regard jusqu'au bouton de réservation.</p>
         </div>
         <div class="ep-projet-visual">
           <div class="case-browser">
             <div class="case-browser-bar">
               <div class="case-browser-dots"><span></span><span></span><span></span></div>
-              <div class="case-browser-url">elecprime.fr</div>
+              <div class="case-browser-url">maisonvolt.fr</div>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_hero.png" alt="Site Élec Prime — page d'accueil">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_hero.png" alt="Site Maison Volt — page d'accueil">
           </div>
         </div>
       </div>
@@ -175,9 +140,6 @@ get_header();
           </div>
           <h4 class="ep-fc-title">Réservation en ligne</h4>
           <p class="ep-fc-desc">Système de prise de rendez-vous intégré avec gestion automatique des disponibilités.</p>
-          <div class="ep-fc-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_1.png" alt="Réservation en ligne Élec Prime">
-          </div>
         </div>
         <div class="ep-feature-card">
           <div class="ep-fc-icon ep-fc-icon--purple">
@@ -185,9 +147,6 @@ get_header();
           </div>
           <h4 class="ep-fc-title">Devis en 3 étapes</h4>
           <p class="ep-fc-desc">Formulaire intelligent pour obtenir un devis gratuit en quelques clics.</p>
-          <div class="ep-fc-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_2.png" alt="Devis en ligne Élec Prime">
-          </div>
         </div>
         <div class="ep-feature-card">
           <div class="ep-fc-icon ep-fc-icon--green">
@@ -195,9 +154,6 @@ get_header();
           </div>
           <h4 class="ep-fc-title">SEO local optimisé</h4>
           <p class="ep-fc-desc">Structure et contenus pensés pour améliorer la visibilité à Île-de-France.</p>
-          <div class="ep-fc-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_3.png" alt="SEO local Élec Prime">
-          </div>
         </div>
         <div class="ep-feature-card">
           <div class="ep-fc-icon ep-fc-icon--yellow">
@@ -205,16 +161,6 @@ get_header();
           </div>
           <h4 class="ep-fc-title">Rapide &amp; sécurisé</h4>
           <p class="ep-fc-desc">Performances optimisées pour une expérience fluide et sécurisée.</p>
-          <div class="ep-fc-gauge">
-            <div class="ep-gauge-wrap">
-              <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg" class="ep-gauge-svg">
-                <path d="M 10 55 A 45 45 0 0 1 90 55" fill="none" stroke="#1e293b" stroke-width="8" stroke-linecap="round"/>
-                <path d="M 10 55 A 45 45 0 0 1 90 55" fill="none" stroke="#22c55e" stroke-width="8" stroke-linecap="round" stroke-dasharray="138 5"/>
-              </svg>
-              <div class="ep-gauge-number">98</div>
-            </div>
-            <div class="ep-gauge-label">Performance</div>
-          </div>
         </div>
       </div>
     </div>
@@ -253,23 +199,6 @@ get_header();
           </div>
           <div class="ep-rc-value">+80%</div>
           <div class="ep-rc-label">de trafic organique en 5 mois</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TÉMOIGNAGE -->
-  <section class="ep-testimonial">
-    <div class="container">
-      <div class="ep-tm-inner">
-        <div class="ep-tm-avatar">JM</div>
-        <div class="ep-tm-content">
-          <p class="ep-tm-quote">"Le site nous apporte une vraie crédibilité et surtout des clients régulièrement. La réservation en ligne nous fait gagner un temps précieux au quotidien."</p>
-          <div class="ep-tm-author">
-            <strong>Julien Martin</strong>
-            <span>Fondateur, Élec Prime</span>
-            <span class="ep-tm-stars">★★★★★</span>
-          </div>
         </div>
       </div>
     </div>
