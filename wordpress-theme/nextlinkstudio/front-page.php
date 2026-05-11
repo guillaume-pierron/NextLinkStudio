@@ -8,7 +8,7 @@ get_header();
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-parallax-bg" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/header_artisan.png');"></div>
+    <div class="hero-parallax-bg" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/header_artisan.webp');"></div>
     <div class="hero-bg"></div>
     <div class="container hero-content">
       <div class="hero-badge">🔧 Spécialiste artisans & indépendants</div>

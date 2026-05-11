@@ -39,6 +39,12 @@ function nextlinkstudio_enqueue() {
 }
 add_action( 'wp_enqueue_scripts', 'nextlinkstudio_enqueue' );
 
+add_action( 'wp_head', function() {
+    if ( is_front_page() ) {
+        echo '<link rel="preload" as="image" href="' . esc_url( get_template_directory_uri() . '/assets/images/header_artisan.webp' ) . '" fetchpriority="high">' . "\n";
+    }
+}, 1 );
+
 add_action( 'wp_enqueue_scripts', function() {
     wp_dequeue_style( 'wp-block-library' );
     wp_dequeue_style( 'wp-block-library-theme' );
