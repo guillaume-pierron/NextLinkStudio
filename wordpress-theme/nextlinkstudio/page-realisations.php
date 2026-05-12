@@ -98,6 +98,25 @@ get_header();
           </div>
         </a>
 
+        <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle création de CV">
+            <span class="pf-badge pf-badge--wood">Identité visuelle</span>
+          </div>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--wood"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
+            </div>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Logo</span><span class="pf-stat-label">+ charte complète</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j</span><span class="pf-stat-label">de livraison</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">100%</span><span class="pf-stat-label">satisfait</span></div></div>
+            </div>
+            <div class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</div>
+          </div>
+        </a>
+
         <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card">
           <div class="pf-card-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Vert-Nature — site web jardinier paysagiste">
@@ -114,25 +133,6 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
             </div>
             <div class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</div>
-          </div>
-        </a>
-
-        <a href="#" class="pf-card">
-          <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois.png" alt="Atelier Moreau — identité visuelle menuiserie">
-            <span class="pf-badge pf-badge--wood">Menuiserie</span>
-          </div>
-          <div class="pf-card-body">
-            <div class="pf-card-top">
-              <div class="pf-card-accent pf-card-accent--wood"></div>
-              <div><h4 class="pf-card-title">Atelier Moreau</h4><p class="pf-card-desc">Identité visuelle complète · France</p></div>
-            </div>
-            <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Logo</span><span class="pf-stat-label">+ charte complète</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j</span><span class="pf-stat-label">de livraison</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">100%</span><span class="pf-stat-label">satisfait</span></div></div>
-            </div>
-            <div class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</div>
           </div>
         </a>
 
