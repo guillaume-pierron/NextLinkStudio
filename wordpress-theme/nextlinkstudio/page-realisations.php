@@ -5,78 +5,13 @@
 get_header();
 ?>
 
-  <!-- PAGE HERO RÉALISATIONS -->
-  <section class="rl-hero">
-    <div class="rl-dashes" aria-hidden="true">
-      <span></span><span></span><span></span><span></span>
-    </div>
-    <div class="container rl-hero-inner">
-
-      <!-- GAUCHE -->
-      <div class="rl-hero-left">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Mes réalisations</span></div>
-        <div class="rl-badge">
-          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          Des idées. Des solutions. Des résultats.
-        </div>
-        <h1 class="rl-title">
-          Mes<br><span class="gradient-text">réalisations</span>
-        </h1>
-        <p class="rl-sub">Les projets que j'ai construits, de A à Z. Chaque site, chaque identité, chaque résultat.</p>
-
-        <div class="rl-stats">
-          <div class="rl-stat">
-            <div class="rl-stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-            </div>
-            <div class="rl-stat-body"><strong>+140%</strong><span>de visibilité en moyenne</span></div>
-          </div>
-          <div class="rl-stat">
-            <div class="rl-stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            </div>
-            <div class="rl-stat-body"><strong>98%</strong><span>de clients satisfaits</span></div>
-          </div>
-          <div class="rl-stat">
-            <div class="rl-stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div class="rl-stat-body"><strong>7 jours</strong><span>délai moyen de livraison</span></div>
-          </div>
-        </div>
-
-        <div class="rl-actions">
-          <a href="#realisations" class="btn btn-primary btn-lg">Voir les projets →</a>
-          <a href="<?php echo nls_page_url('devis'); ?>" class="rl-link">Discutons de votre projet →</a>
-        </div>
-
-      </div>
-
-      <!-- DROITE — cartes mockup flottantes -->
-      <div class="rl-hero-right" aria-hidden="true">
-        <div class="rl-mockup-stack">
-          <div class="rl-mockup-card rl-mockup-card--back">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_vert_nature.jpg" alt="">
-            <span class="rl-mockup-label">Site e-commerce</span>
-          </div>
-          <div class="rl-mockup-card rl-mockup-card--mid">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/identite_visuelle.png" alt="">
-            <span class="rl-mockup-label">Identité visuelle</span>
-          </div>
-          <div class="rl-mockup-card rl-mockup-card--front">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_elecprime.jpg" alt="">
-            <span class="rl-mockup-label">Site web</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
   <!-- GRILLE RÉALISATIONS -->
   <section class="realisations-full" id="realisations">
     <div class="container">
+      <div class="rl-page-header">
+        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Mes réalisations</span></div>
+        <h1 class="rl-page-title">Mes <span class="gradient-text">réalisations</span></h1>
+      </div>
       <div class="portfolio-grid--triple">
 
         <a href="<?php echo nls_page_url('etude-de-cas-elec-prime'); ?>" class="pf-card">

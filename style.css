@@ -2948,6 +2948,8 @@ body {
 
 /* ── PORTFOLIO FULL ── */
 .realisations-full { padding: 48px 0 96px; background: var(--bg-alt); }
+.rl-page-header { margin-bottom: 48px; }
+.rl-page-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; line-height: 1.15; margin: 8px 0 0; }
 .portfolio-grid-full { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
 .portfolio-card-full {
   background: var(--bg-card);
