@@ -239,10 +239,10 @@ get_header();
             <div class="spotlight-iv-visual-wrap">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_section.png" alt="Exemple d'identité visuelle — NextLink Studio" class="spotlight-img" />
               <div class="spotlight-iv-badge">
-                <div class="spotlight-iv-badge-icon">👥</div>
+                <div class="spotlight-iv-badge-icon">✅</div>
                 <div class="spotlight-iv-badge-text">
-                  <strong>+120</strong>
-                  <span>entreprises équipées<br />d'une identité qui marque</span>
+                  <strong>Clé en main</strong>
+                  <span>logo, charte et<br />déclinaisons inclus</span>
                 </div>
               </div>
             </div>
@@ -289,71 +289,44 @@ get_header();
             <div class="section-badge">📱 Réseaux sociaux</div>
             <h3>Vos chantiers mis en valeur,<br /><span class="gradient-text spotlight-title-sub">vos clients convaincus</span></h3>
             <p>Je rédige et publie des contenus qui montrent votre savoir-faire — avant/après de chantiers, témoignages clients, astuces métier. Vos futurs clients voient du concret et vous contactent directement.</p>
-            <div class="spotlight-rs-list">
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Posts rédigés et planifiés chaque semaine</strong>
-                  <span>Un contenu régulier et stratégique pour rester visible toute l'année.</span>
-                </div>
+            <div class="spotlight-features">
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Posts rédigés et planifiés chaque semaine</strong><span>Un contenu régulier et stratégique pour rester visible toute l'année.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Visuels aux couleurs de votre charte</strong>
-                  <span>Des visuels professionnels qui renforcent votre image de marque.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Visuels aux couleurs de votre charte</strong><span>Des visuels professionnels qui renforcent votre image de marque.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>LinkedIn et Instagram selon votre cible</strong>
-                  <span>Les bons canaux pour toucher vos futurs clients.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+                <div class="spotlight-feature-text"><strong>LinkedIn et Instagram selon votre cible</strong><span>Les bons canaux pour toucher vos futurs clients.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Rapport mensuel de performance</strong>
-                  <span>Suivi des résultats et recommandations pour progresser.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Rapport mensuel de performance</strong><span>Suivi des résultats et recommandations pour progresser.</span></div>
               </div>
-            </div>
-            <div class="spotlight-cta-row">
-              <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" class="btn btn-primary btn-lg">Voir l'offre réseaux sociaux →</a>
             </div>
           </div>
           <div class="spotlight-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/reseau_sociaux_section.png" alt="Exemple de posts réseaux sociaux — NextLink Studio" class="spotlight-img" />
-          </div>
-        </div>
-        <div class="spotlight-rs-bottom">
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>4 à 8 posts / mois</strong>
-              <span>Contenu régulier et adapté à votre activité</span>
-            </div>
-          </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>+ de visibilité locale</strong>
-              <span>Une présence optimisée pour attirer des clients près de chez vous</span>
-            </div>
-          </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Engagement réel</strong>
-              <span>Des contenus qui suscitent l'intérêt et la confiance</span>
-            </div>
-          </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Résultats mesurables</strong>
-              <span>Des rapports clairs pour suivre votre progression</span>
+            <div class="spotlight-visual-wrap">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="Exemple de posts réseaux sociaux — NextLink Studio" class="spotlight-img" />
+              <div class="spotlight-stats-bar">
+                <div class="spotlight-stat">
+                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+                  <div class="spotlight-stat-body"><strong>4 à 8 posts / mois</strong><span>Contenu régulier et adapté</span></div>
+                </div>
+                <div class="spotlight-stat-divider"></div>
+                <div class="spotlight-stat">
+                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+                  <div class="spotlight-stat-body"><strong>Visibilité locale</strong><span>Présence optimisée</span></div>
+                </div>
+                <div class="spotlight-stat-divider"></div>
+                <div class="spotlight-stat">
+                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
+                  <div class="spotlight-stat-body"><strong>Rapport mensuel</strong><span>Résultats mesurables</span></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -369,38 +342,23 @@ get_header();
             <div class="section-badge">🖨️ Création print</div>
             <h3>Des supports qui marquent les esprits et restent entre<br /><span class="gradient-text spotlight-title-sub">les mains de vos clients.</span></h3>
             <p>Une carte de visite laissée sur place, un flyer dans les boîtes aux lettres du quartier, un kakémono sur votre chantier — le print prolonge votre visibilité là où internet ne suffit pas.</p>
-            <div class="spotlight-rs-list">
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Cartes de visite, flyers, kakémonos</strong>
-                  <span>Tous les supports pour être présent partout.</span>
-                </div>
+            <div class="spotlight-features">
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Cartes de visite, flyers, kakémonos</strong><span>Tous les supports pour être présent partout.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Cohérents avec votre identité visuelle</strong>
-                  <span>Des designs professionnels, alignés à votre image.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Cohérents avec votre identité visuelle</strong><span>Des designs professionnels, alignés à votre image.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Fichiers prêts à envoyer à l'imprimeur</strong>
-                  <span>Formats HD, CMJN, avec fonds perdus.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Fichiers prêts à envoyer à l'imprimeur</strong><span>Formats HD, CMJN, avec fonds perdus.</span></div>
               </div>
-              <div class="spotlight-rs-item">
-                <div class="spotlight-rs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
-                <div class="spotlight-rs-item-text">
-                  <strong>Retouches illimitées avant validation</strong>
-                  <span>Jusqu'à ce que le résultat vous convienne à 100%.</span>
-                </div>
+              <div class="spotlight-feature">
+                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
+                <div class="spotlight-feature-text"><strong>Retouches illimitées avant validation</strong><span>Jusqu'à ce que le résultat vous convienne à 100%.</span></div>
               </div>
-            </div>
-            <div class="spotlight-cta-row">
-              <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="btn btn-primary btn-lg">Voir l'offre print →</a>
             </div>
           </div>
           <div class="spotlight-visual">
@@ -416,34 +374,33 @@ get_header();
             </div>
           </div>
         </div>
-        <div class="spotlight-rs-bottom">
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Livraison rapide</strong>
-              <span>Recevez vos supports partout en France.</span>
+        <div class="spotlight-iv-bottom">
+          <div class="spotlight-iv-bottom-stats">
+            <div class="spotlight-iv-stat">
+              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+              <div class="spotlight-iv-stat-body">
+                <strong>Livraison rapide</strong>
+                <span>Recevez vos supports partout en France.</span>
+              </div>
+            </div>
+            <div class="spotlight-iv-stat">
+              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div class="spotlight-iv-stat-body">
+                <strong>Impression premium</strong>
+                <span>Papiers et finitions de haute qualité.</span>
+              </div>
+            </div>
+            <div class="spotlight-iv-stat">
+              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
+              <div class="spotlight-iv-stat-body">
+                <strong>Tarifs maîtrisés</strong>
+                <span>Le meilleur rapport qualité / prix.</span>
+              </div>
             </div>
           </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Impression premium</strong>
-              <span>Papiers et finitions de haute qualité.</span>
-            </div>
-          </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Tarifs maîtrisés</strong>
-              <span>Le meilleur rapport qualité / prix pour votre communication.</span>
-            </div>
-          </div>
-          <div class="spotlight-rs-stat">
-            <div class="spotlight-rs-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 22h3.28c.55-1.7 1.58-3.15 2.9-4.26 1.04.48 2.13.77 3.24.84C14.68 20.57 15 23 15 23h2c0-6.47 3-9 3-9V8z"/><path d="M3.82 22c0 0 2.18-4.62 7.18-5.82"/></svg></div>
-            <div class="spotlight-rs-stat-body">
-              <strong>Impression éco-responsable</strong>
-              <span>Des partenaires engagés pour un print plus durable.</span>
-            </div>
+          <div class="spotlight-iv-bottom-cta">
+            <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="btn btn-primary btn-lg">Voir l'offre print →</a>
+            <span class="spotlight-iv-devis">✓ Devis gratuit en moins de 24h</span>
           </div>
         </div>
       </div>

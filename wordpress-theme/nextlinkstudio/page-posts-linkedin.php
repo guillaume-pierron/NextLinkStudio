@@ -25,7 +25,7 @@ get_header();
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/post_insta.png" alt="Posts réseaux sociaux créés par NextLink Studio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="Posts réseaux sociaux créés par NextLink Studio" />
       </div>
     </div>
   </section>

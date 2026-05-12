@@ -134,7 +134,7 @@ get_header();
         </div>
         <div class="expertise-visual">
           <div class="print-visual-hero">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_elec_prime.png" alt="Flyer Élec Prime — exemple de création print NextLink Studio" class="print-visual-img" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Flyer Élec Prime — exemple de création print NextLink Studio" class="print-visual-img" />
           </div>
           <div class="print-formats">
             <p class="print-formats-label">Formats disponibles</p>
@@ -174,7 +174,7 @@ get_header();
           </div>
           <div class="print-realisation-card">
             <div class="print-realisation-flyer-card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_elec_prime.png" alt="Flyer Élec Prime — NextLink Studio" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Flyer Élec Prime — NextLink Studio" />
             </div>
             <div class="print-realisation-info">
               <span class="portfolio-tag portfolio-tag--gold">Électricité</span>

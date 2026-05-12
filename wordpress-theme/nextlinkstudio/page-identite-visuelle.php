@@ -25,7 +25,7 @@ get_header();
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/identite_visuelle.png" alt="Identité visuelle créée par NextLink Studio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="Identité visuelle créée par NextLink Studio" />
       </div>
     </div>
   </section>

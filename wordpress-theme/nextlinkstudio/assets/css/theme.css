@@ -2057,7 +2057,7 @@ body {
   display: block;
   filter: drop-shadow(0 4px 12px rgba(124,58,237,0.20));
 }
-.page-hero-img { justify-self: end; }
+.page-hero-img { justify-self: end; width: 100%; }
 .about-hero-img { max-width: 240px; }
 .page-hero-img img {
   width: 100%;
@@ -2440,7 +2440,6 @@ body {
   z-index: 1;
 }
 .print-visual-img {
-  max-width: 300px;
   width: 100%;
   height: auto;
   display: block;
