@@ -2872,8 +2872,12 @@ body {
   border: 1px solid;
   transition: filter 0.2s ease;
   margin-top: auto;
+  text-decoration: none;
 }
 .pf-card:hover .pf-card-cta { filter: brightness(0.93); }
+.pf-card-actions { display: flex; flex-direction: column; gap: 8px; }
+.pf-card-site-link { display: flex; align-items: center; justify-content: center; padding: 10px 16px; border-radius: 10px; font-size: 13px; font-weight: 600; border: 1px solid var(--border); color: var(--text-muted); text-decoration: none; transition: background 0.2s, color 0.2s; }
+.pf-card-site-link:hover { background: var(--bg-alt); color: var(--text); }
 .pf-card-cta--gold   { background: rgba(245,158,11,0.08);  color: #b45309; border-color: rgba(245,158,11,0.25); }
 .pf-card-cta--green  { background: rgba(16,185,129,0.08);  color: #065f46; border-color: rgba(16,185,129,0.25); }
 .pf-card-cta--wood   { background: rgba(180,120,60,0.08);  color: #92400e; border-color: rgba(180,120,60,0.25); }
@@ -6657,6 +6661,7 @@ body { background-color: #0d0a1a; }
 .sw-showcase { padding: 56px 0 0; position: relative; overflow: hidden; }
 .sw-showcase--gold { background: #111418; }
 .sw-showcase--green { background: #0d1a10; }
+.sw-showcase--navy  { background: #0E131F; }
 .sw-showcase-label { text-align: center; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.3); margin-bottom: 32px; }
 .sw-showcase-browser { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
 .sw-showcase .case-browser { border-radius: 12px 12px 0 0; overflow: hidden; box-shadow: 0 -8px 80px rgba(0,0,0,0.5); }
