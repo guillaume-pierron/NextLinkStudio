@@ -19,29 +19,17 @@ get_header();
             <span>Maison Volt</span>
           </div>
           <div class="case-badge">⚡ Étude de cas — Électricité</div>
-          <h1 class="ep-hero-title">Comment on a bâti<br>la présence digitale<br>de <span class="gradient-text">Maison Volt</span></h1>
+          <h1 class="ep-hero-title">La présence digitale<br>de <span class="gradient-text">Maison Volt</span></h1>
           <p class="ep-hero-subtitle">Site web premium, identité visuelle forte et système de réservation en ligne — une transformation complète pour un électricien indépendant en Île-de-France.</p>
           <div class="ep-hero-services">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
             Site web · Logo · Réservation en ligne
           </div>
           <div class="ep-hero-badges">
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Design premium
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Réservation en ligne
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              100% responsive
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Sécurité &amp; rapide
-            </span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Design premium</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Réservation en ligne</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>100% responsive</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>SEO local</span>
           </div>
         </div>
         <div class="ep-hero-visual">
@@ -51,44 +39,47 @@ get_header();
     </div>
   </section>
 
-  <!-- LE PROJET -->
-  <section class="ep-projet">
-    <div class="container">
-      <div class="ep-projet-inner">
-        <div class="ep-projet-text">
-          <div class="case-label">Le Projet</div>
-          <h2 class="case-title">Un site à la hauteur<br>de leur expertise</h2>
-          <p class="case-body">Maison Volt avait besoin d'un site moderne, rapide et rassurant pour développer sa notoriété locale et simplifier la prise de rendez-vous.</p>
-          <ul class="ep-checks">
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Mettre en avant l'expertise et la fiabilité
-            </li>
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Générer des demandes de devis qualifiées
-            </li>
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Offrir une expérience fluide sur tous les écrans
-            </li>
-          </ul>
-          <div class="ep-captures-grid">
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_1.png" alt="Capture site Maison Volt"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_2.png" alt="Capture site Maison Volt"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_3.png" alt="Capture site Maison Volt"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_4.png" alt="Capture site Maison Volt"></div>
-          </div>
-          <p class="case-body" style="margin-top:24px">Chaque section du site a été pensée pour répondre aux questions des visiteurs et les guider naturellement vers une prise de contact — du premier regard jusqu'au bouton de réservation.</p>
+  <!-- SHOWCASE PLEIN LARGEUR -->
+  <section class="sw-showcase sw-showcase--gold">
+    <div class="sw-showcase-label">maisonvolt.fr</div>
+    <div class="sw-showcase-browser">
+      <div class="case-browser">
+        <div class="case-browser-bar">
+          <div class="case-browser-dots"><span></span><span></span><span></span></div>
+          <div class="case-browser-url">maisonvolt.fr</div>
         </div>
-        <div class="ep-projet-visual">
-          <div class="case-browser">
-            <div class="case-browser-bar">
-              <div class="case-browser-dots"><span></span><span></span><span></span></div>
-              <div class="case-browser-url">maisonvolt.fr</div>
-            </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_hero.png" alt="Site Maison Volt — page d'accueil">
-          </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_hero.png" alt="Site Maison Volt — page d'accueil">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE DES PAGES -->
+  <section class="sw-gallery">
+    <div class="container">
+      <div class="iv-section-header">
+        <div class="case-label">Le site en détail</div>
+        <h2 class="case-title">Chaque page pensée<br>pour convertir</h2>
+      </div>
+      <div class="sw-gallery-grid">
+        <div class="sw-gallery-item sw-gallery-item--zoomable" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_1.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_1.png" alt="Page services Maison Volt">
+          <span class="sw-gallery-caption">Page services</span>
+          <span class="sw-gallery-zoom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
+        </div>
+        <div class="sw-gallery-item sw-gallery-item--zoomable" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_2.png" alt="Formulaire devis Maison Volt">
+          <span class="sw-gallery-caption">Formulaire de devis</span>
+          <span class="sw-gallery-zoom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
+        </div>
+        <div class="sw-gallery-item sw-gallery-item--zoomable" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_3.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_3.png" alt="Réservation en ligne Maison Volt">
+          <span class="sw-gallery-caption">Réservation en ligne</span>
+          <span class="sw-gallery-zoom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
+        </div>
+        <div class="sw-gallery-item sw-gallery-item--zoomable" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_4.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/capture_4.png" alt="Vue mobile Maison Volt">
+          <span class="sw-gallery-caption">Version mobile</span>
+          <span class="sw-gallery-zoom"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
         </div>
       </div>
     </div>
@@ -126,51 +117,58 @@ get_header();
     </div>
   </section>
 
-  <!-- FONCTIONNALITÉS CLÉS -->
-  <section class="ep-features">
+  <!-- FONCTIONNALITÉS ANNOTÉES -->
+  <section class="sw-annot-section">
     <div class="container">
-      <div class="ep-features-header">
+      <div class="iv-section-header">
         <div class="case-label">Les fonctionnalités clés</div>
-        <h2 class="ep-features-title">Un site conçu pour convertir</h2>
+        <h2 class="case-title">Des détails qui font<br>la différence</h2>
       </div>
-      <div class="ep-features-grid">
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--blue">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+
+      <div class="sw-annot-list">
+
+        <div class="sw-annot-item">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_feat_reservation.png" alt="Réservation en ligne Maison Volt">
           </div>
-          <h4 class="ep-fc-title">Réservation en ligne</h4>
-          <p class="ep-fc-desc">Système de prise de rendez-vous intégré avec gestion automatique des disponibilités.</p>
-        </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--purple">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">01</div>
+            <h3 class="sw-annot-title">Réservation en ligne</h3>
+            <p class="sw-annot-desc">Un système de prise de rendez-vous intégré avec gestion automatique des disponibilités. Le client choisit son créneau, Julien reçoit une notification — sans décrocher le téléphone.</p>
           </div>
-          <h4 class="ep-fc-title">Devis en 3 étapes</h4>
-          <p class="ep-fc-desc">Formulaire intelligent pour obtenir un devis gratuit en quelques clics.</p>
         </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--green">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+
+        <div class="sw-annot-item sw-annot-item--reverse">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_feat_devis.png" alt="Formulaire devis Maison Volt">
           </div>
-          <h4 class="ep-fc-title">SEO local optimisé</h4>
-          <p class="ep-fc-desc">Structure et contenus pensés pour améliorer la visibilité à Île-de-France.</p>
-        </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--yellow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">02</div>
+            <h3 class="sw-annot-title">Devis en 3 étapes</h3>
+            <p class="sw-annot-desc">Un formulaire intelligent qui guide le visiteur en quelques clics. Chaque demande arrive avec toutes les informations nécessaires pour chiffrer rapidement.</p>
           </div>
-          <h4 class="ep-fc-title">Rapide &amp; sécurisé</h4>
-          <p class="ep-fc-desc">Performances optimisées pour une expérience fluide et sécurisée.</p>
         </div>
+
+        <div class="sw-annot-item">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elec_prime_feat_seo.png" alt="SEO local Maison Volt">
+          </div>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">03</div>
+            <h3 class="sw-annot-title">SEO local optimisé</h3>
+            <p class="sw-annot-desc">Structure sémantique, balises optimisées et contenus ciblés sur les zones d'intervention. Résultat : Maison Volt remonte en tête des recherches locales en quelques semaines.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- RÉSULTATS -->
-  <section class="ep-results">
+  <section class="ep-results ep-results--dark">
     <div class="container">
       <div class="case-label">Les Résultats</div>
-      <h2 class="case-title">Des résultats concrets en quelques mois</h2>
+      <h2 class="case-title">Des résultats concrets<br>en quelques mois</h2>
       <div class="ep-results-grid">
         <div class="ep-result-card">
           <div class="ep-rc-icon ep-rc-icon--green">
@@ -184,7 +182,7 @@ get_header();
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           </div>
           <div class="ep-rc-value">-60%</div>
-          <div class="ep-rc-label">de temps de gestion des rendez-vous</div>
+          <div class="ep-rc-label">de temps de gestion des RDV</div>
         </div>
         <div class="ep-result-card">
           <div class="ep-rc-icon ep-rc-icon--yellow">
@@ -212,9 +210,47 @@ get_header();
         <p>Discutons de vos objectifs et créons ensemble un site qui fait la différence.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Démarrer mon projet →</a>
+          <a href="<?php echo nls_page_url('site-web'); ?>" class="btn btn-ghost btn-lg">Voir le service →</a>
         </div>
       </div>
     </div>
   </section>
+
+<!-- LIGHTBOX -->
+<div id="sw-lightbox" class="sw-lightbox" role="dialog" aria-modal="true">
+  <button class="sw-lightbox-close" aria-label="Fermer">&times;</button>
+  <div class="sw-lightbox-inner">
+    <img src="" alt="" id="sw-lightbox-img">
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('sw-lightbox');
+  var lbImg    = document.getElementById('sw-lightbox-img');
+
+  document.querySelectorAll('.sw-gallery-item--zoomable').forEach(function (item) {
+    item.addEventListener('click', function () {
+      lbImg.src = item.dataset.src;
+      lightbox.classList.add('sw-lightbox--open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove('sw-lightbox--open');
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+
+  lightbox.querySelector('.sw-lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox || e.target === lightbox.querySelector('.sw-lightbox-inner')) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
 
 <?php get_footer(); ?>

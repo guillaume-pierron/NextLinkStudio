@@ -12,28 +12,19 @@ get_header();
         <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Mes réalisations</span></div>
         <h1 class="rl-page-title">Mes <span class="gradient-text">réalisations</span></h1>
       </div>
-      <div class="portfolio-grid--triple">
+      <!-- FILTRES -->
+      <div class="pf-filters">
+        <button class="pf-filter active" data-filter="all">Tous</button>
+        <button class="pf-filter" data-filter="site-web">Site web</button>
+        <button class="pf-filter" data-filter="identite-visuelle">Identité visuelle</button>
+        <button class="pf-filter" data-filter="reseaux-sociaux">Réseaux sociaux</button>
+        <button class="pf-filter" data-filter="print">Print</button>
+      </div>
 
-        <a href="<?php echo nls_page_url('etude-de-cas-elec-prime'); ?>" class="pf-card">
-          <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_elecprime.png" alt="Élec Prime — site web électricien Île-de-France">
-            <span class="pf-badge pf-badge--gold">Site web</span>
-          </div>
-          <div class="pf-card-body">
-            <div class="pf-card-top">
-              <div class="pf-card-accent pf-card-accent--gold"></div>
-              <div><h4 class="pf-card-title">Maison Volt</h4><p class="pf-card-desc">Electricien</p></div>
-            </div>
-            <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+140%</span><span class="pf-stat-label">de visibilité</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">3 sem.</span><span class="pf-stat-label">1ers devis reçus</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">4.9/5</span><span class="pf-stat-label">avis Google</span></div></div>
-            </div>
-            <div class="pf-card-cta pf-card-cta--gold">Voir l'étude de cas →</div>
-          </div>
-        </a>
+      <div class="portfolio-grid--triple" id="pf-grid">
 
-        <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card">
+
+        <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card" data-category="identite-visuelle">
           <div class="pf-card-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle création de CV">
             <span class="pf-badge pf-badge--wood">Identité visuelle</span>
@@ -52,7 +43,7 @@ get_header();
           </div>
         </a>
 
-        <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card">
+        <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card" data-category="site-web">
           <div class="pf-card-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Vert-Nature — site web jardinier paysagiste">
             <span class="pf-badge pf-badge--green">Site web</span>
@@ -68,6 +59,25 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
             </div>
             <div class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</div>
+          </div>
+        </a>
+
+        <a href="<?php echo nls_page_url('etude-de-cas-profilboost-reseaux'); ?>" class="pf-card" data-category="reseaux-sociaux">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta.png" alt="ProfilBoost — posts Instagram">
+            <span class="pf-badge pf-badge--purple">Réseaux sociaux</span>
+          </div>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--purple"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Posts Instagram</p></div>
+            </div>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+200%</span><span class="pf-stat-label">d'abonnés</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">8 posts</span><span class="pf-stat-label">par mois</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+            </div>
+            <div class="pf-card-cta pf-card-cta--purple">Voir l'étude de cas →</div>
           </div>
         </a>
 
@@ -89,6 +99,27 @@ get_header();
       </div>
     </div>
   </section>
+
+<script>
+(function () {
+  var filters = document.querySelectorAll('.pf-filter');
+  var cards   = document.querySelectorAll('#pf-grid .pf-card');
+  filters.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filters.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.dataset.filter;
+      cards.forEach(function (card) {
+        if (f === 'all' || card.dataset.category === f) {
+          card.classList.remove('pf-card--hidden');
+        } else {
+          card.classList.add('pf-card--hidden');
+        }
+      });
+    });
+  });
+})();
+</script>
 
 <?php get_footer(); ?>
 

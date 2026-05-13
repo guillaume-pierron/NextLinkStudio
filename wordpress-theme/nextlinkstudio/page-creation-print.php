@@ -157,35 +157,46 @@ get_header();
           <div class="section-badge">Réalisations</div>
           <h2>Ce qu'on a conçu<br /><span class="gradient-text">pour nos clients</span></h2>
         </div>
-        <div class="print-realisations-grid">
-          <div class="print-realisation-card">
-            <div class="print-realisation-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elecprime_mockup.png" alt="Carte de visite Élec Prime — NextLink Studio" />
+        <div class="portfolio-grid--double">
+
+          <a href="<?php echo nls_page_url('etude-de-cas-elec-prime'); ?>" class="pf-card">
+            <div class="pf-card-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elecprime_mockup.png" alt="Carte de visite Élec Prime — NextLink Studio">
+              <span class="pf-badge pf-badge--gold">Électricité</span>
             </div>
-            <div class="print-realisation-info">
-              <span class="portfolio-tag portfolio-tag--gold">Électricité</span>
-              <h4>Carte de visite — Élec Prime</h4>
-              <p>Design premium recto-verso, dorure dorée, fond noir mat. Un support qui inspire confiance dès la première remise.</p>
-              <div class="expertise-tags" style="margin-top: 12px;">
-                <span>🖨️ 85×55 mm recto-verso</span>
-                <span>✅ PDF HD livré</span>
+            <div class="pf-card-body">
+              <div class="pf-card-top">
+                <div class="pf-card-accent pf-card-accent--gold"></div>
+                <div><h4 class="pf-card-title">Carte de visite — Élec Prime</h4><p class="pf-card-desc">Design premium recto-verso, dorure dorée</p></div>
               </div>
-            </div>
-          </div>
-          <div class="print-realisation-card">
-            <div class="print-realisation-flyer-card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Flyer Élec Prime — NextLink Studio" />
-            </div>
-            <div class="print-realisation-info">
-              <span class="portfolio-tag portfolio-tag--gold">Électricité</span>
-              <h4>Flyer A5 — Élec Prime</h4>
-              <p>Flyer recto-verso percutant aux couleurs de la marque. Conçu pour convertir dans les boîtes aux lettres du secteur.</p>
-              <div class="expertise-tags" style="margin-top: 12px;">
-                <span>📄 A5 recto-verso</span>
-                <span>✅ PDF HD livré</span>
+              <div class="pf-stats">
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">85×55 mm</span><span class="pf-stat-label">recto-verso</span></div></div>
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 jours</span><span class="pf-stat-label">de livraison</span></div></div>
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">PDF HD</span><span class="pf-stat-label">prêt à imprimer</span></div></div>
               </div>
+              <div class="pf-card-cta pf-card-cta--gold">Voir l'étude de cas →</div>
             </div>
-          </div>
+          </a>
+
+          <a href="<?php echo nls_page_url('etude-de-cas-elec-prime'); ?>" class="pf-card">
+            <div class="pf-card-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Flyer A5 Élec Prime — NextLink Studio">
+              <span class="pf-badge pf-badge--gold">Électricité</span>
+            </div>
+            <div class="pf-card-body">
+              <div class="pf-card-top">
+                <div class="pf-card-accent pf-card-accent--gold"></div>
+                <div><h4 class="pf-card-title">Flyer A5 — Élec Prime</h4><p class="pf-card-desc">Flyer percutant aux couleurs de la marque</p></div>
+              </div>
+              <div class="pf-stats">
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">A5</span><span class="pf-stat-label">recto-verso</span></div></div>
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 jours</span><span class="pf-stat-label">de livraison</span></div></div>
+                <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">PDF HD</span><span class="pf-stat-label">prêt à imprimer</span></div></div>
+              </div>
+              <div class="pf-card-cta pf-card-cta--gold">Voir l'étude de cas →</div>
+            </div>
+          </a>
+
         </div>
       </div>
 

@@ -19,7 +19,7 @@ add_action( 'after_setup_theme', 'nextlinkstudio_setup' );
 function nextlinkstudio_enqueue() {
     wp_enqueue_style(
         'google-fonts',
-        'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap',
+        'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap',
         [],
         null
     );

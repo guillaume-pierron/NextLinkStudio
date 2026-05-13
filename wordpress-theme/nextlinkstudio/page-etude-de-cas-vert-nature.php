@@ -19,30 +19,22 @@ get_header();
             <span>Vert-Nature</span>
           </div>
           <div class="case-badge case-badge--green">🌿 Étude de cas — Paysagisme</div>
-          <h1 class="ep-hero-title">Comment on a bâti<br>la présence digitale<br>de <span class="gradient-text">Vert-Nature</span></h1>
+          <h1 class="ep-hero-title">La présence digitale<br>de <span class="gradient-text">Vert-Nature</span></h1>
           <p class="ep-hero-subtitle">Site web professionnel et identité visuelle soignée — une transformation complète pour un jardinier paysagiste indépendant.</p>
           <div class="ep-hero-services">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
             Site web · Identité visuelle
           </div>
           <div class="ep-hero-badges">
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Design sur mesure
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Identité visuelle
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              100% responsive
-            </span>
-            <span class="ep-hero-badge">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              SEO local optimisé
-            </span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Design sur mesure</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Identité visuelle</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>100% responsive</span>
+            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>SEO local</span>
           </div>
+          <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;margin-top:24px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Voir le site
+          </a>
         </div>
         <div class="ep-hero-visual">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="ep-hero-mockup">
@@ -51,44 +43,43 @@ get_header();
     </div>
   </section>
 
-  <!-- LE PROJET -->
-  <section class="ep-projet">
-    <div class="container">
-      <div class="ep-projet-inner">
-        <div class="ep-projet-text">
-          <div class="case-label">Le Projet</div>
-          <h2 class="case-title">Un site qui reflète<br>le soin du travail bien fait</h2>
-          <p class="case-body">Vert-Nature avait besoin d'une vitrine digitale à la hauteur de son savoir-faire, pour capter des clients locaux et valoriser chaque réalisation.</p>
-          <ul class="ep-checks">
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Valoriser les réalisations et le savoir-faire
-            </li>
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Générer des demandes de devis locales
-            </li>
-            <li>
-              <span class="ep-check-icon">✓</span>
-              Créer une identité visuelle mémorable
-            </li>
-          </ul>
-          <div class="ep-captures-grid">
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="Capture site Vert-Nature"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Capture site Vert-Nature"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_3.png" alt="Capture site Vert-Nature"></div>
-            <div class="ep-capture"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Capture site Vert-Nature"></div>
-          </div>
-          <p class="case-body" style="margin-top:24px">Chaque section du site a été pensée pour guider le visiteur naturellement vers une prise de contact — du premier regard jusqu'au formulaire de devis.</p>
+  <!-- SHOWCASE PLEIN LARGEUR -->
+  <section class="sw-showcase sw-showcase--green">
+    <div class="sw-showcase-label">vert-nature.fr</div>
+    <div class="sw-showcase-browser">
+      <div class="case-browser">
+        <div class="case-browser-bar">
+          <div class="case-browser-dots"><span></span><span></span><span></span></div>
+          <div class="case-browser-url">vert-nature.fr</div>
         </div>
-        <div class="ep-projet-visual">
-          <div class="case-browser">
-            <div class="case-browser-bar">
-              <div class="case-browser-dots"><span></span><span></span><span></span></div>
-              <div class="case-browser-url">vert-nature.fr</div>
-            </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Site Vert-Nature — page d'accueil">
-          </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Site Vert-Nature — page d'accueil">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE DES PAGES -->
+  <section class="sw-gallery">
+    <div class="container">
+      <div class="iv-section-header">
+        <div class="case-label">Le site en détail</div>
+        <h2 class="case-title">Chaque page pensée<br>pour convertir</h2>
+      </div>
+      <div class="sw-gallery-grid">
+        <div class="sw-gallery-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="Galerie réalisations Vert-Nature">
+          <span class="sw-gallery-caption">Galerie de réalisations</span>
+        </div>
+        <div class="sw-gallery-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Page services Vert-Nature">
+          <span class="sw-gallery-caption">Page services</span>
+        </div>
+        <div class="sw-gallery-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_3.png" alt="Formulaire devis Vert-Nature">
+          <span class="sw-gallery-caption">Formulaire de devis</span>
+        </div>
+        <div class="sw-gallery-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Vue mobile Vert-Nature">
+          <span class="sw-gallery-caption">Version mobile</span>
         </div>
       </div>
     </div>
@@ -126,51 +117,58 @@ get_header();
     </div>
   </section>
 
-  <!-- FONCTIONNALITÉS CLÉS -->
-  <section class="ep-features">
+  <!-- FONCTIONNALITÉS ANNOTÉES -->
+  <section class="sw-annot-section">
     <div class="container">
-      <div class="ep-features-header">
+      <div class="iv-section-header">
         <div class="case-label">Les fonctionnalités clés</div>
-        <h2 class="ep-features-title">Un site conçu pour convertir</h2>
+        <h2 class="case-title">Des détails qui font<br>la différence</h2>
       </div>
-      <div class="ep-features-grid">
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--green">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+
+      <div class="sw-annot-list">
+
+        <div class="sw-annot-item">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_galerie.png" alt="Galerie réalisations Vert-Nature">
           </div>
-          <h4 class="ep-fc-title">Galerie de réalisations</h4>
-          <p class="ep-fc-desc">Mise en valeur des chantiers réalisés pour inspirer confiance et convaincre avant même le premier contact.</p>
-        </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--purple">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">01</div>
+            <h3 class="sw-annot-title">Galerie de réalisations</h3>
+            <p class="sw-annot-desc">Mise en valeur des chantiers réalisés avec photos haute qualité. Chaque projet raconte une histoire et convainc le visiteur avant même le premier contact.</p>
           </div>
-          <h4 class="ep-fc-title">Identité visuelle complète</h4>
-          <p class="ep-fc-desc">Logo, charte graphique et déclinaisons cohérentes pour une image professionnelle sur tous les supports.</p>
         </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--blue">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+
+        <div class="sw-annot-item sw-annot-item--reverse">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_devis.png" alt="Formulaire devis Vert-Nature">
           </div>
-          <h4 class="ep-fc-title">SEO local optimisé</h4>
-          <p class="ep-fc-desc">Structure et contenus pensés pour apparaître en tête des résultats Google dans la zone d'intervention.</p>
-        </div>
-        <div class="ep-feature-card">
-          <div class="ep-fc-icon ep-fc-icon--yellow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">02</div>
+            <h3 class="sw-annot-title">Devis en ligne simplifié</h3>
+            <p class="sw-annot-desc">Un formulaire intelligent qui qualifie chaque demande dès la saisie. Chaque prospect arrive avec sa localisation, le type de prestation et sa disponibilité.</p>
           </div>
-          <h4 class="ep-fc-title">Devis en ligne simplifié</h4>
-          <p class="ep-fc-desc">Formulaire de contact intelligent pour recevoir des demandes qualifiées sans effort supplémentaire.</p>
         </div>
+
+        <div class="sw-annot-item">
+          <div class="sw-annot-visual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_seo.png" alt="SEO local Vert-Nature">
+          </div>
+          <div class="sw-annot-text">
+            <div class="sw-annot-num">03</div>
+            <h3 class="sw-annot-title">SEO local optimisé</h3>
+            <p class="sw-annot-desc">Structure sémantique et contenus ciblés sur la zone d'intervention. Résultat : Vert-Nature apparaît en tête des résultats Google pour les recherches locales en paysagisme.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- RÉSULTATS -->
-  <section class="ep-results">
+  <section class="ep-results ep-results--dark">
     <div class="container">
       <div class="case-label">Les Résultats</div>
-      <h2 class="case-title">Des résultats concrets en quelques mois</h2>
+      <h2 class="case-title">Des résultats concrets<br>en quelques mois</h2>
       <div class="ep-results-grid">
         <div class="ep-result-card">
           <div class="ep-rc-icon ep-rc-icon--green">
@@ -212,6 +210,7 @@ get_header();
         <p>Discutons de vos objectifs et créons ensemble un site qui fait la différence.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Démarrer mon projet →</a>
+          <a href="<?php echo nls_page_url('site-web'); ?>" class="btn btn-ghost btn-lg">Voir le service →</a>
         </div>
       </div>
     </div>

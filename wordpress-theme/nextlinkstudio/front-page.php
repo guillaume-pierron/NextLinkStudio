@@ -159,7 +159,7 @@ get_header();
             <span class="spotlight-num">01</span>
             <div class="section-badge">🌐 Création de site web</div>
             <h3>Un site qui vous apporte<br />des clients.<br /><span class="gradient-text spotlight-title-sub">24h/24. 7j/7.</span></h3>
-            <p>Design sur mesure, mobile-first, SEO local optimisé. Votre site vitrine accepte les demandes de devis et réserve vos créneaux pendant que vous êtes sur le chantier.</p>
+            <p>Design sur mesure, mobile-first, SEO local optimisé. Un site vitrine qui inspire confiance, capte les demandes de devis et développe votre activité 24h/24.</p>
             <div class="spotlight-features">
               <div class="spotlight-feature">
                 <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
@@ -175,7 +175,7 @@ get_header();
               </div>
               <div class="spotlight-feature">
                 <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Rapide & efficace</strong><span>Livré en 7 jours, 100% mobile-first</span></div>
+                <div class="spotlight-feature-text"><strong>Rapide & efficace</strong><span>Développement sur mesure, 100% mobile-first</span></div>
               </div>
             </div>
             <div class="spotlight-cta-row">
@@ -483,22 +483,22 @@ get_header();
         <p class="section-desc">Des projets concrets, livrés dans les délais, avec des résultats mesurables.</p>
       </div>
       <div class="portfolio-grid--triple">
-        <a href="<?php echo nls_page_url( 'etude-de-cas-elec-prime' ); ?>" class="pf-card">
+        <a href="<?php echo nls_page_url('etude-de-cas-profilboost-reseaux'); ?>" class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_macbook_elecprime.png" alt="Élec Prime — site web électricien Île-de-France">
-            <span class="pf-badge pf-badge--gold">Site web</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="ProfilBoost — posts Instagram">
+            <span class="pf-badge pf-badge--purple">Réseaux sociaux</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
-              <div class="pf-card-accent pf-card-accent--gold"></div>
-              <div><h4 class="pf-card-title">Maison Volt</h4><p class="pf-card-desc">Électricien</p></div>
+              <div class="pf-card-accent pf-card-accent--purple"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Réseaux sociaux</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+140%</span><span class="pf-stat-label">de visibilité</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">3 sem.</span><span class="pf-stat-label">1ers devis reçus</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">4.9/5</span><span class="pf-stat-label">avis Google</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+200%</span><span class="pf-stat-label">d'abonnés</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">8 posts</span><span class="pf-stat-label">par mois</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
             </div>
-            <div class="pf-card-cta pf-card-cta--gold">Voir l'étude de cas →</div>
+            <div class="pf-card-cta pf-card-cta--purple">Voir l'étude de cas →</div>
           </div>
         </a>
         <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card">
