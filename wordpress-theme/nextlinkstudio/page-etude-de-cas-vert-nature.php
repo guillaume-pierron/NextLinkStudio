@@ -1,219 +1,415 @@
 <?php
 /**
- * Template Name: Étude de cas — Vert-Nature
+ * Template Name: Étude de cas — Vert-Nature Site Web
  */
 get_header();
 ?>
+<style>
+/* ── Vert-Nature — palette officielle ──────────────────────────────
+   #2E4E3A vert foncé · #6D8F6A vert moyen · #A7C1A1 vert clair · #1C2B22 noir vert */
 
-  <!-- HERO -->
-  <section class="ep-hero">
-    <div class="page-hero-bg"></div>
-    <div class="container">
-      <div class="ep-hero-inner">
-        <div class="ep-hero-content">
-          <div class="ep-breadcrumb">
-            <a href="<?php echo home_url('/'); ?>">Accueil</a>
-            <span>/</span>
-            <a href="<?php echo nls_page_url('realisations'); ?>">Mes réalisations</a>
-            <span>/</span>
-            <span>Vert-Nature</span>
-          </div>
-          <div class="case-badge case-badge--green">🌿 Étude de cas — Paysagisme</div>
-          <h1 class="ep-hero-title">La présence digitale<br>de <span class="gradient-text">Vert-Nature</span></h1>
-          <p class="ep-hero-subtitle">Site web professionnel et identité visuelle soignée — une transformation complète pour un jardinier paysagiste indépendant.</p>
-          <div class="ep-hero-services">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-            Site web · Identité visuelle
-          </div>
-          <div class="ep-hero-badges">
-            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Design sur mesure</span>
-            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Identité visuelle</span>
-            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>100% responsive</span>
-            <span class="ep-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>SEO local</span>
-          </div>
-          <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;margin-top:24px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Voir le site
-          </a>
+/* HERO */
+.vn-hero { padding: 100px 0 72px; background: #f7f9f6; position: relative; overflow: hidden; }
+.vn-hero-bg {
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(46,78,58,0.20) 0%, rgba(46,78,58,0.07) 50%, transparent 90%),
+    radial-gradient(ellipse 80% 90% at 50% 0%, rgba(46,78,58,0.28) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 50% at 8% 0%, rgba(109,143,106,0.15) 0%, transparent 60%);
+}
+.vn-hero-bg::after {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.18) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: linear-gradient(180deg, black 0%, black 10%, transparent 68%);
+  mask-image: linear-gradient(180deg, black 0%, black 10%, transparent 68%);
+}
+.vn-hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; position: relative; }
+.vn-breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 13px; color: rgba(28,43,34,0.40); margin-bottom: 20px; }
+.vn-breadcrumb a { color: inherit; text-decoration: none; transition: color 0.2s; }
+.vn-breadcrumb a:hover { color: #2E4E3A; }
+.vn-badge { display: inline-flex; align-items: center; background: rgba(46,78,58,0.08); color: #2E4E3A; border: 1px solid rgba(46,78,58,0.22); border-radius: 99px; font-size: 11px; font-weight: 700; padding: 4px 12px; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 20px; }
+.vn-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(28px, 4vw, 48px); font-weight: 900; line-height: 1.1; color: #1C2B22; margin-bottom: 16px; }
+.vn-title-client { color: #2E4E3A; }
+.vn-subtitle { font-size: 15px; color: rgba(28,43,34,0.55); line-height: 1.75; margin-bottom: 28px; max-width: 460px; }
+.vn-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+.vn-tag { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid rgba(28,43,34,0.10); border-radius: 8px; padding: 6px 14px; font-size: 13px; font-weight: 600; color: rgba(28,43,34,0.65); box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+.vn-tag svg { color: #2E4E3A; flex-shrink: 0; }
+.vn-visual { display: flex; flex-direction: column; align-items: center; }
+.vn-mockup { width: 100%; max-width: 540px; filter: drop-shadow(0 20px 48px rgba(28,43,34,0.12)); }
+.vn-annot { align-self: flex-end; margin-top: 12px; background: #fff; border: 1px solid rgba(28,43,34,0.09); border-radius: 10px; padding: 9px 14px; font-size: 12px; font-weight: 700; color: #1C2B22; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(0,0,0,0.09); }
+.vn-annot-check { width: 20px; height: 20px; border-radius: 50%; background: rgba(46,78,58,0.12); display: flex; align-items: center; justify-content: center; color: #2E4E3A; flex-shrink: 0; }
+
+/* BARRE DE SPECS */
+.vn-specs-bar { background: #f4f7f4; border-top: 1px solid rgba(28,43,34,0.06); border-bottom: 1px solid rgba(28,43,34,0.06); }
+.vn-specs-bar-inner { display: grid; grid-template-columns: repeat(4, 1fr); }
+.vn-spec { display: flex; align-items: center; gap: 14px; padding: 22px 28px; border-right: 1px solid rgba(28,43,34,0.07); }
+.vn-spec:last-child { border-right: none; }
+.vn-spec-icon { width: 38px; height: 38px; min-width: 38px; border-radius: 10px; background: rgba(46,78,58,0.08); display: flex; align-items: center; justify-content: center; color: #2E4E3A; flex-shrink: 0; }
+.vn-spec-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: rgba(28,43,34,0.40); margin-bottom: 3px; }
+.vn-spec-value { font-size: 13px; font-weight: 600; color: #1C2B22; line-height: 1.4; }
+
+/* PROBLÈME / SOLUTION */
+.vn-probsol { padding: 72px 0; background: #f7f9f6; }
+.vn-probsol-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.vn-ps-card { border-radius: 20px; padding: 40px; }
+.vn-ps-card--prob { background: #fff; border: 1px solid rgba(28,43,34,0.09); box-shadow: 0 2px 16px rgba(28,43,34,0.04); }
+.vn-ps-card--sol { background: #1C2B22; }
+.vn-ps-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; display: block; }
+.vn-ps-card--prob .vn-ps-label { color: #e05252; }
+.vn-ps-card--sol .vn-ps-label { color: #6D8F6A; }
+.vn-ps-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(18px,2vw,23px); font-weight: 800; line-height: 1.25; margin-bottom: 28px; }
+.vn-ps-card--prob .vn-ps-title { color: #1C2B22; }
+.vn-ps-card--sol .vn-ps-title { color: #fff; }
+.vn-ps-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.vn-ps-list li { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 500; line-height: 1.45; }
+.vn-ps-card--prob .vn-ps-list li { color: rgba(28,43,34,0.68); }
+.vn-ps-card--sol .vn-ps-list li { color: rgba(255,255,255,0.75); }
+.vn-ps-icon { width: 26px; height: 26px; min-width: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vn-ps-card--prob .vn-ps-icon { background: rgba(224,82,82,0.10); color: #e05252; }
+.vn-ps-card--sol .vn-ps-icon { background: rgba(109,143,106,0.20); color: #6D8F6A; }
+
+/* APERÇU */
+.vn-apercu { background: #1C2B22; padding: 64px 0 0; overflow: hidden; }
+.vn-apercu-header { text-align: center; padding: 0 24px; margin-bottom: 40px; }
+.vn-apercu-title { font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 1.2px; }
+.vn-apercu-browser { max-width: 900px; margin: 0 auto; border-radius: 10px 10px 0 0; overflow: hidden; box-shadow: 0 -12px 70px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.06); }
+.vn-apercu-bar { background: #243b2a; padding: 10px 14px; display: flex; align-items: center; }
+.vn-apercu-dots { display: flex; gap: 5px; }
+.vn-apercu-dots span { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,0.12); }
+.vn-apercu-browser img { display: block; width: 100%; }
+
+/* GALERIE PAGES */
+.vn-pages { padding: 80px 0; background: #fff; }
+.vn-pages-header { text-align: center; margin-bottom: 52px; }
+.vn-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2E4E3A; margin-bottom: 12px; }
+.vn-section-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(22px,3vw,34px); font-weight: 800; color: #1C2B22; position: relative; display: inline-block; padding-bottom: 18px; }
+.vn-section-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 36px; height: 3px; background: #2E4E3A; border-radius: 2px; }
+.vn-pages-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.vn-page-card { border: 1px solid rgba(28,43,34,0.08); border-radius: 12px; overflow: hidden; background: #f7f9f6; transition: box-shadow 0.25s, transform 0.25s; }
+.vn-page-card:hover { box-shadow: 0 8px 32px rgba(46,78,58,0.12); transform: translateY(-3px); }
+.vn-page-card-img { width: 100%; height: 175px; object-fit: cover; object-position: top; display: block; }
+.vn-page-card-body { padding: 14px 16px; }
+.vn-page-card-name { font-size: 14px; font-weight: 800; color: #1C2B22; margin-bottom: 5px; }
+.vn-page-card-desc { font-size: 12px; color: rgba(28,43,34,0.50); line-height: 1.55; }
+
+/* LIVRAISON */
+.vn-livraison { padding: 72px 0; background: #f7f9f6; border-top: 1px solid rgba(28,43,34,0.06); }
+.vn-livraison-header { text-align: center; margin-bottom: 44px; }
+.vn-livraison-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.vn-liv-card { background: #fff; border: 1px solid rgba(28,43,34,0.08); border-radius: 16px; padding: 28px 22px; }
+.vn-liv-icon { width: 44px; height: 44px; border-radius: 12px; background: rgba(46,78,58,0.08); display: flex; align-items: center; justify-content: center; color: #2E4E3A; margin-bottom: 16px; }
+.vn-liv-title { font-size: 14px; font-weight: 700; color: #1C2B22; margin-bottom: 8px; }
+.vn-liv-desc { font-size: 13px; color: rgba(28,43,34,0.52); line-height: 1.65; }
+.vn-liv-desc strong { color: #2E4E3A; font-weight: 700; }
+
+/* CTA */
+.vn-cta { background: #1C2B22; border-top: 1px solid rgba(255,255,255,0.06); padding: 72px 0; text-align: center; }
+.vn-cta-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(24px,3.5vw,38px); font-weight: 900; color: #fff; margin-bottom: 14px; }
+.vn-cta-sub { font-size: 15px; color: rgba(255,255,255,0.48); margin-bottom: 36px; max-width: 480px; margin-left: auto; margin-right: auto; }
+.vn-cta-actions { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .vn-hero-inner { grid-template-columns: 1fr; }
+  .vn-visual { display: none; }
+  .vn-probsol-grid { grid-template-columns: 1fr; }
+  .vn-specs-bar-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vn-spec { border-right: none; border-bottom: 1px solid rgba(28,43,34,0.07); }
+  .vn-spec:nth-child(odd) { border-right: 1px solid rgba(28,43,34,0.07); }
+  .vn-spec:last-child, .vn-spec:nth-last-child(2):nth-child(odd) { border-bottom: none; }
+  .vn-pages-grid { grid-template-columns: repeat(2, 1fr); }
+  .vn-livraison-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 580px) {
+  .vn-pages-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<!-- HERO -->
+<section class="vn-hero">
+  <div class="vn-hero-bg"></div>
+  <div class="container">
+    <div class="vn-hero-inner">
+      <div>
+        <div class="vn-breadcrumb">
+          <a href="<?php echo home_url('/'); ?>">Accueil</a>
+          <span>/</span>
+          <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
+          <span>/</span>
+          <span>Vert-Nature</span>
         </div>
-        <div class="ep-hero-visual">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="ep-hero-mockup">
+        <div class="vn-badge">Étude de cas</div>
+        <h1 class="vn-title">
+          La présence digitale<br>de <span class="vn-title-client">Vert-Nature</span>
+        </h1>
+        <p class="vn-subtitle">Création d'un site vitrine moderne et d'une identité visuelle soignée pour un jardinier paysagiste indépendant souhaitant développer sa clientèle en ligne.</p>
+        <div class="vn-tags">
+          <span class="vn-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            Site vitrine
+          </span>
+          <span class="vn-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            Design &amp; UX
+          </span>
+          <span class="vn-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            SEO Local
+          </span>
+        </div>
+        <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Voir le site
+        </a>
+      </div>
+      <div class="vn-visual">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="vn-mockup">
+        <div class="vn-annot">
+          <span class="vn-annot-check">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          Site responsive 100% optimisé
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SHOWCASE PLEIN LARGEUR -->
-  <section class="sw-showcase sw-showcase--green">
-    <div class="sw-showcase-label">vert-nature.fr</div>
-    <div class="sw-showcase-browser">
-      <div class="case-browser">
-        <div class="case-browser-bar">
-          <div class="case-browser-dots"><span></span><span></span><span></span></div>
-          <div class="case-browser-url">vert-nature.fr</div>
+<!-- SPECS BAR -->
+<div class="vn-specs-bar">
+  <div class="container">
+    <div class="vn-specs-bar-inner">
+      <div class="vn-spec">
+        <div class="vn-spec-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Site Vert-Nature — page d'accueil">
-      </div>
-    </div>
-  </section>
-
-  <!-- GALERIE DES PAGES -->
-  <section class="sw-gallery">
-    <div class="container">
-      <div class="iv-section-header">
-        <div class="case-label">Le site en détail</div>
-        <h2 class="case-title">Chaque page pensée<br>pour convertir</h2>
-      </div>
-      <div class="sw-gallery-grid">
-        <div class="sw-gallery-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="Galerie réalisations Vert-Nature">
-          <span class="sw-gallery-caption">Galerie de réalisations</span>
-        </div>
-        <div class="sw-gallery-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Page services Vert-Nature">
-          <span class="sw-gallery-caption">Page services</span>
-        </div>
-        <div class="sw-gallery-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_3.png" alt="Formulaire devis Vert-Nature">
-          <span class="sw-gallery-caption">Formulaire de devis</span>
-        </div>
-        <div class="sw-gallery-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Vue mobile Vert-Nature">
-          <span class="sw-gallery-caption">Version mobile</span>
+        <div>
+          <div class="vn-spec-label">Pages créées</div>
+          <div class="vn-spec-value">5 pages clés</div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- LE DÉFI / NOTRE SOLUTION -->
-  <section class="ep-defi-solution">
-    <div class="container">
-      <div class="ep-ds-inner">
-        <div class="ep-ds-col">
-          <div class="case-label">Le Défi</div>
-          <h3 class="ep-ds-title">Un paysagiste passionné,<br>invisible sur internet</h3>
-          <p class="case-body">Vert-Nature est un jardinier paysagiste indépendant dont le talent se lit dans chaque jardin réalisé. Mais sans présence en ligne, toute l'activité reposait sur le bouche-à-oreille — efficace, mais insuffisant pour développer durablement le carnet de commandes.</p>
-          <ul class="ep-warn-list">
-            <li><span class="ep-warn-icon">⚠</span>Aucune visibilité locale sur Google</li>
-            <li><span class="ep-warn-icon">⚠</span>Pas d'identité visuelle professionnelle</li>
-            <li><span class="ep-warn-icon">⚠</span>Prise de contact uniquement par bouche-à-oreille</li>
-          </ul>
+      <div class="vn-spec">
+        <div class="vn-spec-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         </div>
-        <div class="ep-ds-arrow">
-          <div class="ep-ds-arrow-circle">→</div>
+        <div>
+          <div class="vn-spec-label">Technos utilisées</div>
+          <div class="vn-spec-value">HTML, CSS, JavaScript</div>
         </div>
-        <div class="ep-ds-col">
-          <div class="case-label">Notre Solution</div>
-          <h3 class="ep-ds-title">Un site chaleureux qui<br>inspire confiance</h3>
-          <p class="case-body">On a opté pour un design naturel et aéré, avec des tons verts et organiques qui évoquent immédiatement l'univers du jardin.</p>
-          <ul class="ep-sol-list">
-            <li><span class="ep-sol-icon">✓</span>Design naturel aux couleurs de la marque</li>
-            <li><span class="ep-sol-icon">✓</span>Galerie de réalisations mise en valeur</li>
-            <li><span class="ep-sol-icon">✓</span>Optimisation SEO locale</li>
-            <li><span class="ep-sol-icon">✓</span>Formulaire de contact simplifié</li>
-          </ul>
+      </div>
+      <div class="vn-spec">
+        <div class="vn-spec-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <div>
+          <div class="vn-spec-label">SEO</div>
+          <div class="vn-spec-value">Référencement local optimisé</div>
+        </div>
+      </div>
+      <div class="vn-spec">
+        <div class="vn-spec-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        </div>
+        <div>
+          <div class="vn-spec-label">Responsive</div>
+          <div class="vn-spec-value">Mobile, tablette, desktop</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <!-- FONCTIONNALITÉS ANNOTÉES -->
-  <section class="sw-annot-section">
-    <div class="container">
-      <div class="iv-section-header">
-        <div class="case-label">Les fonctionnalités clés</div>
-        <h2 class="case-title">Des détails qui font<br>la différence</h2>
+<!-- PROBLÈME / SOLUTION -->
+<section class="vn-probsol">
+  <div class="container">
+    <div class="vn-probsol-grid">
+
+      <!-- LE PROBLÈME -->
+      <div class="vn-ps-card vn-ps-card--prob">
+        <span class="vn-ps-label">Le Problème</span>
+        <h2 class="vn-ps-title">Un paysagiste passionné,<br>invisible sur internet</h2>
+        <ul class="vn-ps-list">
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Aucune visibilité locale sur Google
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Pas d'identité visuelle professionnelle
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Prise de contact uniquement par bouche-à-oreille
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+            Aucun moyen de présenter ses réalisations
+          </li>
+        </ul>
       </div>
 
-      <div class="sw-annot-list">
+      <!-- NOTRE SOLUTION -->
+      <div class="vn-ps-card vn-ps-card--sol">
+        <span class="vn-ps-label">Notre Solution</span>
+        <h2 class="vn-ps-title">Un site chaleureux qui<br>inspire confiance</h2>
+        <ul class="vn-ps-list">
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Design naturel aux couleurs de la marque
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Galerie de réalisations mise en valeur
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Optimisation SEO locale
+          </li>
+          <li>
+            <span class="vn-ps-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+            Formulaire de devis simplifié
+          </li>
+        </ul>
+      </div>
 
-        <div class="sw-annot-item">
-          <div class="sw-annot-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_galerie.png" alt="Galerie réalisations Vert-Nature">
-          </div>
-          <div class="sw-annot-text">
-            <div class="sw-annot-num">01</div>
-            <h3 class="sw-annot-title">Galerie de réalisations</h3>
-            <p class="sw-annot-desc">Mise en valeur des chantiers réalisés avec photos haute qualité. Chaque projet raconte une histoire et convainc le visiteur avant même le premier contact.</p>
-          </div>
+    </div>
+  </div>
+</section>
+
+<!-- APERÇU DU SITE -->
+<section class="vn-apercu">
+  <div class="vn-apercu-header">
+    <h2 class="vn-apercu-title">Aperçu du site</h2>
+  </div>
+  <div class="vn-apercu-browser">
+    <div class="vn-apercu-bar">
+      <div class="vn-apercu-dots"><span></span><span></span><span></span></div>
+    </div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Aperçu du site Vert-Nature">
+  </div>
+</section>
+
+<!-- GALERIE DES PAGES -->
+<section class="vn-pages">
+  <div class="container">
+    <div class="vn-pages-header">
+      <div class="vn-section-label">Le site en détail</div>
+      <h2 class="vn-section-title">Chaque page pensée pour convertir</h2>
+    </div>
+    <div class="vn-pages-grid">
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Accueil Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">Accueil</div>
+          <div class="vn-page-card-desc">Accroche forte, services mis en avant et appel à l'action clair.</div>
         </div>
-
-        <div class="sw-annot-item sw-annot-item--reverse">
-          <div class="sw-annot-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_devis.png" alt="Formulaire devis Vert-Nature">
-          </div>
-          <div class="sw-annot-text">
-            <div class="sw-annot-num">02</div>
-            <h3 class="sw-annot-title">Devis en ligne simplifié</h3>
-            <p class="sw-annot-desc">Un formulaire intelligent qui qualifie chaque demande dès la saisie. Chaque prospect arrive avec sa localisation, le type de prestation et sa disponibilité.</p>
-          </div>
+      </div>
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_realisation.png" alt="Galerie Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">Galerie de réalisations</div>
+          <div class="vn-page-card-desc">Photos haute qualité des chantiers réalisés pour convaincre avant le premier contact.</div>
         </div>
-
-        <div class="sw-annot-item">
-          <div class="sw-annot-visual">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_feat_seo.png" alt="SEO local Vert-Nature">
-          </div>
-          <div class="sw-annot-text">
-            <div class="sw-annot-num">03</div>
-            <h3 class="sw-annot-title">SEO local optimisé</h3>
-            <p class="sw-annot-desc">Structure sémantique et contenus ciblés sur la zone d'intervention. Résultat : Vert-Nature apparaît en tête des résultats Google pour les recherches locales en paysagisme.</p>
-          </div>
+      </div>
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Services Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">Services</div>
+          <div class="vn-page-card-desc">Présentation claire des prestations proposées avec tarifs et zones d'intervention.</div>
         </div>
-
+      </div>
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_resa.png" alt="Réservation Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">Réservation de créneaux en ligne</div>
+          <div class="vn-page-card-desc">Formulaire intelligent qui qualifie chaque demande avec localisation et type de prestation.</div>
+        </div>
+      </div>
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="SEO Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">À propos</div>
+          <div class="vn-page-card-desc">Présentation du paysagiste, de son parcours et de ses valeurs pour instaurer la confiance.</div>
+        </div>
+      </div>
+      <div class="vn-page-card">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Contact Vert-Nature" class="vn-page-card-img">
+        <div class="vn-page-card-body">
+          <div class="vn-page-card-name">Contact</div>
+          <div class="vn-page-card-desc">Page de contact épurée pour faciliter la prise de rendez-vous.</div>
+        </div>
       </div>
     </div>
-  </section>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        Voir le site web
+      </a>
+    </div>
+  </div>
+</section>
 
-  <!-- RÉSULTATS -->
-  <section class="ep-results ep-results--dark">
-    <div class="container">
-      <div class="case-label">Les Résultats</div>
-      <h2 class="case-title">Des résultats concrets<br>en quelques mois</h2>
-      <div class="ep-results-grid">
-        <div class="ep-result-card">
-          <div class="ep-rc-icon ep-rc-icon--green">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-          </div>
-          <div class="ep-rc-value">+85%</div>
-          <div class="ep-rc-label">de trafic web en 3 mois</div>
+<!-- LIVRAISON & SUIVI -->
+<section class="vn-livraison">
+  <div class="container">
+    <div class="vn-livraison-header">
+      <div class="vn-section-label">Livraison &amp; suivi</div>
+      <h2 class="vn-section-title">Un site livré clé en main</h2>
+    </div>
+    <div class="vn-livraison-grid">
+      <div class="vn-liv-card">
+        <div class="vn-liv-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
-        <div class="ep-result-card">
-          <div class="ep-rc-icon ep-rc-icon--blue">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 5.59 5.59l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
-          </div>
-          <div class="ep-rc-value">×3</div>
-          <div class="ep-rc-label">appels entrants reçus</div>
+        <div class="vn-liv-title">Hébergé sur WordPress</div>
+        <div class="vn-liv-desc">Le site est déployé sur <strong>WordPress</strong> — une plateforme <strong>stable et évolutive</strong>, maîtrisée par des millions d'utilisateurs.</div>
+      </div>
+      <div class="vn-liv-card">
+        <div class="vn-liv-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
         </div>
-        <div class="ep-result-card">
-          <div class="ep-rc-icon ep-rc-icon--yellow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          </div>
-          <div class="ep-rc-value">5/5</div>
-          <div class="ep-rc-label">satisfaction client</div>
+        <div class="vn-liv-title">Sécurité intégrée</div>
+        <div class="vn-liv-desc">Des plugins de sécurité sont configurés pour <strong>protéger le site</strong> contre les <strong>menaces, intrusions et spams</strong>.</div>
+      </div>
+      <div class="vn-liv-card">
+        <div class="vn-liv-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
         </div>
-        <div class="ep-result-card">
-          <div class="ep-rc-icon ep-rc-icon--purple">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          </div>
-          <div class="ep-rc-value">7 j.</div>
-          <div class="ep-rc-label">délai de livraison respecté</div>
+        <div class="vn-liv-title">Statistiques de trafic</div>
+        <div class="vn-liv-desc"><strong>Google Site Kit</strong> est installé — <strong>visites, sources de trafic et comportements</strong> accessibles directement depuis WordPress.</div>
+      </div>
+      <div class="vn-liv-card">
+        <div class="vn-liv-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         </div>
+        <div class="vn-liv-title">Autonomie totale</div>
+        <div class="vn-liv-desc">Le client reçoit ses accès et peut <strong>modifier textes et images</strong> en toute autonomie, <strong>sans compétences techniques</strong>.</div>
+      </div>
+      <div class="vn-liv-card">
+        <div class="vn-liv-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div class="vn-liv-title">Adresses mail pro</div>
+        <div class="vn-liv-desc">Des adresses <strong>liées au nom de domaine</strong> sont créées — <strong>contact@vert-nature.fr</strong>, <strong>devis@vert-nature.fr</strong> — pour une <strong>image professionnelle</strong>.</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CTA FINAL -->
-  <section class="page-cta">
-    <div class="container">
-      <div class="page-cta-inner">
-        <h2>Un projet similaire ? Parlons-en.</h2>
-        <p>Discutons de vos objectifs et créons ensemble un site qui fait la différence.</p>
-        <div class="page-cta-actions">
-          <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Démarrer mon projet →</a>
-          <a href="<?php echo nls_page_url('site-web'); ?>" class="btn btn-ghost btn-lg">Voir le service →</a>
-        </div>
-      </div>
+<!-- CTA -->
+<section class="vn-cta">
+  <div class="container">
+    <h2 class="vn-cta-title">Un projet similaire ? Parlons-en.</h2>
+    <p class="vn-cta-sub">Vous souhaitez développer votre activité avec un site vitrine professionnel ? Discutons de vos objectifs et créons ensemble un site qui convertit.</p>
+    <div class="vn-cta-actions">
+      <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Démarrer mon projet →</a>
+      <a href="<?php echo nls_page_url('realisations'); ?>" class="btn btn-ghost btn-lg" style="color:#fff;border-color:rgba(255,255,255,0.25);">Voir tous les projets</a>
     </div>
-  </section>
+  </div>
+</section>
 
 <?php get_footer(); ?>
