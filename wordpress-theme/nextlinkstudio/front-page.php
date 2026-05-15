@@ -17,7 +17,7 @@ get_header();
         <span class="gradient-text hero-title-line2">des indépendants.</span>
       </h1>
       <p class="hero-subtitle">
-        Site web, identité visuelle, réseaux sociaux et print — votre présence complète, livrée en 7 jours.
+        Site web, identité visuelle, réseaux sociaux et print — plus de visibilité, de crédibilité et d'opportunités.
       </p>
       <div class="hero-actions">
         <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit</a>
@@ -282,11 +282,11 @@ get_header();
           <div class="step-icon-badge">🚀</div>
           <div class="step-content">
             <h3>Mise en ligne & remise des fichiers</h3>
-            <p>Votre site est en ligne, votre logo livré en tous formats, vos supports prêts à l'emploi. Je reste disponible 30 jours après la livraison pour toute question ou ajustement.</p>
+            <p>Votre site est en ligne, votre logo livré en tous formats, vos supports prêts à l'emploi. Je reste disponible après la livraison pour toute question.</p>
             <ul class="step-details">
               <li>✓ Site mis en ligne ou fichiers livrés</li>
               <li>✓ Formation à la prise en main</li>
-              <li>✓ Support inclus 30 jours après livraison</li>
+              <li>✓ Disponible après livraison pour toute question</li>
             </ul>
           </div>
         </div>
@@ -382,16 +382,13 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="rp-bottom-bar">
-        <div class="rp-tagline"><span class="rp-rocket">🚀</span><span>Des résultats concrets, pas des promesses.</span></div>
-      </div>
-      <div class="text-center" style="margin-top:24px">
+      <div class="text-center" style="margin-top:48px">
         <a href="<?php echo nls_page_url( 'realisations' ); ?>" class="btn btn-primary btn-lg rp-cta-full">Voir toutes mes réalisations →</a>
       </div>
     </div>
   </section>
 
-  <!-- TÉMOIGNAGES -->
+  <!-- TÉMOIGNAGES — à remettre quand les vrais avis seront disponibles
   <section class="testimonials-section">
     <div class="container">
       <div class="section-header">
@@ -437,6 +434,7 @@ get_header();
       </div>
     </div>
   </section>
+  -->
 
   <!-- FAQ -->
   <section class="faq-section" id="faq">
@@ -548,37 +546,6 @@ get_header();
             <div class="faq-answer">
               <p>Un <strong>dossier complet prêt à imprimer</strong> : PDF HD avec fonds perdus, fichiers sources modifiables (Illustrator ou Canva) et tous les formats adaptés à chaque support. Envoi direct à l'imprimeur sans passer par moi.</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- Stats bar -->
-      <div class="faq-stats">
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">+120</span>
-            <span class="faq-stat-label">indépendants accompagnés</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">4,9/5</span>
-            <span class="faq-stat-label">note moyenne sur 50+ avis</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">98%</span>
-            <span class="faq-stat-label">de clients satisfaits</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">7 jours</span>
-            <span class="faq-stat-label">délai moyen de livraison</span>
           </div>
         </div>
       </div>

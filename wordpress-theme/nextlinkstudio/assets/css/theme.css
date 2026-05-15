@@ -3250,17 +3250,18 @@ body {
 
 /* Bottom bar */
 .rp-bottom-bar {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 40px;
-  padding: 20px 28px;
+  margin: 40px auto 0;
+  padding: 16px 28px;
   background: #fff;
   border-radius: 14px;
   border: 1px solid var(--border);
   box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  width: fit-content;
+  text-align: center;
 }
 .rp-tagline {
   display: flex;
@@ -3577,7 +3578,7 @@ body {
 /* ── FAQ ── */
 .faq-section {
   padding: 80px 0;
-  background: var(--bg-alt);
+  background: var(--bg);
   position: relative;
   overflow: hidden;
 }
@@ -3597,8 +3598,8 @@ body {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(124,58,237,0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124,58,237,0.05) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.25) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.25) 1px, transparent 1px);
   background-size: 48px 48px;
   pointer-events: none;
   z-index: 0;
