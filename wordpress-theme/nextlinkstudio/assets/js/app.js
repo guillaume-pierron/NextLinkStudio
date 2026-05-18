@@ -1,5 +1,35 @@
 /* NextLink Studio — JS */
 
+/* ── LIGHTBOX ── */
+document.addEventListener('DOMContentLoaded', function () {
+  const lightbox = document.getElementById('nls-lightbox');
+  if (!lightbox) return;
+  const img = document.getElementById('nls-lightbox-img');
+  const backdrop = lightbox.querySelector('.nls-lightbox-backdrop');
+  const closeBtn = lightbox.querySelector('.nls-lightbox-close');
+
+  document.querySelectorAll('[data-lightbox]').forEach(function (trigger) {
+    trigger.addEventListener('click', function (e) {
+      e.preventDefault();
+      img.src = trigger.dataset.lightbox;
+      img.alt = trigger.dataset.lightboxAlt || '';
+      lightbox.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
+  backdrop.addEventListener('click', closeLightbox);
+  closeBtn.addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+});
+
 /* ── MENU MOBILE ── */
 function toggleMenu() {
   const navMobile = document.getElementById('navMobile');
