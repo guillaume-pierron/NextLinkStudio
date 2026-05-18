@@ -75,6 +75,17 @@ get_header();
 .vnig-ps-card--prob .vnig-ps-icon { background: rgba(224,82,82,0.10); color: #e05252; }
 .vnig-ps-card--sol .vnig-ps-icon { background: rgba(109,143,106,0.20); color: #6D8F6A; }
 
+/* STRATÉGIE */
+.vnig-strat { padding: 80px 0; background: #fff; }
+.vnig-strat-header { text-align: center; margin-bottom: 52px; }
+.vnig-strat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.vnig-strat-card { background: #f7f9f6; border: 1px solid rgba(28,43,34,0.08); border-radius: 16px; padding: 32px; }
+.vnig-strat-icon { width: 48px; height: 48px; border-radius: 14px; background: rgba(46,78,58,0.09); display: flex; align-items: center; justify-content: center; color: #2E4E3A; margin-bottom: 20px; }
+.vnig-strat-card h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 800; color: #1C2B22; margin-bottom: 10px; line-height: 1.3; }
+.vnig-strat-card p { font-size: 14px; color: rgba(28,43,34,0.60); line-height: 1.75; }
+.vnig-strat-card p strong { color: #2E4E3A; font-weight: 700; }
+@media (max-width: 640px) { .vnig-strat-grid { grid-template-columns: 1fr; } }
+
 /* APERÇU — publication Instagram */
 .vnig-apercu { background: #1C2B22; padding: 64px 0 72px; }
 .vnig-apercu-header { text-align: center; margin-bottom: 40px; }
@@ -92,19 +103,24 @@ get_header();
 .vnig-post-caption { padding: 4px 14px 14px; font-size: 12px; color: rgba(28,43,34,0.65); line-height: 1.6; }
 
 /* GALERIE DES SLIDES */
-.vnig-slides { padding: 80px 0; background: #fff; }
+.vnig-slides { padding: 80px 0; background: #1C2B22; }
 .vnig-slides-header { text-align: center; margin-bottom: 52px; }
 .vnig-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2E4E3A; margin-bottom: 12px; }
 .vnig-section-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(22px,3vw,34px); font-weight: 800; color: #1C2B22; position: relative; display: inline-block; padding-bottom: 18px; }
 .vnig-section-title::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 36px; height: 3px; background: #2E4E3A; border-radius: 2px; }
+.vnig-slides .vnig-section-label { color: #6D8F6A; }
+.vnig-slides .vnig-section-title { color: #fff; }
+.vnig-slides .vnig-section-title::after { background: #6D8F6A; }
+.vnig-slides .vnig-slide-card { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.10); }
+.vnig-slides .vnig-slide-num { color: rgba(255,255,255,0.35); }
 .vnig-slides-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
-.vnig-slide-card { border: 1px solid rgba(28,43,34,0.08); border-radius: 12px; overflow: hidden; background: #f7f9f6; transition: box-shadow 0.25s, transform 0.25s; }
+.vnig-slide-card { border: 1px solid rgba(28,43,34,0.08); border-radius: 12px; overflow: hidden; background: #f7f9f6; transition: box-shadow 0.25s, transform 0.25s; cursor: pointer; display: block; text-decoration: none; color: inherit; }
 .vnig-slide-card:hover { box-shadow: 0 8px 32px rgba(46,78,58,0.12); transform: translateY(-3px); }
 .vnig-slide-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block; }
 .vnig-slide-num { padding: 10px 14px; font-size: 12px; font-weight: 700; color: rgba(28,43,34,0.40); text-align: center; }
 
 /* RÉSULTATS */
-.vnig-results { padding: 72px 0; background: #f7f9f6; border-top: 1px solid rgba(28,43,34,0.06); }
+.vnig-results { padding: 72px 0; background: #fff; }
 .vnig-results-header { text-align: center; margin-bottom: 44px; }
 .vnig-results-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .vnig-result-card { background: #fff; border: 1px solid rgba(28,43,34,0.08); border-radius: 16px; padding: 32px 24px; text-align: center; }
@@ -120,8 +136,9 @@ get_header();
 
 /* RESPONSIVE */
 @media (max-width: 960px) {
-  .vnig-hero-inner { grid-template-columns: 1fr; }
-  .vnig-visual { display: none; }
+  .vnig-hero-inner { grid-template-columns: 1fr; gap: 24px; }
+  .vnig-visual { max-width: 100%; margin: 0 auto; }
+  .vnig-annot { align-self: flex-start; }
   .vnig-probsol-grid { grid-template-columns: 1fr; }
   .vnig-specs-bar-inner { grid-template-columns: 1fr 1fr; }
   .vnig-spec { border-right: none; border-bottom: 1px solid rgba(28,43,34,0.07); }
@@ -299,6 +316,51 @@ get_header();
   </div>
 </section>
 
+<!-- STRATÉGIE -->
+<section class="vnig-strat">
+  <div class="container">
+    <div class="vnig-strat-header">
+      <div class="vnig-section-label">La stratégie</div>
+      <h2 class="vnig-section-title">Pourquoi un carrousel de conseils ?</h2>
+    </div>
+    <div class="vnig-strat-grid">
+
+      <div class="vnig-strat-card">
+        <div class="vnig-strat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        </div>
+        <h3>Le format carrousel génère plus d'engagement</h3>
+        <p>Sur Instagram, les carrousels obtiennent en moyenne <strong>3× plus d'interactions</strong> qu'une image seule. Chaque swipe maintient l'attention et pousse l'algorithme à diffuser la publication plus largement.</p>
+      </div>
+
+      <div class="vnig-strat-card">
+        <div class="vnig-strat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <h3>Donner des conseils crée de la confiance</h3>
+        <p>Un contenu utile positionne Vert-Nature comme <strong>expert de son domaine</strong>. En partageant des astuces jardinage, la marque apporte de la valeur avant même le premier contact — ce qui convertit mieux qu'un post purement promotionnel.</p>
+      </div>
+
+      <div class="vnig-strat-card">
+        <div class="vnig-strat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Toucher une audience qualifiée</h3>
+        <p>Les personnes qui sauvegardent ou partagent un conseil jardinage sont précisément les <strong>futurs clients</strong> de Vert-Nature. Ce format attire naturellement une audience ciblée, sans dépenser en publicité.</p>
+      </div>
+
+      <div class="vnig-strat-card">
+        <div class="vnig-strat-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <h3>La dernière slide convertit</h3>
+        <p>Après avoir capté l'intérêt avec des conseils, la slide finale présente une <strong>offre claire avec un appel à l'action</strong> — le lecteur est déjà convaincu par l'expertise, il ne lui reste qu'à passer à l'action.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- GALERIE DES SLIDES -->
 <section class="vnig-slides">
   <div class="container">
@@ -307,26 +369,26 @@ get_header();
       <h2 class="vnig-section-title">5 slides, un message clair</h2>
     </div>
     <div class="vnig-slides-grid">
-      <div class="vnig-slide-card">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_1.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 1">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_1.png" alt="Carrousel Vert-Nature — Slide 1">
         <div class="vnig-slide-num">Slide 1 — Accroche</div>
-      </div>
-      <div class="vnig-slide-card">
+      </a>
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_2.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 2">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_2.png" alt="Carrousel Vert-Nature — Slide 2">
-        <div class="vnig-slide-num">Slide 2 — Prestation</div>
-      </div>
-      <div class="vnig-slide-card">
+        <div class="vnig-slide-num">Slide 2 — Conseil n°1</div>
+      </a>
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_3.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 3">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_3.png" alt="Carrousel Vert-Nature — Slide 3">
-        <div class="vnig-slide-num">Slide 3 — Prestation</div>
-      </div>
-      <div class="vnig-slide-card">
+        <div class="vnig-slide-num">Slide 3 — Conseil n°2</div>
+      </a>
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_4.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 4">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_4.png" alt="Carrousel Vert-Nature — Slide 4">
-        <div class="vnig-slide-num">Slide 4 — Prestation</div>
-      </div>
-      <div class="vnig-slide-card">
+        <div class="vnig-slide-num">Slide 4 — Conseil n°3</div>
+      </a>
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_5.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 5">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_5.png" alt="Carrousel Vert-Nature — Slide 5">
         <div class="vnig-slide-num">Slide 5 — Appel à l'action</div>
-      </div>
+      </a>
     </div>
   </div>
 </section>

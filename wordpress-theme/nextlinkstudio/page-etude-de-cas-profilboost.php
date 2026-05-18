@@ -44,6 +44,11 @@ get_header();
   color: #058ED9;
 }
 
+/* HERO VISUAL + ANNOT */
+.ep-hero-visual { flex-direction: column; }
+.ep-annot { align-self: flex-end; margin-top: 10px; background: #fff; border: 1px solid rgba(14,19,31,0.09); border-radius: 10px; padding: 9px 14px; font-size: 12px; font-weight: 700; color: #0E131F; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(0,0,0,0.09); }
+.ep-annot-check { width: 20px; height: 20px; border-radius: 50%; background: rgba(5,142,217,0.12); display: flex; align-items: center; justify-content: center; color: #058ED9; flex-shrink: 0; }
+
 /* HERO BADGES */
 .ep-hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
 .ep-hero-badge { display: inline-flex; align-items: center; gap: 9px; background: #fff; border: 1px solid rgba(14,19,31,0.09); border-radius: 10px; padding: 9px 16px; font-size: 13px; font-weight: 600; color: #0E131F; box-shadow: 0 1px 6px rgba(14,19,31,0.05); }
@@ -126,6 +131,12 @@ get_header();
         </div>
         <div class="ep-hero-visual">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost.png" alt="Mockup charte graphique ProfilBoost" class="pb-hero-mockup-img">
+          <div class="ep-annot">
+            <span class="ep-annot-check">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Logo + charte graphique complète
+          </div>
         </div>
       </div>
     </div>

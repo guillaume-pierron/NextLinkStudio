@@ -39,8 +39,9 @@ get_header();
 .vn-tag { display: inline-flex; align-items: center; gap: 6px; background: transparent; border: 1px solid rgba(28,43,34,0.14); border-radius: 8px; padding: 6px 14px; font-size: 13px; font-weight: 600; color: rgba(28,43,34,0.65); }
 .vn-tag svg { color: #2E4E3A; flex-shrink: 0; }
 .vn-visual { display: flex; flex-direction: column; align-items: center; }
-.vn-mockup { width: 100%; max-width: 540px; filter: drop-shadow(0 20px 48px rgba(28,43,34,0.12)); }
-.vn-annot { align-self: flex-end; margin-top: 12px; background: #fff; border: 1px solid rgba(28,43,34,0.09); border-radius: 10px; padding: 9px 14px; font-size: 12px; font-weight: 700; color: #1C2B22; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(0,0,0,0.09); }
+.vn-phone-wrap { position: relative; width: 100%; max-width: 540px; }
+.vn-mockup { width: 100%; display: block; filter: drop-shadow(0 20px 48px rgba(28,43,34,0.12)); }
+.vn-annot { align-self: flex-end; margin-top: 0; background: #fff; border: 1px solid rgba(28,43,34,0.09); border-radius: 10px; padding: 9px 14px; font-size: 12px; font-weight: 700; color: #1C2B22; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 18px rgba(0,0,0,0.09); }
 .vn-annot-check { width: 20px; height: 20px; border-radius: 50%; background: rgba(46,78,58,0.12); display: flex; align-items: center; justify-content: center; color: #2E4E3A; flex-shrink: 0; }
 
 /* BARRE DE SPECS */
@@ -114,8 +115,9 @@ get_header();
 
 /* RESPONSIVE */
 @media (max-width: 960px) {
-  .vn-hero-inner { grid-template-columns: 1fr; }
-  .vn-visual { display: none; }
+  .vn-hero-inner { grid-template-columns: 1fr; gap: 24px; }
+  .vn-visual { max-width: 100%; margin: 0 auto; }
+  .vn-annot { align-self: flex-start; }
   .vn-probsol-grid { grid-template-columns: 1fr; }
   .vn-specs-bar-inner { grid-template-columns: 1fr; }
   .vn-spec { border-right: none; border-bottom: 1px solid rgba(28,43,34,0.07); }
@@ -166,7 +168,9 @@ get_header();
         </a>
       </div>
       <div class="vn-visual">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="vn-mockup">
+        <div class="vn-phone-wrap">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="vn-mockup">
+        </div>
         <div class="vn-annot">
           <span class="vn-annot-check">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
