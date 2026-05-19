@@ -42,7 +42,7 @@ get_header();
           <ul>
             <li><strong>Hébergeur :</strong> o2switch</li>
             <li><strong>Adresse :</strong> 224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand</li>
-            <li><strong>Site web :</strong> www.nextlinkstudio.com</li>
+            <li><strong>Site web :</strong> <a href="https://www.o2switch.fr" target="_blank" rel="noopener">www.o2switch.fr</a></li>
           </ul>
         </div>
 
