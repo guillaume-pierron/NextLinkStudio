@@ -40,9 +40,9 @@ get_header();
           <h2>3. Hébergement</h2>
           <p>Ce site est hébergé par :</p>
           <ul>
-            <li><strong>Hébergeur :</strong> [Nom de l'hébergeur]</li>
-            <li><strong>Adresse :</strong> [Adresse de l'hébergeur]</li>
-            <li><strong>Site web :</strong> [URL de l'hébergeur]</li>
+            <li><strong>Hébergeur :</strong> o2switch</li>
+            <li><strong>Adresse :</strong> 224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand</li>
+            <li><strong>Site web :</strong> www.nextlinkstudio.com</li>
           </ul>
         </div>
 
