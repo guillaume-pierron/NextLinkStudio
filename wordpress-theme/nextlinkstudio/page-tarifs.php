@@ -31,7 +31,7 @@ get_header();
             <ul class="tc-list">
               <li>
                 <div class="tc-list-label">Vitrine simple <span class="tc-list-sub">1–3 pages</span></div>
-                <div class="tc-list-price">500 €</div>
+                <div class="tc-list-price">490 €</div>
               </li>
               <li>
                 <div class="tc-list-label">Vitrine complète <span class="tc-list-sub">5 pages + SEO</span></div>
