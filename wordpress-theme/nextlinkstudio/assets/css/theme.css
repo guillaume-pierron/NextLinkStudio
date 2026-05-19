@@ -1804,7 +1804,7 @@ body {
 .nls-lightbox-close:hover { transform: scale(1.1); background: #f3f4f6; }
 
 /* ── FOOTER ── */
-.footer { background: #100d2e; padding: 72px 0 0; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer { background: #100d2e; padding: 72px 0 0; }
 .footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 48px; }
 .footer-brand .logo { margin-bottom: 16px; display: inline-flex; }
 .footer-brand p { color: rgba(255,255,255,0.55); font-size: 14px; line-height: 1.7; margin-bottom: 20px; max-width: 280px; }
@@ -3235,10 +3235,10 @@ body {
   position: relative;
 }
 
-.pc-web      { --cc: #8b5cf6; --cc-bg: rgba(139,92,246,0.09);  --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
-.pc-design   { --cc: #8b5cf6; --cc-bg: rgba(139,92,246,0.09);  --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
-.pc-linkedin { --cc: #8b5cf6; --cc-bg: rgba(139,92,246,0.09);  --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
-.pc-print    { --cc: #8b5cf6; --cc-bg: rgba(139,92,246,0.09);  --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
+.pc-web      { --cc: #7c3aed; --cc-bg: rgba(139,92,246,0.09);  --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
+.pc-design   { --cc: #ea580c; --cc-bg: rgba(249,115,22,0.09);  --cc-glow: rgba(249,115,22,0.18); --cc-icon: rgba(249,115,22,0.14); }
+.pc-linkedin { --cc: #2563eb; --cc-bg: rgba(59,130,246,0.09);  --cc-glow: rgba(59,130,246,0.18); --cc-icon: rgba(59,130,246,0.14); }
+.pc-print    { --cc: #059669; --cc-bg: rgba(16,185,129,0.09);  --cc-glow: rgba(16,185,129,0.18); --cc-icon: rgba(16,185,129,0.14); }
 
 .preview-card {
   background: #ffffff;
@@ -5324,17 +5324,47 @@ body {
   padding: 28px 28px 24px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
+  border-top: 3px solid var(--cc, var(--purple));
   background: var(--white);
   text-decoration: none;
   color: inherit;
-  transition: var(--transition);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s ease, border-color 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05), 0 8px 28px rgba(0,0,0,0.07);
+}
+.sgs-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(145deg, var(--cc-bg, transparent) 0%, transparent 50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.sgs-card::after {
+  content: '';
+  position: absolute;
+  bottom: -40px; right: -24px;
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--cc-glow, transparent) 0%, transparent 70%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .35s ease, transform .35s ease;
+  transform: scale(0.7);
 }
 .sgs-card:hover {
-  border-color: var(--border-purple);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow);
+  transform: translateY(-10px);
+  border-color: var(--cc, var(--border-purple));
+  border-top-color: var(--cc, var(--purple));
+  box-shadow:
+    0 4px 8px rgba(0,0,0,0.04),
+    0 16px 48px rgba(0,0,0,0.10),
+    0 0 0 1.5px var(--cc, var(--purple)),
+    0 32px 64px var(--cc-glow, rgba(0,0,0,0.05));
 }
+.sgs-card:hover::before { opacity: 1; }
+.sgs-card:hover::after  { opacity: 1; transform: scale(1); }
 
 .sgs-title-row {
   display: flex;
@@ -5367,8 +5397,13 @@ body {
   justify-content: center;
   flex-shrink: 0;
   color: var(--purple-vivid);
+  transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s ease;
 }
 .sgs-icon svg { width: 28px; height: 28px; }
+.sgs-card:hover .sgs-icon {
+  transform: scale(1.12) rotate(-5deg);
+  box-shadow: 0 8px 28px var(--cc-glow, rgba(0,0,0,0.10));
+}
 
 /* Number badge */
 .sgs-num {
@@ -5384,33 +5419,35 @@ body {
   pointer-events: none;
 }
 
-/* Card color variants */
+/* Card color variants — variables CSS + couleurs */
+.sgs-card--purple { --cc: #7c3aed; --cc-bg: rgba(139,92,246,0.09); --cc-glow: rgba(139,92,246,0.18); --cc-icon: rgba(139,92,246,0.14); }
+.sgs-card--orange { --cc: #ea580c; --cc-bg: rgba(249,115,22,0.09);  --cc-glow: rgba(249,115,22,0.18);  --cc-icon: rgba(249,115,22,0.14); }
+.sgs-card--blue   { --cc: #2563eb; --cc-bg: rgba(59,130,246,0.09);  --cc-glow: rgba(59,130,246,0.18);  --cc-icon: rgba(59,130,246,0.14); }
+.sgs-card--green  { --cc: #059669; --cc-bg: rgba(16,185,129,0.09);  --cc-glow: rgba(16,185,129,0.18);  --cc-icon: rgba(16,185,129,0.14); }
+
 .sgs-card--purple .sgs-icon { background: rgba(139,92,246,0.12); border-color: rgba(139,92,246,0.25); color: #7c3aed; }
 .sgs-card--purple .sgs-tags li { background: rgba(139,92,246,0.08); border-color: rgba(139,92,246,0.25); color: #7c3aed; }
 .sgs-card--purple .sgs-num { color: rgba(124,58,237,0.12); }
 .sgs-card--purple .sgs-cta { color: #7c3aed; background: rgba(124,58,237,0.07); }
-.sgs-card--purple:hover .sgs-cta { background: rgba(124,58,237,0.14); }
+.sgs-card--purple:hover .sgs-cta { background: rgba(124,58,237,0.14); transform: translateX(2px); }
 
 .sgs-card--orange .sgs-icon { background: rgba(249,115,22,0.10); border-color: rgba(249,115,22,0.25); color: #ea580c; }
 .sgs-card--orange .sgs-tags li { background: rgba(249,115,22,0.08); border-color: rgba(249,115,22,0.22); color: #ea580c; }
 .sgs-card--orange .sgs-num { color: rgba(234,88,12,0.12); }
 .sgs-card--orange .sgs-cta { color: #ea580c; background: rgba(234,88,12,0.07); }
-.sgs-card--orange:hover { border-color: rgba(249,115,22,0.35); }
-.sgs-card--orange:hover .sgs-cta { background: rgba(234,88,12,0.14); }
+.sgs-card--orange:hover .sgs-cta { background: rgba(234,88,12,0.14); transform: translateX(2px); }
 
 .sgs-card--blue .sgs-icon { background: rgba(59,130,246,0.10); border-color: rgba(59,130,246,0.25); color: #2563eb; }
 .sgs-card--blue .sgs-tags li { background: rgba(59,130,246,0.08); border-color: rgba(59,130,246,0.22); color: #2563eb; }
 .sgs-card--blue .sgs-num { color: rgba(37,99,235,0.12); }
 .sgs-card--blue .sgs-cta { color: #2563eb; background: rgba(37,99,235,0.07); }
-.sgs-card--blue:hover { border-color: rgba(59,130,246,0.35); }
-.sgs-card--blue:hover .sgs-cta { background: rgba(37,99,235,0.14); }
+.sgs-card--blue:hover .sgs-cta { background: rgba(37,99,235,0.14); transform: translateX(2px); }
 
 .sgs-card--green .sgs-icon { background: rgba(16,185,129,0.10); border-color: rgba(16,185,129,0.25); color: #059669; }
 .sgs-card--green .sgs-tags li { background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.22); color: #059669; }
 .sgs-card--green .sgs-num { color: rgba(5,150,105,0.12); }
 .sgs-card--green .sgs-cta { color: #059669; background: rgba(5,150,105,0.07); }
-.sgs-card--green:hover { border-color: rgba(16,185,129,0.35); }
-.sgs-card--green:hover .sgs-cta { background: rgba(5,150,105,0.14); }
+.sgs-card--green:hover .sgs-cta { background: rgba(5,150,105,0.14); transform: translateX(2px); }
 
 .sgs-card h3 {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -6046,8 +6083,11 @@ body {
 .footer    { margin-top: 0 !important; }
 body > *   { margin-bottom: 0; }
 
-/* Fond body sombre pour éliminer tout gap visible entre sections sombres et footer */
-body { background-color: #0d0a1a; }
+/* CTA des pages d'études de cas */
+.vn-cta, .vnig-cta, .vnfl-cta, .ep-cta, .pb-cta, .pbr-cta { margin-bottom: 0 !important; padding-bottom: 72px; }
+
+/* Fond body aligné sur la couleur du footer pour éliminer tout gap visible */
+body { background-color: #100d2e; }
 /* Sections sans background explicite — on pose var(--bg) pour rester blanc */
 .sw-hero,
 .sw-benefits,
