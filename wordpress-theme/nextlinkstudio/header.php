@@ -11,8 +11,8 @@
     "name": "NextLink Studio",
     "description": "Agence digitale spécialisée pour artisans et indépendants — création de sites web, identité visuelle, réseaux sociaux et print.",
     "url": "<?php echo home_url(); ?>",
-    "email": "hello@nextlinkstudio.fr",
-    "telephone": "+33600000000",
+    "email": "guillaume@nextlinkstudio.com",
+    "telephone": "+33640466265",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Paris",

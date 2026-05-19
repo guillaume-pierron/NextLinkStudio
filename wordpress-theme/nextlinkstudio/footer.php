@@ -40,8 +40,8 @@
       <div class="footer-links">
         <h5>Contact</h5>
         <ul>
-          <li><a href="mailto:hello@nextlinkstudio.fr">hello@nextlinkstudio.fr</a></li>
-          <li><a href="tel:+33600000000">06 00 00 00 00</a></li>
+          <li><a href="mailto:guillaume@nextlinkstudio.com">guillaume@nextlinkstudio.com</a></li>
+          <li><a href="tel:+33640466265">06 40 46 62 65</a></li>
           <li>Paris — France</li>
         </ul>
       </div>
@@ -50,7 +50,8 @@
       <p>© <?php echo date( 'Y' ); ?> NextLink Studio — Tous droits réservés</p>
       <div class="footer-legal">
         <a href="<?php echo nls_page_url( 'mentions-legales' ); ?>">Mentions légales</a>
-        <a href="<?php echo nls_page_url( 'politique-de-confidentialite' ); ?>">Politique de confidentialité</a>
+        <a href="<?php echo nls_page_url( 'donnees-personnelles' ); ?>">Données personnelles</a>
+        <a href="<?php echo nls_page_url( 'gestion-cookies' ); ?>">Cookies</a>
       </div>
     </div>
   </footer>
