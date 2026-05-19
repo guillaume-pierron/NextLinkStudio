@@ -371,16 +371,25 @@ get_header();
         <h2>Un exemple de <span class="gradient-text">réalisation</span></h2>
       </div>
       <div class="sw-real-grid iv-real-single">
-        <div class="sw-real-card">
-          <div class="sw-real-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="Identité visuelle ProfilBoost" />
+        <div class="pf-card">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle création de CV">
+            <span class="pf-badge pf-badge--wood">Identité visuelle</span>
           </div>
-          <div class="sw-real-info">
-            <div class="sw-real-meta">
-              <strong>ProfilBoost</strong>
-              <span>Coach LinkedIn — Paris</span>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--wood"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
             </div>
-            <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="sw-real-link">Voir le projet →</a>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Logo</span><span class="pf-stat-label">+ charte complète</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j</span><span class="pf-stat-label">de livraison</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">100%</span><span class="pf-stat-label">satisfait</span></div></div>
+            </div>
+            <div class="pf-card-actions">
+              <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+            </div>
           </div>
         </div>
       </div>
