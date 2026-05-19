@@ -320,7 +320,7 @@ get_header();
       <div class="portfolio-grid--triple">
         <div class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup.png" alt="ProfilBoost — site web">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup_bg.png" alt="ProfilBoost — site web">
             <span class="pf-badge pf-badge--wood">Site web</span>
           </div>
           <div class="pf-card-body">
@@ -336,27 +336,6 @@ get_header();
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
-            </div>
-          </div>
-        </div>
-        <div class="pf-card">
-          <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle">
-            <span class="pf-badge pf-badge--wood">Identité visuelle</span>
-          </div>
-          <div class="pf-card-body">
-            <div class="pf-card-top">
-              <div class="pf-card-accent pf-card-accent--wood"></div>
-              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
-            </div>
-            <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+60%</span><span class="pf-stat-label">de visibilité</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j.</span><span class="pf-stat-label">délai de livraison</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
-            </div>
-            <div class="pf-card-actions">
-              <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
@@ -378,6 +357,27 @@ get_header();
             <div class="pf-card-actions">
               <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_vertnature_mockup.png" data-lightbox-alt="Post Instagram Vert-Nature">Voir le post →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+            </div>
+          </div>
+        </div>
+        <div class="pf-card">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost_bg.png" alt="ProfilBoost — identité visuelle">
+            <span class="pf-badge pf-badge--wood">Identité visuelle</span>
+          </div>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--wood"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
+            </div>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+60%</span><span class="pf-stat-label">de visibilité</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j.</span><span class="pf-stat-label">délai de livraison</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+            </div>
+            <div class="pf-card-actions">
+              <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

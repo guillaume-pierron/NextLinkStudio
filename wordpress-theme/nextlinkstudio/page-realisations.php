@@ -25,7 +25,7 @@ get_header();
 
         <div class="pf-card" data-category="site-web">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup.png" alt="ProfilBoost — site web">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup_bg.png" alt="ProfilBoost — site web">
             <span class="pf-badge pf-badge--wood">Site web</span>
           </div>
           <div class="pf-card-body">
@@ -69,7 +69,7 @@ get_header();
 
         <div class="pf-card" data-category="identite-visuelle">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle création de CV">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost_bg.png" alt="ProfilBoost — identité visuelle création de CV">
             <span class="pf-badge pf-badge--wood">Identité visuelle</span>
           </div>
           <div class="pf-card-body">
@@ -91,7 +91,7 @@ get_header();
 
         <div class="pf-card" data-category="site-web">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Vert-Nature — site web jardinier paysagiste">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature_bg.png" alt="Vert-Nature — site web jardinier paysagiste">
             <span class="pf-badge pf-badge--green">Site web</span>
           </div>
           <div class="pf-card-body">
@@ -113,7 +113,7 @@ get_header();
 
         <div class="pf-card" data-category="print">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature.png" alt="Vert-Nature — flyer publicitaire">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Vert-Nature — flyer publicitaire">
             <span class="pf-badge pf-badge--green">Print</span>
           </div>
           <div class="pf-card-body">

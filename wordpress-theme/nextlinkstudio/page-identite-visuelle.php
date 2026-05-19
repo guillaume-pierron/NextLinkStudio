@@ -25,7 +25,7 @@ get_header();
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="Identité visuelle créée par NextLink Studio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost_bg.png" alt="Identité visuelle créée par NextLink Studio" />
       </div>
     </div>
   </section>
@@ -373,7 +373,7 @@ get_header();
       <div class="sw-real-grid iv-real-single">
         <div class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/realisation_bois_2.png" alt="ProfilBoost — identité visuelle création de CV">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost_bg.png" alt="ProfilBoost — identité visuelle création de CV">
             <span class="pf-badge pf-badge--wood">Identité visuelle</span>
           </div>
           <div class="pf-card-body">
