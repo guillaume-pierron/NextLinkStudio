@@ -17,7 +17,7 @@ get_header();
         <span class="gradient-text hero-title-line2">des indépendants.</span>
       </h1>
       <p class="hero-subtitle">
-        Site web, identité visuelle, réseaux sociaux et print — votre présence complète, livrée en 7 jours.
+        Site web, identité visuelle, réseaux sociaux et print — plus de visibilité, de crédibilité et d'opportunités.
       </p>
       <div class="hero-actions">
         <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit</a>
@@ -148,264 +148,99 @@ get_header();
     </div>
   </div>
 
-  <!-- SERVICES EN DÉTAIL -->
-  <section id="services" class="service-spotlights">
-
-    <!-- Création de site web -->
-    <div class="spotlight-block">
-      <div class="container">
-        <div class="spotlight-row">
-          <div class="spotlight-text">
-            <span class="spotlight-num">01</span>
-            <div class="section-badge">🌐 Création de site web</div>
-            <h3>Un site qui vous apporte<br />des clients.<br /><span class="gradient-text spotlight-title-sub">24h/24. 7j/7.</span></h3>
-            <p>Design sur mesure, mobile-first, SEO local optimisé. Un site vitrine qui inspire confiance, capte les demandes de devis et développe votre activité 24h/24.</p>
-            <div class="spotlight-features">
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                <div class="spotlight-feature-text"><strong>SEO local</strong><span>Visible sur Google dans votre ville</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Devis en ligne</strong><span>Formulaire intelligent intégré</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Réservations</strong><span>Créneaux en ligne automatisés</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Rapide & efficace</strong><span>Développement sur mesure, 100% mobile-first</span></div>
-              </div>
+  <!-- SERVICES -->
+  <section id="services" class="services-grid-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Mes services</div>
+        <h2>Tout ce qu'il faut pour<br /><span class="gradient-text">exister en ligne</span></h2>
+        <p class="section-desc">4 services complémentaires pour construire une présence professionnelle complète.</p>
+      </div>
+      <div class="sgs-grid">
+        <a href="<?php echo nls_page_url( 'site-web' ); ?>" class="sgs-card sgs-card--purple">
+          <div class="sgs-card-main">
+            <div class="sgs-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </div>
-            <div class="spotlight-cta-row">
-              <a href="<?php echo nls_page_url( 'site-web' ); ?>" class="btn btn-primary btn-lg">Voir l'offre site web →</a>
+            <div class="sgs-card-content">
+              <span class="sgs-num">01</span><div class="sgs-title-row"><h3>Création de site web</h3></div>
+              <p>Design sur mesure, mobile-first, SEO local optimisé. Votre site accepte les devis et réserve vos créneaux 24h/24, pendant que vous êtes sur le chantier.</p>
+              <ul class="sgs-tags">
+                <li>SEO local</li>
+                <li>Devis en ligne</li>
+                <li>Livré en 7 jours</li>
+              </ul>
             </div>
           </div>
-          <div class="spotlight-visual">
-            <div class="spotlight-visual-wrap">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/websites_images.png" alt="Exemples de sites web créés par NextLink Studio" class="spotlight-img" />
-              <div class="spotlight-stats-bar">
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>4,9/5</strong><div class="spotlight-stat-stars">★★★★★</div><span>Avis Google</span></div>
-                </div>
-                <div class="spotlight-stat-divider"></div>
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>Garantie satisfaction</strong><span>Accompagnement inclus</span></div>
-                </div>
-                <div class="spotlight-stat-divider"></div>
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>Livraison en 7 jours</strong><span>Délai respecté</span></div>
-                </div>
-              </div>
+          <span class="sgs-cta">Voir l'offre →</span>
+        </a>
+        <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" class="sgs-card sgs-card--orange">
+          <div class="sgs-card-main">
+            <div class="sgs-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+            </div>
+            <div class="sgs-card-content">
+              <span class="sgs-num">02</span><div class="sgs-title-row"><h3>Identité visuelle</h3></div>
+              <p>Logo, charte graphique et supports livrés en 3 propositions uniques. Une image à la hauteur de votre professionnalisme, dès le premier regard.</p>
+              <ul class="sgs-tags">
+                <li>3 propositions</li>
+                <li>Charte complète</li>
+                <li>Tous formats</li>
+              </ul>
             </div>
           </div>
+          <span class="sgs-cta">Voir l'offre →</span>
+        </a>
+        <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" class="sgs-card sgs-card--blue">
+          <div class="sgs-card-main">
+            <div class="sgs-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><line x1="9" y1="10" x2="9.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="15" y1="10" x2="15.01" y2="10"/></svg>
+            </div>
+            <div class="sgs-card-content">
+              <span class="sgs-num">03</span><div class="sgs-title-row"><h3>Réseaux sociaux</h3></div>
+              <p>Posts rédigés, mis en page et publiés chaque semaine sur LinkedIn et Instagram. Vous travaillez, je gère votre présence en ligne.</p>
+              <ul class="sgs-tags">
+                <li>4–8 posts/mois</li>
+                <li>Visuels inclus</li>
+                <li>Rapport mensuel</li>
+              </ul>
+            </div>
+          </div>
+          <span class="sgs-cta">Voir l'offre →</span>
+        </a>
+        <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="sgs-card sgs-card--green">
+          <div class="sgs-card-main">
+            <div class="sgs-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            </div>
+            <div class="sgs-card-content">
+              <span class="sgs-num">04</span><div class="sgs-title-row"><h3>Création print</h3></div>
+              <p>Flyers, cartes de visite, kakémonos — cohérents avec votre identité visuelle et prêts à envoyer à l'imprimeur.</p>
+              <ul class="sgs-tags">
+                <li>Fichiers HD</li>
+                <li>Retouches illimitées</li>
+                <li>Livré en 7 jours</li>
+              </ul>
+            </div>
+          </div>
+          <span class="sgs-cta">Voir l'offre →</span>
+        </a>
+      </div>
+      <div class="sgs-bottom">
+        <div class="sgs-bottom-cta">
+          <div class="sgs-bottom-left">
+            <div class="sgs-bottom-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+            <div class="sgs-bottom-text">
+              <strong>Un projet ? Parlons-en.</strong>
+              <span>Je vous accompagne de A à Z pour booster votre visibilité.</span>
+            </div>
+          </div>
+          <a href="<?php echo nls_page_url( 'expertise' ); ?>" class="btn btn-primary">Voir toutes mes expertises →</a>
         </div>
       </div>
     </div>
-
-    <!-- Identité visuelle -->
-    <div class="spotlight-block spotlight-block--iv">
-      <div class="container">
-        <div class="spotlight-row spotlight-row--reverse">
-          <div class="spotlight-text">
-            <span class="spotlight-num">02</span>
-            <div class="section-badge">🎨 Identité visuelle</div>
-            <h3>Un logo qui marque<br /><span class="gradient-text spotlight-title-sub">et donne envie de vous appeler.</span></h3>
-            <p>Vos clients jugent votre professionnalisme en quelques secondes. Je conçois une identité complète qui inspire confiance dès le premier regard — sur Google, sur vos cartes de visite, sur votre site.</p>
-            <div class="spotlight-features">
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
-                <div class="spotlight-feature-text"><strong>3 propositions de logo</strong><span>Des concepts uniques, alignés avec votre métier et vos valeurs.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Charte graphique complète</strong><span>Couleurs, typographies, déclinaisons cohérentes.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Tous les formats livrés</strong><span>SVG, PNG, PDF, AI… prêt pour le web et l'impression.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Utilisable immédiatement</strong><span>Votre identité prête à renforcer votre crédibilité.</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="spotlight-visual">
-            <div class="spotlight-iv-visual-wrap">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_section.png" alt="Exemple d'identité visuelle — NextLink Studio" class="spotlight-img" />
-              <div class="spotlight-iv-badge">
-                <div class="spotlight-iv-badge-icon">✅</div>
-                <div class="spotlight-iv-badge-text">
-                  <strong>Clé en main</strong>
-                  <span>logo, charte et<br />déclinaisons inclus</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="spotlight-iv-bottom">
-          <div class="spotlight-iv-bottom-stats">
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>100% sur mesure</strong>
-                <span>Aucune base de logo préfabriquée.</span>
-              </div>
-            </div>
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>Livraison rapide</strong>
-                <span>Premiers concepts en 3 à 5 jours. Livraison finale en 7 jours.</span>
-              </div>
-            </div>
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>Accompagnement inclus</strong>
-                <span>Échanges illimités jusqu'à votre entière satisfaction.</span>
-              </div>
-            </div>
-          </div>
-          <div class="spotlight-iv-bottom-cta">
-            <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" class="btn btn-primary btn-lg">Voir l'offre identité visuelle →</a>
-            <span class="spotlight-iv-devis">✓ Devis gratuit en moins de 24h</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Réseaux sociaux -->
-    <div class="spotlight-block spotlight-block--rs">
-      <div class="container">
-        <div class="spotlight-row">
-          <div class="spotlight-text">
-            <span class="spotlight-num">03</span>
-            <div class="section-badge">📱 Réseaux sociaux</div>
-            <h3>Vos chantiers mis en valeur,<br /><span class="gradient-text spotlight-title-sub">vos clients convaincus</span></h3>
-            <p>Je rédige et publie des contenus qui montrent votre savoir-faire — avant/après de chantiers, témoignages clients, astuces métier. Vos futurs clients voient du concret et vous contactent directement.</p>
-            <div class="spotlight-features">
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Posts rédigés et planifiés chaque semaine</strong><span>Un contenu régulier et stratégique pour rester visible toute l'année.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Visuels aux couleurs de votre charte</strong><span>Des visuels professionnels qui renforcent votre image de marque.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
-                <div class="spotlight-feature-text"><strong>LinkedIn et Instagram selon votre cible</strong><span>Les bons canaux pour toucher vos futurs clients.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Rapport mensuel de performance</strong><span>Suivi des résultats et recommandations pour progresser.</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="spotlight-visual">
-            <div class="spotlight-visual-wrap">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="Exemple de posts réseaux sociaux — NextLink Studio" class="spotlight-img" />
-              <div class="spotlight-stats-bar">
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>4 à 8 posts / mois</strong><span>Contenu régulier et adapté</span></div>
-                </div>
-                <div class="spotlight-stat-divider"></div>
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>Visibilité locale</strong><span>Présence optimisée</span></div>
-                </div>
-                <div class="spotlight-stat-divider"></div>
-                <div class="spotlight-stat">
-                  <div class="spotlight-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
-                  <div class="spotlight-stat-body"><strong>Rapport mensuel</strong><span>Résultats mesurables</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Création print -->
-    <div class="spotlight-block spotlight-block--print">
-      <div class="container">
-        <div class="spotlight-row spotlight-row--reverse">
-          <div class="spotlight-text">
-            <span class="spotlight-num">04</span>
-            <div class="section-badge">🖨️ Création print</div>
-            <h3>Des supports qui marquent les esprits et restent entre<br /><span class="gradient-text spotlight-title-sub">les mains de vos clients.</span></h3>
-            <p>Une carte de visite laissée sur place, un flyer dans les boîtes aux lettres du quartier, un kakémono sur votre chantier — le print prolonge votre visibilité là où internet ne suffit pas.</p>
-            <div class="spotlight-features">
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Cartes de visite, flyers, kakémonos</strong><span>Tous les supports pour être présent partout.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Cohérents avec votre identité visuelle</strong><span>Des designs professionnels, alignés à votre image.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Fichiers prêts à envoyer à l'imprimeur</strong><span>Formats HD, CMJN, avec fonds perdus.</span></div>
-              </div>
-              <div class="spotlight-feature">
-                <div class="spotlight-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
-                <div class="spotlight-feature-text"><strong>Retouches illimitées avant validation</strong><span>Jusqu'à ce que le résultat vous convienne à 100%.</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="spotlight-visual">
-            <div class="spotlight-iv-visual-wrap">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Exemple de création print — NextLink Studio" class="spotlight-img" />
-              <div class="spotlight-iv-badge">
-                <div class="spotlight-iv-badge-icon">✨</div>
-                <div class="spotlight-iv-badge-text">
-                  <strong>Une image pro, partout.</strong>
-                  <span>Un rappel constant de votre savoir-faire.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="spotlight-iv-bottom">
-          <div class="spotlight-iv-bottom-stats">
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>Livraison rapide</strong>
-                <span>Recevez vos supports partout en France.</span>
-              </div>
-            </div>
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>Impression premium</strong>
-                <span>Papiers et finitions de haute qualité.</span>
-              </div>
-            </div>
-            <div class="spotlight-iv-stat">
-              <div class="spotlight-iv-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
-              <div class="spotlight-iv-stat-body">
-                <strong>Tarifs maîtrisés</strong>
-                <span>Le meilleur rapport qualité / prix.</span>
-              </div>
-            </div>
-          </div>
-          <div class="spotlight-iv-bottom-cta">
-            <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="btn btn-primary btn-lg">Voir l'offre print →</a>
-            <span class="spotlight-iv-devis">✓ Devis gratuit en moins de 24h</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </section>
 
   <!-- COMMENT ÇA MARCHE -->
@@ -447,11 +282,11 @@ get_header();
           <div class="step-icon-badge">🚀</div>
           <div class="step-content">
             <h3>Mise en ligne & remise des fichiers</h3>
-            <p>Votre site est en ligne, votre logo livré en tous formats, vos supports prêts à l'emploi. Je reste disponible 30 jours après la livraison pour toute question ou ajustement.</p>
+            <p>Votre site est en ligne, votre logo livré en tous formats, vos supports prêts à l'emploi. Je reste disponible après la livraison pour toute question.</p>
             <ul class="step-details">
               <li>✓ Site mis en ligne ou fichiers livrés</li>
               <li>✓ Formation à la prise en main</li>
-              <li>✓ Support inclus 30 jours après livraison</li>
+              <li>✓ Disponible après livraison pour toute question</li>
             </ul>
           </div>
         </div>
@@ -485,22 +320,22 @@ get_header();
       <div class="portfolio-grid--triple">
         <div class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="ProfilBoost — posts Instagram">
-            <span class="pf-badge pf-badge--purple">Réseaux sociaux</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup.png" alt="ProfilBoost — site web">
+            <span class="pf-badge pf-badge--wood">Site web</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
-              <div class="pf-card-accent pf-card-accent--purple"></div>
-              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Réseaux sociaux</p></div>
+              <div class="pf-card-accent pf-card-accent--wood"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+200%</span><span class="pf-stat-label">d'abonnés</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">8 posts</span><span class="pf-stat-label">par mois</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+120%</span><span class="pf-stat-label">de commandes</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+80%</span><span class="pf-stat-label">trafic organique</span></div></div>
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="#" class="pf-card-site-link" data-src="">Voir le post →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-reseaux'); ?>" class="pf-card-cta pf-card-cta--purple">Voir l'étude de cas →</a>
+              <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
@@ -527,36 +362,33 @@ get_header();
         </div>
         <div class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Vert-Nature — site web jardinier paysagiste">
-            <span class="pf-badge pf-badge--green">Site web</span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_vertnature_mockup.png" alt="Vert-Nature — carrousel Instagram">
+            <span class="pf-badge pf-badge--green">Réseaux sociaux</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Jardinier</p></div>
+              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+85%</span><span class="pf-stat-label">de trafic web</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 5.59 5.59l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">×3</span><span class="pf-stat-label">appels entrants</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5 slides</span><span class="pf-stat-label">sur mesure</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">3 j</span><span class="pf-stat-label">de livraison</span></div></div>
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_vertnature_mockup.png" data-lightbox-alt="Post Instagram Vert-Nature">Voir le post →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="rp-bottom-bar">
-        <div class="rp-tagline"><span class="rp-rocket">🚀</span><span>Des résultats concrets, pas des promesses.</span></div>
-      </div>
-      <div class="text-center" style="margin-top:24px">
+      <div class="text-center" style="margin-top:48px">
         <a href="<?php echo nls_page_url( 'realisations' ); ?>" class="btn btn-primary btn-lg rp-cta-full">Voir toutes mes réalisations →</a>
       </div>
     </div>
   </section>
 
-  <!-- TÉMOIGNAGES -->
+  <!-- TÉMOIGNAGES — à remettre quand les vrais avis seront disponibles
   <section class="testimonials-section">
     <div class="container">
       <div class="section-header">
@@ -602,6 +434,7 @@ get_header();
       </div>
     </div>
   </section>
+  -->
 
   <!-- FAQ -->
   <section class="faq-section" id="faq">
@@ -713,37 +546,6 @@ get_header();
             <div class="faq-answer">
               <p>Un <strong>dossier complet prêt à imprimer</strong> : PDF HD avec fonds perdus, fichiers sources modifiables (Illustrator ou Canva) et tous les formats adaptés à chaque support. Envoi direct à l'imprimeur sans passer par moi.</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- Stats bar -->
-      <div class="faq-stats">
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">+120</span>
-            <span class="faq-stat-label">indépendants accompagnés</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">4,9/5</span>
-            <span class="faq-stat-label">note moyenne sur 50+ avis</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">98%</span>
-            <span class="faq-stat-label">de clients satisfaits</span>
-          </div>
-        </div>
-        <div class="faq-stat">
-          <span class="faq-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
-          <div class="faq-stat-body">
-            <span class="faq-stat-value">7 jours</span>
-            <span class="faq-stat-label">délai moyen de livraison</span>
           </div>
         </div>
       </div>

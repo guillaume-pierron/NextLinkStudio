@@ -55,6 +55,17 @@
     </div>
   </footer>
 
+  <!-- LIGHTBOX POST INSTAGRAM -->
+  <div id="nls-lightbox" class="nls-lightbox" role="dialog" aria-modal="true" aria-label="Aperçu du post Instagram">
+    <div class="nls-lightbox-backdrop"></div>
+    <div class="nls-lightbox-content">
+      <button class="nls-lightbox-close" aria-label="Fermer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <img id="nls-lightbox-img" src="" alt="">
+    </div>
+  </div>
+
   <?php wp_footer(); ?>
 </body>
 </html>
