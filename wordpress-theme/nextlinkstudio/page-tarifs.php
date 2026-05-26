@@ -5,248 +5,162 @@
 get_header();
 ?>
 
-  <!-- PAGE HERO TARIFS -->
-  <section class="th-hero">
-    <div class="container th-hero-inner">
-
-      <!-- GAUCHE -->
-      <div class="th-hero-left">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Tarifs</span></div>
-        <h1 class="th-title">
-          Des tarifs<br>
-          <span class="gradient-text">clairs &amp; honnêtes</span>
-        </h1>
-        <div class="th-title-accent"></div>
-        <p class="th-sub">Pas d'abonnement caché, pas de frais supplémentaires.<br>Vous savez exactement ce que vous payez avant de signer.</p>
-
-        <div class="th-trust">
-          <div class="th-trust-item">
-            <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-            Aucun<br><strong>engagement</strong>
-          </div>
-          <div class="th-trust-item">
-            <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
-            Paiement<br><strong>100% sécurisé</strong>
-          </div>
-          <div class="th-trust-item">
-            <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></span>
-            Support<br><strong>réactif</strong>
-          </div>
-          <div class="th-trust-item">
-            <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.99"/></svg></span>
-            Satisfait ou<br><strong>remboursé 14j</strong>
-          </div>
+  <!-- GRILLE TARIFS -->
+  <section class="tarifs-page" id="tarifs-detail">
+    <div class="container">
+      <!-- TARIFS À LA CARTE -->
+      <div class="tc-section">
+        <div class="tc-header">
+          <div class="section-badge">À la carte</div>
+          <h2 class="tc-title">Un seul service ? <span class="gradient-text">C'est possible.</span></h2>
+          <p class="tc-sub">Pas besoin d'un pack complet — commandez exactement ce dont vous avez besoin.</p>
         </div>
+        <div class="tc-grid">
 
-        <div class="th-actions">
-          <a href="#tarifs-detail" class="btn btn-primary btn-lg">Découvrir mon approche →</a>
-          <a href="<?php echo nls_page_url('realisations'); ?>" class="th-link">Voir des exemples →</a>
-        </div>
-      </div>
-
-      <!-- DROITE — carte formules flottante -->
-      <div class="th-hero-right" aria-hidden="true">
-        <div class="th-blob th-blob--1"></div>
-        <div class="th-blob th-blob--2"></div>
-
-        <div class="th-pricing-card">
-          <p class="th-pricing-card-title">Trois formules adaptées <span class="gradient-text">à chaque besoin</span></p>
-          <div class="th-pricing-rows">
-            <div class="th-pricing-row">
-              <div class="th-pricing-row-icon th-icon--blue">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <!-- SITE WEB -->
+          <div class="tc-card tc-card--purple">
+            <div class="tc-card-head">
+              <div class="tc-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
               </div>
-              <div class="th-pricing-row-body">
-                <strong>Essentiel</strong>
-                <span>L'essentiel pour bien démarrer.</span>
+              <div>
+                <div class="tc-name">Site web</div>
+                <div class="tc-from">à partir de <strong>500 €</strong></div>
               </div>
-              <div class="th-pricing-row-price">790 €</div>
             </div>
-            <div class="th-pricing-row th-pricing-row--featured">
-              <div class="th-pricing-row-icon th-icon--purple">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
-              </div>
-              <div class="th-pricing-row-body">
-                <strong>Pro</strong>
-                <span>Pour aller plus loin, plus vite.</span>
-              </div>
-              <div class="th-pricing-row-price th-price--purple">1 290 €</div>
-            </div>
-            <div class="th-pricing-row">
-              <div class="th-pricing-row-icon th-icon--gold">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7z"/><path d="M5 20h14"/></svg>
-              </div>
-              <div class="th-pricing-row-body">
-                <strong>Prestige</strong>
-                <span>Pour des projets sans limites.</span>
-              </div>
-              <div class="th-pricing-row-price">1 890 €</div>
-            </div>
+            <ul class="tc-list">
+              <li>
+                <div class="tc-list-label">Vitrine simple <span class="tc-list-sub">1–3 pages</span></div>
+                <div class="tc-list-price">490 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Vitrine complète <span class="tc-list-sub">5 pages + SEO</span></div>
+                <div class="tc-list-price">790 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Pro <span class="tc-list-sub">8 pages + devis + réservation</span></div>
+                <div class="tc-list-price">1 290 €</div>
+              </li>
+            </ul>
+            <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
           </div>
-          <a href="#tarifs-detail" class="th-pricing-card-link">Comparaison détaillée ↓</a>
-        </div>
 
-        <div class="th-badge-float">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 15 11 17 15 13"/></svg>
+          <!-- IDENTITÉ VISUELLE -->
+          <div class="tc-card tc-card--orange">
+            <div class="tc-card-head">
+              <div class="tc-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+              </div>
+              <div>
+                <div class="tc-name">Identité visuelle</div>
+                <div class="tc-from">à partir de <strong>299 €</strong></div>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>
+                <div class="tc-list-label">Logo seul <span class="tc-list-sub">3 propositions</span></div>
+                <div class="tc-list-price">299 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Logo + charte graphique <span class="tc-list-sub">couleurs, typos, règles</span></div>
+                <div class="tc-list-price">499 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Pack complet <span class="tc-list-sub">logo + charte + supports</span></div>
+                <div class="tc-list-price">790 €</div>
+              </li>
+            </ul>
+            <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+          </div>
+
+          <!-- RÉSEAUX SOCIAUX -->
+          <div class="tc-card tc-card--blue">
+            <div class="tc-card-head">
+              <div class="tc-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <div>
+                <div class="tc-name">Réseaux sociaux</div>
+                <div class="tc-from">à partir de <strong>49 €</strong></div>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>
+                <div class="tc-list-label">Post à l'unité <span class="tc-list-sub">visuel + texte</span></div>
+                <div class="tc-list-price">49 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">4 posts / mois <span class="tc-list-sub">publication incluse</span></div>
+                <div class="tc-list-price">149 €<span class="tc-mo">/mois</span></div>
+              </li>
+              <li>
+                <div class="tc-list-label">8 posts / mois <span class="tc-list-sub">+ rapport mensuel</span></div>
+                <div class="tc-list-price">249 €<span class="tc-mo">/mois</span></div>
+              </li>
+            </ul>
+            <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+          </div>
+
+          <!-- PRINT -->
+          <div class="tc-card tc-card--green">
+            <div class="tc-card-head">
+              <div class="tc-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+              </div>
+              <div>
+                <div class="tc-name">Print</div>
+                <div class="tc-from">à partir de <strong>49 €</strong></div>
+              </div>
+            </div>
+            <ul class="tc-list">
+              <li>
+                <div class="tc-list-label">Flyer A5 recto <span class="tc-list-sub">PDF haute résolution</span></div>
+                <div class="tc-list-price">49 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Flyer A5 recto/verso</div>
+                <div class="tc-list-price">79 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Carte de visite <span class="tc-list-sub">design + fichier</span></div>
+                <div class="tc-list-price">69 €</div>
+              </li>
+              <li>
+                <div class="tc-list-label">Roll-up / kakémono</div>
+                <div class="tc-list-price">149 €</div>
+              </li>
+            </ul>
+            <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+          </div>
+
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- GRILLE TARIFS -->
-  <section class="tarifs-page" id="tarifs-detail">
+  <!-- GARANTIES -->
+  <section class="th-trust-section">
     <div class="container">
-      <div class="pricing-grid-page">
-
-        <div class="pricing-card-page">
-          <div class="pcp-header">
-            <div class="pcp-icon">🌐</div>
-            <div class="pcp-name">Essentiel</div>
-            <div class="pcp-price"><span>790</span>€</div>
-            <div class="pcp-billing">paiement unique</div>
-            <p class="pcp-pitch">Le démarrage idéal pour les artisans qui veulent une présence professionnelle en ligne rapidement.</p>
-          </div>
-          <div class="pcp-body">
-            <div class="pcp-section-title">Site web</div>
-            <ul class="pcp-features">
-              <li class="yes">Site vitrine 5 pages</li>
-              <li class="yes">Design professionnel sur mesure</li>
-              <li class="yes">Optimisation SEO local</li>
-              <li class="yes">Adapté mobile &amp; tablette</li>
-              <li class="yes">Formulaire de contact</li>
-              <li class="yes">Hébergement 1 an offert</li>
-              <li class="yes">Nom de domaine inclus</li>
-              <li class="no">Devis en ligne</li>
-              <li class="no">Réservation de créneaux</li>
-            </ul>
-            <div class="pcp-section-title">Identité visuelle</div>
-            <ul class="pcp-features">
-              <li class="no">Logo</li>
-              <li class="no">Charte graphique</li>
-              <li class="no">Supports de communication</li>
-            </ul>
-            <div class="pcp-section-title">LinkedIn</div>
-            <ul class="pcp-features">
-              <li class="no">Réseaux sociaux</li>
-            </ul>
-          </div>
-          <div class="pcp-footer">
-            <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-outline btn-full">Choisir Essentiel</a>
-          </div>
+      <h2 class="th-trust-title">Mon engagement <span class="gradient-text">envers vous</span></h2>
+      <div class="th-trust-bar">
+        <div class="th-trust-item">
+          <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+          <div><strong>Aucun engagement</strong><span>Pas de contrat longue durée imposé</span></div>
         </div>
-
-        <div class="pricing-card-page featured">
-          <div class="pcp-popular">⭐ Le plus choisi</div>
-          <div class="pcp-header">
-            <div class="pcp-icon">🚀</div>
-            <div class="pcp-name">Pro</div>
-            <div class="pcp-price"><span>1 290</span>€</div>
-            <div class="pcp-billing">paiement unique</div>
-            <p class="pcp-pitch">L'offre complète pour les artisans qui veulent travailler moins le téléphone et plus sur le chantier.</p>
-          </div>
-          <div class="pcp-body">
-            <div class="pcp-section-title">Site web</div>
-            <ul class="pcp-features">
-              <li class="yes">Site vitrine <strong>8 pages</strong></li>
-              <li class="yes">Design premium sur mesure</li>
-              <li class="yes">SEO local avancé</li>
-              <li class="yes">Adapté mobile &amp; tablette</li>
-              <li class="yes">Formulaire de contact</li>
-              <li class="yes">Hébergement 1 an offert</li>
-              <li class="yes">Nom de domaine inclus</li>
-              <li class="yes"><strong>Devis en ligne intégré</strong></li>
-              <li class="yes"><strong>Réservation de créneaux</strong></li>
-            </ul>
-            <div class="pcp-section-title">Identité visuelle</div>
-            <ul class="pcp-features">
-              <li class="yes"><strong>Logo offert</strong></li>
-              <li class="yes">Charte graphique</li>
-              <li class="no">Supports de communication</li>
-            </ul>
-            <div class="pcp-section-title">LinkedIn</div>
-            <ul class="pcp-features">
-              <li class="no">Réseaux sociaux</li>
-            </ul>
-          </div>
-          <div class="pcp-footer">
-            <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-full">Choisir Pro</a>
-          </div>
+        <div class="th-trust-item">
+          <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+          <div><strong>Paiement 100% sécurisé</strong><span>Virement ou carte, en toute sécurité</span></div>
         </div>
-
-        <div class="pricing-card-page">
-          <div class="pcp-header">
-            <div class="pcp-icon">👑</div>
-            <div class="pcp-name">Prestige</div>
-            <div class="pcp-price"><span>1 890</span>€</div>
-            <div class="pcp-billing">+ 149€/mois (LinkedIn)</div>
-            <p class="pcp-pitch">Pour les artisans qui visent haut : image impeccable, présence maximale, croissance continue.</p>
-          </div>
-          <div class="pcp-body">
-            <div class="pcp-section-title">Site web</div>
-            <ul class="pcp-features">
-              <li class="yes">Site <strong>illimité en pages</strong></li>
-              <li class="yes">Design premium sur mesure</li>
-              <li class="yes">SEO local avancé</li>
-              <li class="yes">Adapté mobile &amp; tablette</li>
-              <li class="yes">Formulaire de contact</li>
-              <li class="yes"><strong>Hébergement offert à vie</strong></li>
-              <li class="yes">Nom de domaine inclus</li>
-              <li class="yes">Devis en ligne intégré</li>
-              <li class="yes">Réservation de créneaux</li>
-            </ul>
-            <div class="pcp-section-title">Identité visuelle</div>
-            <ul class="pcp-features">
-              <li class="yes">Logo offert</li>
-              <li class="yes">Charte graphique complète</li>
-              <li class="yes">Supports de communication</li>
-            </ul>
-            <div class="pcp-section-title">LinkedIn</div>
-            <ul class="pcp-features">
-              <li class="yes"><strong>8 posts/mois</strong></li>
-              <li class="yes">Rédaction + visuels</li>
-              <li class="yes">Rapport mensuel</li>
-            </ul>
-          </div>
-          <div class="pcp-footer">
-            <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-outline btn-full">Choisir Prestige</a>
-          </div>
+        <div class="th-trust-item">
+          <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></span>
+          <div><strong>Support réactif</strong><span>Réponse sous 24h, humaine et directe</span></div>
         </div>
-
-      </div>
-
-      <!-- OPTIONS À LA CARTE -->
-      <div class="options-carte">
-        <h3>Options à la carte</h3>
-        <p>Vous voulez ajouter un service à votre offre ? C'est possible.</p>
-        <div class="options-grid">
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>
-            <div><strong>Logo seul</strong><span>290€</span></div>
-          </div>
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>
-            <div><strong>Réseaux sociaux (4/mois)</strong><span>99€/mois</span></div>
-          </div>
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
-            <div><strong>Réseaux sociaux (8/mois)</strong><span>149€/mois</span></div>
-          </div>
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
-            <div><strong>Réservation créneaux seule</strong><span>+150€</span></div>
-          </div>
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></span>
-            <div><strong>Devis en ligne seul</strong><span>+120€</span></div>
-          </div>
-          <div class="option-item">
-            <span class="option-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></span>
-            <div><strong>Supports print (cartes, flyers)</strong><span>à partir de 90€</span></div>
-          </div>
+        <div class="th-trust-item">
+          <span class="th-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.99"/></svg></span>
+          <div><strong>Satisfait ou remboursé 14j</strong><span>Si le rendu ne vous convient pas</span></div>
         </div>
       </div>
-
     </div>
   </section>
 

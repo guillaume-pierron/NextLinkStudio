@@ -505,7 +505,7 @@ get_header();
       <div class="sw-real-grid">
         <div class="sw-real-card">
           <div class="sw-real-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Site web Vert Nature" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature_bg.png" alt="Site web Vert Nature" />
           </div>
           <div class="sw-real-info">
             <div class="sw-real-meta">
@@ -517,7 +517,7 @@ get_header();
         </div>
         <div class="sw-real-card">
           <div class="sw-real-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup.png" alt="Site web ProfilBoost" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup_bg.png" alt="Site web ProfilBoost" />
           </div>
           <div class="sw-real-info">
             <div class="sw-real-meta">

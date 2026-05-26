@@ -284,7 +284,7 @@ get_header();
       <div class="sw-real-grid iv-real-single">
         <div class="pf-card">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature.png" alt="Vert-Nature — flyer publicitaire">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Vert-Nature — flyer publicitaire">
             <span class="pf-badge pf-badge--green">Print</span>
           </div>
           <div class="pf-card-body">
