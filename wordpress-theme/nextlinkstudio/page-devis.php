@@ -16,8 +16,6 @@ get_header();
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 15 11 17 15 13"/></svg>
             </div>
             <div class="section-badge" style="margin-bottom: 16px;">Devis personnalisé</div>
-            <h2 class="dv-card-title">Parlons de<br /><span class="gradient-text">votre projet</span></h2>
-            <p class="dv-card-desc">Remplissez ce formulaire et je vous recontacte sous 24h — sans engagement, sans jargon, juste une vraie conversation sur ce que je peux faire pour vous.</p>
             <div class="contact-reassurance">
               <div class="reassurance-item"><span class="ri-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><span>Réponse sous 24h garantie</span></div>
               <div class="reassurance-item"><span class="ri-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><span>Devis personnalisé et gratuit</span></div>
@@ -33,6 +31,10 @@ get_header();
         </div>
 
         <div class="dv-cf7-wrap">
+          <div class="dv-form-header">
+            <h2 class="dv-card-title">Parlons de <span class="gradient-text">votre projet</span></h2>
+            <p class="dv-card-desc">Parlez-moi de votre projet. Je vous réponds sous 24h, sans engagement.</p>
+          </div>
           <?php
           if ( function_exists( 'wpcf7_contact_form' ) ) {
               $forms = WPCF7_ContactForm::find( [ 'title' => 'Devis NextLink Studio' ] );
