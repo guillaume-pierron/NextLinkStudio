@@ -56,7 +56,7 @@
               <div class="dm-header">Mes expertises</div>
               <a href="<?php echo nls_page_url( 'site-web' ); ?>" class="dropdown-item di-web">
                 <div class="di-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
-                <div class="di-text"><strong>Création de site web</strong><small>Design sur mesure, livré en 7 jours</small></div>
+                <div class="di-text"><strong>Création de site web</strong><small>Design sur mesure, Livraison rapide</small></div>
                 <span class="di-arrow">→</span>
               </a>
               <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" class="dropdown-item di-design">

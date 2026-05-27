@@ -174,15 +174,15 @@ get_header();
       <div class="faq-list">
         <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Y a-t-il des frais cachés après la livraison ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
-          <div class="faq-answer"><p>Non. Le prix affiché est le prix final. L'hébergement est offert la première année (Essentiel &amp; Pro) ou à vie (Prestige). Au renouvellement, l'hébergement coûte environ 8€/mois.</p></div>
+          <div class="faq-answer"><p>Non. Le prix affiché est le prix final. Pour les sites web, l'hébergement est à prévoir en plus — comptez environ 8–10 €/mois selon l'hébergeur choisi. Pour les autres prestations (identité visuelle, print, réseaux sociaux), tout est livré en une fois, sans abonnement.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Est-ce que je peux payer en plusieurs fois ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
-          <div class="faq-answer"><p>Oui, je propose un paiement en 2 ou 3 fois sans frais. 50% à la commande, le reste à la livraison.</p></div>
+          <div class="faq-answer"><p>Vous ne payez qu'à la livraison. Aucun règlement avant que le projet soit terminé et que vous soyez satisfait.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Combien de temps prend la création du site ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
-          <div class="faq-answer"><p>7 jours ouvrés en moyenne, du premier appel à la mise en ligne.</p></div>
+          <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Combien de temps prend la réalisation d'un projet ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
+          <div class="faq-answer"><p>Tout dépend de la prestation. Un flyer ou des visuels réseaux sociaux sont livrés en quelques jours. Une identité visuelle prend 1 à 2 semaines. Un site web vitrine nécessite en général 2 à 4 semaines, du premier échange à la mise en ligne.</p></div>
         </div>
       </div>
     </div>

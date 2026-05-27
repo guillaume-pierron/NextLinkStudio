@@ -15,7 +15,7 @@ get_header();
           <span class="gradient-text ap-hero-title-name">NextLink Studio</span>
           <span class="ap-hero-underline"></span>
         </h1>
-        <p class="ap-hero-sub">Je construis des présences digitales pour les artisans qui <strong>méritent d'être vus</strong>.</p>
+        <p class="ap-hero-sub">Je construis des présences digitales pour les artisans et indépendants qui <strong>méritent d'être vus</strong>.</p>
         <div class="ap-hero-features">
           <div class="ap-hero-feature">
             <div class="ap-feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
@@ -103,7 +103,7 @@ get_header();
     <div class="container">
       <blockquote class="about-quote">
         <span class="about-quote-mark">❝</span>
-        <p>Je ne crée pas de beaux sites pour le plaisir. Je crée des outils qui remplissent votre agenda — et qui travaillent pour vous quand vous êtes sur le chantier.</p>
+        <p>Je ne crée pas pour faire joli. Je crée pour que vous soyez vu, reconnu et choisi — que ce soit en ligne, sur les réseaux ou dans la rue.</p>
         <cite>Guillaume, fondateur de NextLink Studio</cite>
       </blockquote>
     </div>
@@ -123,7 +123,7 @@ get_header();
           <span class="av-card-num">01</span>
           <h3 class="av-card-title">Rapidité</h3>
           <div class="av-card-line"></div>
-          <p>Votre site en ligne en 7 jours. Votre logo en 72h. Pas de délais qui s'étirent pendant que vous perdez des clients.</p>
+          <p>Des délais courts et tenus. Pas de semaines d'attente, pas de relances — vous recevez votre livrable dans les temps, sans perdre d'élan.</p>
           <div class="av-card-tag">⏱ Des délais courts, tenus.</div>
         </div>
         <div class="av-card">
@@ -131,7 +131,7 @@ get_header();
           <span class="av-card-num">02</span>
           <h3 class="av-card-title">Clarté</h3>
           <div class="av-card-line"></div>
-          <p>Zéro jargon, zéro mauvaise surprise. Un devis clair, un tarif fixe, des livrables précis.</p>
+          <p>Zéro jargon, zéro mauvaise surprise. Un devis clair, un tarif fixe, des livrables précis. Vous savez exactement ce que vous obtenez, pour combien, et quand.</p>
           <div class="av-card-tag">📄 Transparence à chaque étape.</div>
         </div>
         <div class="av-card">

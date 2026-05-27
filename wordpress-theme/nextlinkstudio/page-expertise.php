@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Template Name: Expertise
  */
@@ -16,7 +16,7 @@ get_header();
         <a href="<?php echo nls_page_url('site-web'); ?>" class="preview-card pc-web">
           <div class="preview-card-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--cc)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
           <h3>Création de site web</h3>
-          <p>Design sur mesure, mobile-first, SEO local. Livré en 7 jours avec devis en ligne et réservation de créneaux intégrés.</p>
+          <p>Design sur mesure, mobile-first, SEO local. Livraison rapide avec devis en ligne et réservation de créneaux intégrés.</p>
           <span class="preview-card-link">Découvrir <span class="pca">→</span></span>
         </a>
         <a href="<?php echo nls_page_url('identite-visuelle'); ?>" class="preview-card pc-design">
