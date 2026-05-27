@@ -62,7 +62,7 @@ get_header();
             </div>
             <div class="form-trust-item">
               <span class="form-trust-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
-              <div><strong>Réponse rapide</strong><span>Je vous recontacte sous 24h</span></div>
+              <div><strong>Réponse rapide</strong><span>Retour dans les 24h</span></div>
             </div>
           </div>
           <p class="form-legal">En soumettant ce formulaire, vous acceptez d'être recontacté par NextLink Studio. Aucune donnée n'est revendue.</p>

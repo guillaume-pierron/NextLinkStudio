@@ -4427,6 +4427,7 @@ body {
   .contact-grid      { grid-template-columns: 1fr; }
   .dv-cf7-wrap       { order: -1; }
   .dv-left           { order: 1; }
+  .dv-contact-card   { margin-bottom: 32px; }
   .dv-form-header    { text-align: center; }
   .contact           { padding: 120px 0 0; margin-bottom: -8px; }
   .form-trust-item   { flex-direction: column; align-items: flex-start; gap: 6px; }
