@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Template Name: Création de site web
  */
@@ -13,7 +13,7 @@ get_header();
         <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <a href="<?php echo nls_page_url('expertise'); ?>">Expertise</a> / <span>Création de site web</span></div>
         <div class="sw-hero-badge">🔧 Création de site web</div>
         <h1>Un site web qui<br /><span class="gradient-text">travaille pour vous</span></h1>
-        <p>Votre site vitrine est votre meilleur commercial : il répond aux clients à 3h du matin, accepte les demandes de devis pendant que vous posez des carreaux, et réserve vos créneaux pendant que vous câblez une prise.</p>
+        <p>Votre site vitrine est votre meilleur commercial : il répond aux clients, accepte les devis et remplit votre agenda — 24h/24, même quand vous avez les mains occupées.</p>
         <div class="sw-hero-tags">
           <span class="sw-hero-tag"><span class="sw-hero-check">✓</span>SEO local</span>
           <span class="sw-hero-tag"><span class="sw-hero-check">✓</span>Design sur mesure</span>
@@ -40,7 +40,7 @@ get_header();
       <span>Devis en ligne</span><span class="sw-sep">✦</span>
       <span>Agenda intégré</span><span class="sw-sep">✦</span>
       <span>Hébergement inclus</span><span class="sw-sep">✦</span>
-      <span>Livré en 7 jours</span><span class="sw-sep">✦</span>
+      <span>Livraison rapide</span><span class="sw-sep">✦</span>
       <span>Google Maps optimisé</span><span class="sw-sep">✦</span>
       <span>Site ultra-rapide</span><span class="sw-sep">✦</span>
       <span>Référencement Google</span><span class="sw-sep">✦</span>
@@ -50,7 +50,7 @@ get_header();
       <span>Devis en ligne</span><span class="sw-sep">✦</span>
       <span>Agenda intégré</span><span class="sw-sep">✦</span>
       <span>Hébergement inclus</span><span class="sw-sep">✦</span>
-      <span>Livré en 7 jours</span><span class="sw-sep">✦</span>
+      <span>Livraison rapide</span><span class="sw-sep">✦</span>
       <span>Google Maps optimisé</span><span class="sw-sep">✦</span>
       <span>Site ultra-rapide</span><span class="sw-sep">✦</span>
     </div>
@@ -142,7 +142,7 @@ get_header();
       <div class="sw-features-header">
         <div class="section-badge">Création de site web</div>
         <h2>Tout ce que votre site<br><span class="gradient-text">fait pour vous</span></h2>
-        <p>Design sur mesure, mobile-first, SEO local optimisé. Livré en 7 jours — vous vous concentrez sur votre métier.</p>
+        <p>Design sur mesure, mobile-first, SEO local optimisé. Livraison rapide — vous vous concentrez sur votre métier.</p>
       </div>
       <div class="sw-highlights">
         <div class="sw-highlight">
@@ -502,29 +502,47 @@ get_header();
         <div class="section-badge">Réalisations</div>
         <h2>Des sites qui <span class="gradient-text">convertissent</span></h2>
       </div>
-      <div class="sw-real-grid">
-        <div class="sw-real-card">
-          <div class="sw-real-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature_bg.png" alt="Site web Vert Nature" />
+      <div class="portfolio-grid--triple" style="grid-template-columns: repeat(2, 1fr); max-width: 780px; margin: 0 auto;">
+        <div class="pf-card" data-category="site-web">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature_bg.png" alt="Site web Vert Nature">
+            <span class="pf-badge pf-badge--green">Site web</span>
           </div>
-          <div class="sw-real-info">
-            <div class="sw-real-meta">
-              <strong>Vert Nature</strong>
-              <span>Paysagiste — Région parisienne</span>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--green"></div>
+              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Paysagiste — Région parisienne</p></div>
             </div>
-            <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="sw-real-link">Voir le projet →</a>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">SEO</span><span class="pf-stat-label">optimisé</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
+            </div>
+            <div class="pf-card-actions">
+              <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+            </div>
           </div>
         </div>
-        <div class="sw-real-card">
-          <div class="sw-real-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup_bg.png" alt="Site web ProfilBoost" />
+        <div class="pf-card" data-category="site-web">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_mockup_bg.png" alt="Site web ProfilBoost">
+            <span class="pf-badge pf-badge--wood">Site web</span>
           </div>
-          <div class="sw-real-info">
-            <div class="sw-real-meta">
-              <strong>ProfilBoost</strong>
-              <span>Coach LinkedIn — Paris</span>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--wood"></div>
+              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Coach LinkedIn — Paris</p></div>
             </div>
-            <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="sw-real-link">Voir le projet →</a>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">SEO</span><span class="pf-stat-label">optimisé</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
+            </div>
+            <div class="pf-card-actions">
+              <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+            </div>
           </div>
         </div>
       </div>

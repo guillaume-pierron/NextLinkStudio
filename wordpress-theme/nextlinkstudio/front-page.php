@@ -135,14 +135,14 @@ get_header();
       <span>🎨 Identité visuelle sur mesure</span><span class="mid-ticker-sep">·</span>
       <span>📱 Réseaux sociaux gérés pour vous</span><span class="mid-ticker-sep">·</span>
       <span>🖨️ Flyers, cartes de visite, kakémonos</span><span class="mid-ticker-sep">·</span>
-      <span>⚡ Livré en 7 jours</span><span class="mid-ticker-sep">·</span>
+      <span>⚡ Livraison rapide</span><span class="mid-ticker-sep">·</span>
       <span>📍 SEO local optimisé</span><span class="mid-ticker-sep">·</span>
       <span>✓ Sans engagement</span><span class="mid-ticker-sep">·</span>
       <span>🌐 Site web professionnel</span><span class="mid-ticker-sep">·</span>
       <span>🎨 Identité visuelle sur mesure</span><span class="mid-ticker-sep">·</span>
       <span>📱 Réseaux sociaux gérés pour vous</span><span class="mid-ticker-sep">·</span>
       <span>🖨️ Flyers, cartes de visite, kakémonos</span><span class="mid-ticker-sep">·</span>
-      <span>⚡ Livré en 7 jours</span><span class="mid-ticker-sep">·</span>
+      <span>⚡ Livraison rapide</span><span class="mid-ticker-sep">·</span>
       <span>📍 SEO local optimisé</span><span class="mid-ticker-sep">·</span>
       <span>✓ Sans engagement</span><span class="mid-ticker-sep">·</span>
     </div>
@@ -164,11 +164,11 @@ get_header();
             </div>
             <div class="sgs-card-content">
               <span class="sgs-num">01</span><div class="sgs-title-row"><h3>Création de site web</h3></div>
-              <p>Design sur mesure, mobile-first, SEO local optimisé. Votre site accepte les devis et réserve vos créneaux 24h/24, pendant que vous êtes sur le chantier.</p>
+              <p>Design sur mesure, mobile-first, SEO local optimisé. Votre site accepte les devis et réserve vos créneaux 24h/24, pour ne manquer aucune opportunité.</p>
               <ul class="sgs-tags">
                 <li>SEO local</li>
                 <li>Devis en ligne</li>
-                <li>Livré en 7 jours</li>
+                <li>Livraison rapide</li>
               </ul>
             </div>
           </div>
@@ -183,9 +183,9 @@ get_header();
               <span class="sgs-num">02</span><div class="sgs-title-row"><h3>Identité visuelle</h3></div>
               <p>Logo, charte graphique et supports livrés en 3 propositions uniques. Une image à la hauteur de votre professionnalisme, dès le premier regard.</p>
               <ul class="sgs-tags">
-                <li>3 propositions</li>
-                <li>Charte complète</li>
-                <li>Tous formats</li>
+                <li>Logo personnalisé</li>
+                <li>Charte graphique complète</li>
+                <li>Supports prêts à l'emploi</li>
               </ul>
             </div>
           </div>
@@ -219,7 +219,7 @@ get_header();
               <ul class="sgs-tags">
                 <li>Fichiers HD</li>
                 <li>Retouches illimitées</li>
-                <li>Livré en 7 jours</li>
+                <li>Livraison rapide</li>
               </ul>
             </div>
           </div>
@@ -269,9 +269,9 @@ get_header();
           <div class="step-icon-badge">✏️</div>
           <div class="step-content">
             <h3>Je crée, vous validez</h3>
-            <p>Premiers visuels livrés en 48h. Vous donnez votre retour, j'ajuste — autant de fois que nécessaire, jusqu'à ce que le résultat vous convienne à 100%.</p>
+            <p>Une première direction visuelle pour poser les bases. Ajustements et évolutions suivent jusqu'au rendu final recherché.</p>
             <ul class="step-details">
-              <li>✓ Premiers visuels en 48h</li>
+              <li>✓ Concept visuel sur mesure</li>
               <li>✓ Retouches illimitées incluses</li>
               <li>✓ Vous validez chaque étape</li>
             </ul>
@@ -329,9 +329,9 @@ get_header();
               <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+120%</span><span class="pf-stat-label">de commandes</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+80%</span><span class="pf-stat-label">trafic organique</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">SEO</span><span class="pf-stat-label">optimisé</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
             </div>
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
@@ -350,9 +350,9 @@ get_header();
               <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5 slides</span><span class="pf-stat-label">sur mesure</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">3 j</span><span class="pf-stat-label">de livraison</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Slides</span><span class="pf-stat-label">prenium</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Contenu</span><span class="pf-stat-label">cohérent</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">personnalisé</span></div></div>
             </div>
             <div class="pf-card-actions">
               <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_vertnature_mockup.png" data-lightbox-alt="Post Instagram Vert-Nature">Voir le post →</a>
@@ -371,9 +371,9 @@ get_header();
               <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">+60%</span><span class="pf-stat-label">de visibilité</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">7 j.</span><span class="pf-stat-label">délai de livraison</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Logo</span><span class="pf-stat-label">personnalisé</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Charte</span><span class="pf-stat-label">complète</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Supports</span><span class="pf-stat-label">inclus</span></div></div>
             </div>
             <div class="pf-card-actions">
               <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
@@ -500,7 +500,7 @@ get_header();
               <span class="faq-chevron">⌄</span>
             </button>
             <div class="faq-answer">
-              <p>En général <strong>7 jours ouvrés</strong> de bout en bout : appel le jour 1, premiers visuels sous 48h, retouches sur 2-3 jours, livraison finale à J+7. Si votre projet est plus complexe, je vous en informe dès le devis.</p>
+              <p>Le délai dépend du service et du nombre d'allers-retours. En règle générale : <strong>2 à 4 jours</strong> pour un support print, <strong>1 à 2 semaines</strong> pour une identité visuelle, <strong>2 à 4 semaines</strong> pour un site web selon sa complexité. Plus vous êtes disponible pour valider les étapes, plus ça avance vite. Je vous communique une estimation précise dès le premier appel.</p>
             </div>
           </div>
           <div class="faq-item">

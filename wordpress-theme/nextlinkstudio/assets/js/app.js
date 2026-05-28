@@ -153,6 +153,33 @@ function toggleFaq(btn) {
   }
 }
 
+/* ── TEXTAREA AUTO-RESIZE ── */
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.dv-cf7-wrap textarea').forEach(function (ta) {
+    ta.addEventListener('input', function () {
+      this.style.height = 'auto';
+      this.style.height = this.scrollHeight + 'px';
+    });
+  });
+});
+
+/* ── CF7 REDIRECT MERCI ── */
+document.addEventListener('wpcf7submit', function () {
+  const wrap = document.querySelector('.dv-cf7-wrap');
+  if (wrap) { wrap.style.transition = 'opacity 0.2s ease'; wrap.style.opacity = '0'; }
+});
+document.addEventListener('wpcf7invalid', function () {
+  const wrap = document.querySelector('.dv-cf7-wrap');
+  if (wrap) wrap.style.opacity = '1';
+});
+document.addEventListener('wpcf7mailfailed', function () {
+  const wrap = document.querySelector('.dv-cf7-wrap');
+  if (wrap) wrap.style.opacity = '1';
+});
+document.addEventListener('wpcf7mailsent', function () {
+  window.location.href = '/merci';
+});
+
 /* ── LEAD MAGNET ── */
 function handleLeadMagnet(e) {
   e.preventDefault();

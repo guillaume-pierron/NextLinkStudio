@@ -274,15 +274,16 @@ get_header();
     </div>
   </section>
 
+
   <!-- RÉALISATIONS -->
   <section class="sw-realisations pt-realisations">
     <div class="container">
       <div class="sw-real-header">
         <div class="section-badge">Réalisations</div>
-        <h2>Des exemples de <span class="gradient-text">créations print</span></h2>
+        <h2>Un exemple de <span class="gradient-text">réalisation</span></h2>
       </div>
-      <div class="sw-real-grid iv-real-single">
-        <div class="pf-card">
+      <div class="portfolio-grid--triple" style="grid-template-columns: 1fr; max-width: 380px; margin: 0 auto;">
+        <div class="pf-card" data-category="print">
           <div class="pf-card-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Vert-Nature — flyer publicitaire">
             <span class="pf-badge pf-badge--green">Print</span>
@@ -293,9 +294,9 @@ get_header();
               <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Flyer publicitaire</p></div>
             </div>
             <div class="pf-stats">
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Format A5</span><span class="pf-stat-label">prêt à imprimer</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">2 j</span><span class="pf-stat-label">de livraison</span></div></div>
-              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">5/5</span><span class="pf-stat-label">satisfaction client</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Format</span><span class="pf-stat-label">A5</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Fichier</span><span class="pf-stat-label">prêt</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">pro</span></div></div>
             </div>
             <div class="pf-card-actions">
               <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_vert_nature.png" data-lightbox-alt="Flyer Vert-Nature">Voir le flyer →</a>
