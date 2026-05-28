@@ -553,6 +553,7 @@ get_header();
   </section>
 
   <!-- LEAD MAGNET -->
+  <!--
   <section class="lead-magnet">
     <div class="container">
       <div class="lead-magnet-inner">
@@ -571,6 +572,7 @@ get_header();
       </div>
     </div>
   </section>
+  -->
 
   <!-- CTA FINAL -->
   <section class="cta-final">

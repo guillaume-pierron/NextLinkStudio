@@ -10,7 +10,6 @@ get_header();
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <a href="<?php echo nls_page_url('expertise'); ?>">Expertise</a> / <span>Création de site web</span></div>
         <div class="sw-hero-badge">🔧 Création de site web</div>
         <h1>Un site web qui<br /><span class="gradient-text">travaille pour vous</span></h1>
         <p>Votre site vitrine est votre meilleur commercial : il répond aux clients, accepte les devis et remplit votre agenda — 24h/24, même quand vous avez les mains occupées.</p>

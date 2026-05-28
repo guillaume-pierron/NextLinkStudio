@@ -6,11 +6,10 @@ get_header();
 ?>
 
   <!-- PAGE HERO -->
-  <section class="page-hero page-hero--split">
+  <section class="page-hero page-hero--split page-hero--cp">
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <a href="<?php echo nls_page_url('expertise'); ?>">Expertise</a> / <span>Création print</span></div>
         <div class="sw-hero-badge">🖨️ Création print</div>
         <h1>Des supports imprimés qui<br /><span class="gradient-text">laissent une vraie impression</span></h1>
         <p>Flyers, kakémonos, cartes de visite — je conçois vos supports print à vos couleurs pour vous démarquer partout où vous passez.</p>
