@@ -523,7 +523,7 @@ get_header();
               <span class="faq-chevron">⌄</span>
             </button>
             <div class="faq-answer">
-              <p>Les tarifs démarrent à <strong>490 € pour un site vitrine</strong> et à <strong>290 € pour une identité visuelle</strong>. Tout est inclus. Les seuls frais récurrents sont l'hébergement et le nom de domaine (environ 10-15 €/mois), que vous gérez librement. <a href="<?php echo nls_page_url('tarifs'); ?>">Voir tous les tarifs →</a></p>
+              <p>Les tarifs démarrent à <strong>490 € pour un site vitrine</strong> et à <strong>290 € pour une identité visuelle</strong>. Tout est inclus. Le seul frais récurrent est le <strong>nom de domaine</strong> (environ 20 €/an), que vous gérez librement. <a href="<?php echo nls_page_url('tarifs'); ?>">Voir tous les tarifs →</a></p>
             </div>
           </div>
           <div class="faq-item">

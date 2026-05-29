@@ -174,7 +174,7 @@ get_header();
       <div class="faq-list">
         <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Y a-t-il des frais cachés après la livraison ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
-          <div class="faq-answer"><p>Non. Le prix affiché est le prix final. Pour les sites web, l'hébergement est à prévoir en plus — comptez environ 8–10 €/mois selon l'hébergeur choisi. Pour les autres prestations (identité visuelle, print, réseaux sociaux), tout est livré en une fois, sans abonnement.</p></div>
+          <div class="faq-answer"><p>Non. Le prix affiché est le prix final. Le seul frais récurrent pour un site web est le <strong>nom de domaine</strong> — environ 20 €/an. Pour les autres prestations (identité visuelle, print, réseaux sociaux), tout est livré en une fois, sans abonnement.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question" onclick="toggleFaq(this)"><span class="faq-toggle-circle"></span><span class="faq-question-text">Est-ce que je peux payer en plusieurs fois ?</span><span class="faq-reponse-tag">Réponse</span><span class="faq-chevron">⌄</span></button>
