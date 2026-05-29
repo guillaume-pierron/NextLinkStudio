@@ -611,6 +611,7 @@ body {
 .hst-content { display: contents; }
 .hst-desc    { display: none; }
 .hst-title   { font-size: 14px; font-weight: 600; }
+.hst-icon    { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0; color: #c4b5fd; }
 
 /* ── RÉSULTATS (stats band) ── */
 .resultats {
