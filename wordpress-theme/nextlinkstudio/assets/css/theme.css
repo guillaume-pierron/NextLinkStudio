@@ -1247,8 +1247,8 @@ body {
   box-shadow: 0 4px 16px rgba(124,58,237,0.5);
   flex-shrink: 0;
 }
-.how-card-icon { font-size: 24px; line-height: 1; }
-.how-card-icon--mob { display: inline; }
+.how-card-icon { font-size: 20px; line-height: 1; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 10px; background: rgba(124,58,237,0.18); border: 1px solid rgba(124,58,237,0.3); flex-shrink: 0; }
+.how-card-icon--mob { display: inline-flex; }
 .how-card-icon--desk { display: none; }
 .how-card-title-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
 .how-card-title-row h3 { margin-bottom: 0; }
