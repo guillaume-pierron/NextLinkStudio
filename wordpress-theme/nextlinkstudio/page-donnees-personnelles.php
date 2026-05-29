@@ -9,7 +9,6 @@ get_header();
     <div class="container legal-container">
 
       <div class="legal-header">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Données personnelles</span></div>
         <h1>Données personnelles</h1>
         <p class="legal-update">Dernière mise à jour : <?php echo date('d/m/Y'); ?></p>
       </div>

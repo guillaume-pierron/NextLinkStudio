@@ -9,7 +9,6 @@ get_header();
   <section class="ap-hero">
     <div class="container ap-hero-inner">
       <div class="ap-hero-left">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">🏠 Accueil</a> / <span>À propos</span></div>
         <h1 class="ap-hero-title">
           <span class="ap-hero-title-top">À propos de</span>
           <span class="gradient-text ap-hero-title-name">NextLink Studio</span>

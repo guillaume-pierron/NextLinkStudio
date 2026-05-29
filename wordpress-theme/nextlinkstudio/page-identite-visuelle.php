@@ -6,11 +6,10 @@ get_header();
 ?>
 
   <!-- PAGE HERO -->
-  <section class="page-hero page-hero--split">
+  <section class="page-hero page-hero--split page-hero--iv">
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <a href="<?php echo nls_page_url('expertise'); ?>">Expertise</a> / <span>Identité visuelle</span></div>
         <div class="sw-hero-badge">🎨 Identité visuelle</div>
         <h1>Une image qui inspire<br /><span class="gradient-text">confiance au premier regard</span></h1>
         <p>Avant même de vous appeler, votre client vous juge sur votre image. Je vous construis une identité professionnelle cohérente — du logo à la charte graphique complète.</p>

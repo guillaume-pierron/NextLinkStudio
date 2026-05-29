@@ -9,7 +9,6 @@ get_header();
   <section class="realisations-full" id="realisations">
     <div class="container">
       <div class="rl-page-header">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Mes réalisations</span></div>
         <h1 class="rl-page-title">Mes <span class="gradient-text">réalisations</span></h1>
       </div>
       <!-- FILTRES -->

@@ -9,7 +9,6 @@ get_header();
   <section style="padding: 48px 0 80px; background: var(--bg);">
     <div class="container">
       <div class="rl-page-header">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <span>Expertise</span></div>
         <h1 class="rl-page-title">Mon <span class="gradient-text">expertise</span></h1>
       </div>
       <div class="preview-cards">

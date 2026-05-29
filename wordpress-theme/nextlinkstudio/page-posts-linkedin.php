@@ -6,11 +6,10 @@ get_header();
 ?>
 
   <!-- PAGE HERO -->
-  <section class="page-hero page-hero--split">
+  <section class="page-hero page-hero--split page-hero--pl">
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="page-breadcrumb"><a href="<?php echo home_url('/'); ?>">Accueil</a> / <a href="<?php echo nls_page_url('expertise'); ?>">Expertise</a> / <span>Réseaux sociaux</span></div>
         <div class="sw-hero-badge">📱 Réseaux sociaux</div>
         <h1>Vos chantiers,<br /><span class="gradient-text">votre vitrine professionnelle</span></h1>
         <p>LinkedIn n'est plus réservé aux cols blancs. Les artisans qui publient leurs réalisations y trouvent des clients professionnels et construisent une réputation d'expert. Je m'occupe de tout.</p>

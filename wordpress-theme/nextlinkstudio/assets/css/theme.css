@@ -2023,6 +2023,14 @@ body {
   overflow: hidden;
 }
 .page-hero-content { padding-bottom: 48px; }
+.page-hero--iv,
+.page-hero--cp,
+.page-hero--pl { padding-top: 120px; }
+@media (min-width: 769px) {
+  .page-hero--iv .page-hero-img,
+  .page-hero--pl .page-hero-img,
+  .page-hero--cp .page-hero-img { align-self: center; }
+}
 
 .skills-ticker {
   background: #0d0a1a;
@@ -2085,7 +2093,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: center;
+  align-items: start;
 }
 .page-hero-text { position: relative; }
 
@@ -2875,17 +2883,13 @@ body {
   gap: 8px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--text-muted);
-  background: rgba(255,255,255,0.75);
-  border: 1px solid var(--border);
-  padding: 7px 14px;
-  border-radius: 8px;
+  color: var(--purple);
 }
 .sw-hero-check {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: var(--purple-soft);
+  border: 1.5px solid var(--purple);
   color: var(--purple);
   font-size: 10px;
   font-weight: 800;
@@ -4031,6 +4035,7 @@ body {
   .faq-contact-card { position: static; order: 2; }
   .faq-list { order: 1; }
   .faq-stats { grid-template-columns: repeat(2, 1fr); }
+  .faq-section { padding-bottom: 32px; }
 }
 @media (max-width: 480px) {
   .faq-stats { grid-template-columns: repeat(2, 1fr); }
@@ -4410,6 +4415,8 @@ body {
   .preview-cards     { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .resultats-grid    { grid-template-columns: repeat(2, 1fr); gap: 40px 0; }
   .resultat-item:nth-child(3)::before { display: none; }
+  .resultat-item { align-items: flex-start; text-align: left; }
+  .resultat-label { max-width: none; }
   .steps             { grid-template-columns: 1fr; }
   .steps::before     { display: none; }
   .portfolio-grid    { grid-template-columns: repeat(2, 1fr); }
@@ -5446,25 +5453,25 @@ body {
 .sgs-card--green  { --cc: #059669; --cc-bg: rgba(16,185,129,0.09);  --cc-glow: rgba(16,185,129,0.18);  --cc-icon: rgba(16,185,129,0.14); }
 
 .sgs-card--purple .sgs-icon { background: rgba(139,92,246,0.12); border-color: rgba(139,92,246,0.25); color: #7c3aed; }
-.sgs-card--purple .sgs-tags li { background: rgba(139,92,246,0.08); border-color: rgba(139,92,246,0.25); color: #7c3aed; }
+.sgs-card--purple .sgs-tags li { color: #7c3aed; }
 .sgs-card--purple .sgs-num { color: rgba(124,58,237,0.12); }
 .sgs-card--purple .sgs-cta { color: #7c3aed; background: rgba(124,58,237,0.07); }
 .sgs-card--purple:hover .sgs-cta { background: rgba(124,58,237,0.14); transform: translateX(2px); }
 
 .sgs-card--orange .sgs-icon { background: rgba(249,115,22,0.10); border-color: rgba(249,115,22,0.25); color: #ea580c; }
-.sgs-card--orange .sgs-tags li { background: rgba(249,115,22,0.08); border-color: rgba(249,115,22,0.22); color: #ea580c; }
+.sgs-card--orange .sgs-tags li { color: #ea580c; }
 .sgs-card--orange .sgs-num { color: rgba(234,88,12,0.12); }
 .sgs-card--orange .sgs-cta { color: #ea580c; background: rgba(234,88,12,0.07); }
 .sgs-card--orange:hover .sgs-cta { background: rgba(234,88,12,0.14); transform: translateX(2px); }
 
 .sgs-card--blue .sgs-icon { background: rgba(59,130,246,0.10); border-color: rgba(59,130,246,0.25); color: #2563eb; }
-.sgs-card--blue .sgs-tags li { background: rgba(59,130,246,0.08); border-color: rgba(59,130,246,0.22); color: #2563eb; }
+.sgs-card--blue .sgs-tags li { color: #2563eb; }
 .sgs-card--blue .sgs-num { color: rgba(37,99,235,0.12); }
 .sgs-card--blue .sgs-cta { color: #2563eb; background: rgba(37,99,235,0.07); }
 .sgs-card--blue:hover .sgs-cta { background: rgba(37,99,235,0.14); transform: translateX(2px); }
 
 .sgs-card--green .sgs-icon { background: rgba(16,185,129,0.10); border-color: rgba(16,185,129,0.25); color: #059669; }
-.sgs-card--green .sgs-tags li { background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.22); color: #059669; }
+.sgs-card--green .sgs-tags li { color: #059669; }
 .sgs-card--green .sgs-num { color: rgba(5,150,105,0.12); }
 .sgs-card--green .sgs-cta { color: #059669; background: rgba(5,150,105,0.07); }
 .sgs-card--green:hover .sgs-cta { background: rgba(5,150,105,0.14); transform: translateX(2px); }
@@ -5484,22 +5491,37 @@ body {
   flex: 1;
 }
 
-/* Tags — outlined */
+/* Tags — checklist */
 .sgs-tags {
   margin-top: 12px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-direction: column;
+  gap: 6px;
   list-style: none;
 }
 .sgs-tags li {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--purple-vivid);
-  background: var(--purple-light);
-  border: 1px solid var(--border-purple);
-  padding: 4px 12px;
-  border-radius: 6px;
+  padding-left: 28px;
+  position: relative;
+  min-height: 20px;
+}
+.sgs-tags li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.5px solid var(--cc, var(--purple-vivid));
+  color: var(--cc, var(--purple-vivid));
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sgs-cta {
@@ -5568,6 +5590,10 @@ body {
 
 @media (max-width: 768px) {
   .sgs-grid { grid-template-columns: 1fr; }
+  .sgs-card-main { flex-direction: column; }
+  .sgs-bottom { margin-top: 48px; }
+  .services-grid-section { padding-bottom: 48px; }
+  .sgs-cta { align-self: stretch; justify-content: center; }
   .sgs-bottom-cta { flex-direction: column; align-items: flex-start; }
   .sgs-bottom-cta .btn { width: 100%; justify-content: center; }
 }
