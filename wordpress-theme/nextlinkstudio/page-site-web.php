@@ -397,6 +397,20 @@ get_header();
           </div>
         </div>
       </div>
+
+      <!-- NOTE COÛT NOM DE DOMAINE -->
+      <div style="margin-top:24px; background: rgba(251,191,36,0.07); border: 1px solid rgba(251,191,36,0.28); border-radius: 16px; padding: 24px 28px; display: flex; gap: 18px; align-items: flex-start;">
+        <div style="width:42px; height:42px; border-radius:10px; background:rgba(251,191,36,0.14); border:1.5px solid rgba(251,191,36,0.32); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#d97706;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div>
+          <h4 style="font-size:15px; font-weight:700; color:var(--text); margin:0 0 8px;">Bon à savoir — le coût du nom de domaine</h4>
+          <p style="font-size:13.5px; color:var(--text-muted); line-height:1.65; margin:0 0 8px;">Le prix du nom de domaine dépend du nom que vous choisissez. Un <strong style="color:var(--text)">.fr</strong> ou <strong style="color:var(--text)">.com</strong> standard revient généralement entre <strong style="color:var(--text)">8 € et 15 €/an</strong> — une petite ligne budgétaire à prévoir en plus. Certains noms très demandés ou déjà pris peuvent être revendus à des prix bien plus élevés.</p>
+          <p style="font-size:13.5px; color:var(--text-muted); line-height:1.65; margin:0;">Bonne nouvelle : il existe presque toujours des alternatives tout aussi professionnelles, disponibles à tarif normal. On cherche ensemble le bon nom pour votre activité.</p>
+        </div>
+      </div>
+
+
     </div>
   </section>
 

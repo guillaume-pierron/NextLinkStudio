@@ -26,19 +26,19 @@ get_header();
       <p class="hero-price-hint">À partir de <strong>490 €</strong> · <a href="<?php echo nls_page_url( 'tarifs' ); ?>">Voir les tarifs →</a></p>
       <div class="hero-services">
         <a href="<?php echo nls_page_url( 'site-web' ); ?>" class="hero-service-tag">
-          <span class="hst-icon">🌐</span>
+          <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
           <span class="hst-content"><span class="hst-title">Site web</span></span>
         </a>
         <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" class="hero-service-tag">
-          <span class="hst-icon">🎨</span>
+          <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>
           <span class="hst-content"><span class="hst-title">Identité</span></span>
         </a>
         <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" class="hero-service-tag">
-          <span class="hst-icon">💬</span>
+          <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
           <span class="hst-content"><span class="hst-title">Réseaux</span></span>
         </a>
         <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="hero-service-tag">
-          <span class="hst-icon">🖨️</span>
+          <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></span>
           <span class="hst-content"><span class="hst-title">Print</span></span>
         </a>
       </div>
@@ -247,52 +247,86 @@ get_header();
   <section class="how" id="comment">
     <div class="container">
       <div class="section-header">
-        <div class="section-badge">Simple & sans prise de tête</div>
+        <div class="section-badge">Notre processus</div>
         <h2>Comment ça se passe,<br /><span class="gradient-text">pour chaque service</span></h2>
+        <p class="how-subtitle">Un accompagnement simple, clair et efficace à chaque étape.</p>
       </div>
-      <div class="steps">
-        <div class="step">
-          <div class="step-head"><div class="step-num">01</div><span class="step-timing">Jour 1 · 30 min</span></div>
-          <div class="step-icon-badge">📞</div>
-          <div class="step-content">
-            <h3>On fait le point ensemble</h3>
-            <p>Un appel visio de 30 minutes suffit. Je cerne votre activité, votre zone d'intervention et vos clients cibles. Vous recevez un devis clair dans la journée — sans jargon, sans surprise.</p>
-            <ul class="step-details">
-              <li>✓ Appel visio ou téléphonique</li>
-              <li>✓ Devis personnalisé sous 24h</li>
-              <li>✓ Aucun engagement à ce stade</li>
-            </ul>
+      <div class="how-split">
+        <div class="how-steps-v2">
+          <div class="how-card">
+            <div class="how-card-left">
+              <div class="how-card-num">01</div>
+              <div class="how-card-icon how-card-icon--desk">📞</div>
+            </div>
+            <div class="how-card-divider"></div>
+            <div class="how-card-body">
+              <div class="how-card-title-row">
+                <span class="how-card-icon how-card-icon--mob" style="color:#fbbf24;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 5.59 5.59l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg></span>
+                <h3>On fait le point ensemble</h3>
+              </div>
+              <p>Un appel de 30 minutes suffit. Je cerne votre activité, vos clients cibles et vos objectifs. Vous recevez un devis clair dans la journée — sans jargon.</p>
+              <div class="how-card-tags">
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Appel visio ou téléphonique</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Conseils personnalisés</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Devis transparent</span>
+              </div>
+            </div>
+          </div>
+          <div class="how-card">
+            <div class="how-card-left">
+              <div class="how-card-num">02</div>
+              <div class="how-card-icon how-card-icon--desk">✏️</div>
+            </div>
+            <div class="how-card-divider"></div>
+            <div class="how-card-body">
+              <div class="how-card-title-row">
+                <span class="how-card-icon how-card-icon--mob">✏️</span>
+                <h3>Je crée, vous validez</h3>
+              </div>
+              <p>Premiers visuels livrés en 48h. Vous donnez votre retour, j'ajuste — autant de fois que nécessaire jusqu'à ce que le résultat vous convienne à 100%.</p>
+              <div class="how-card-tags">
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Concept sur mesure</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Retouches illimitées</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Vous validez chaque étape</span>
+              </div>
+            </div>
+          </div>
+          <div class="how-card">
+            <div class="how-card-left">
+              <div class="how-card-num">03</div>
+              <div class="how-card-icon how-card-icon--desk">🚀</div>
+            </div>
+            <div class="how-card-divider"></div>
+            <div class="how-card-body">
+              <div class="how-card-title-row">
+                <span class="how-card-icon how-card-icon--mob">🚀</span>
+                <h3>Livraison & suivi inclus</h3>
+              </div>
+              <p>Votre site est en ligne, vos fichiers livrés en tous formats. Je reste disponible 30 jours après la livraison pour toute question ou ajustement.</p>
+              <div class="how-card-tags">
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Site mis en ligne</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Formation à la prise en main</span>
+                <span class="how-card-tag"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></svg> Support 30 jours offert</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="step">
-          <div class="step-head"><div class="step-num">02</div><span class="step-timing">Jours 2 à 5</span></div>
-          <div class="step-icon-badge">✏️</div>
-          <div class="step-content">
-            <h3>Je crée, vous validez</h3>
-            <p>Une première direction visuelle pour poser les bases. Ajustements et évolutions suivent jusqu'au rendu final recherché.</p>
-            <ul class="step-details">
-              <li>✓ Concept visuel sur mesure</li>
-              <li>✓ Retouches illimitées incluses</li>
-              <li>✓ Vous validez chaque étape</li>
-            </ul>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-head"><div class="step-num">03</div><span class="step-timing">Jour 7 · Livraison ✦</span></div>
-          <div class="step-icon-badge">🚀</div>
-          <div class="step-content">
-            <h3>Mise en ligne & remise des fichiers</h3>
-            <p>Votre site est en ligne, votre logo livré en tous formats, vos supports prêts à l'emploi. Je reste disponible après la livraison pour toute question.</p>
-            <ul class="step-details">
-              <li>✓ Site mis en ligne ou fichiers livrés</li>
-              <li>✓ Formation à la prise en main</li>
-              <li>✓ Disponible après livraison pour toute question</li>
-            </ul>
+        <div class="how-img-col">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nova_habitat.png" alt="Artisan au travail" loading="lazy" />
+          <div class="how-img-badge">
+            <div class="how-img-badge-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <strong>Accompagnement de A à Z</strong>
+              <span>Du brief à la mise en ligne, je gère tout. Vous, vous vous concentrez sur votre métier.</span>
+            </div>
           </div>
         </div>
       </div>
       <div class="how-cta">
-        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Commencer maintenant — c'est gratuit</a>
+        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Demander un devis gratuit →</a>
+        <p class="how-cta-sub"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Aucun engagement — réponse sous 24h</p>
       </div>
     </div>
   </section>
@@ -489,7 +523,7 @@ get_header();
               <span class="faq-chevron">⌄</span>
             </button>
             <div class="faq-answer">
-              <p>Les tarifs démarrent à <strong>490 € pour un site vitrine</strong> et à <strong>290 € pour une identité visuelle</strong>. Tout est inclus. Les seuls frais récurrents sont l'hébergement et le nom de domaine (environ 10-15 €/mois), que vous gérez librement. <a href="<?php echo nls_page_url('tarifs'); ?>">Voir tous les tarifs →</a></p>
+              <p>Les tarifs démarrent à <strong>490 € pour un site vitrine</strong> et à <strong>290 € pour une identité visuelle</strong>. Tout est inclus. Le seul frais récurrent est le <strong>nom de domaine</strong> (environ 20 €/an), que vous gérez librement. <a href="<?php echo nls_page_url('tarifs'); ?>">Voir tous les tarifs →</a></p>
             </div>
           </div>
           <div class="faq-item">

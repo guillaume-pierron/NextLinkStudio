@@ -30,8 +30,8 @@
   <?php wp_head(); ?>
   <style>
     /* Force reset any WordPress-injected margin on html/body (e.g. admin bar) */
-    html, html.admin-bar { margin-top: 0 !important; padding-top: 0 !important; }
-    body, body.admin-bar { margin-top: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
+    html, html.admin-bar { margin-top: 0 !important; padding-top: 0 !important; background: #ffffff; }
+    body, body.admin-bar { margin-top: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; background: #ffffff; }
     .nav-wrapper { top: 0 !important; }
     /* Suppress WordPress 6.x block spacing injected on .wp-site-blocks */
     .wp-site-blocks { padding-block-start: 0 !important; padding-block-end: 0 !important; padding: 0 !important; }
@@ -97,10 +97,10 @@
             <span class="nav-mobile-arrow">▾</span>
           </button>
           <div class="nav-mobile-submenu"><div class="nav-mobile-submenu-inner">
-            <a href="<?php echo nls_page_url( 'site-web' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon">🌐</span>Création de site web</a>
-            <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon">🎨</span>Identité visuelle</a>
-            <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon">📱</span>Réseaux sociaux</a>
-            <a href="<?php echo nls_page_url( 'creation-print' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon">🖨️</span>Création print</a>
+            <a href="<?php echo nls_page_url( 'site-web' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>Création de site web</a>
+            <a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>Identité visuelle</a>
+            <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>Réseaux sociaux</a>
+            <a href="<?php echo nls_page_url( 'creation-print' ); ?>" onclick="toggleMenu()"><span class="nm-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></span>Création print</a>
           </div></div>
         </div>
         <a href="<?php echo nls_page_url( 'realisations' ); ?>" onclick="toggleMenu()"><span class="nm-num">02</span>Mes réalisations</a>

@@ -26,7 +26,6 @@ get_header();
           <h3>Cookies essentiels</h3>
           <p>Ces cookies sont nécessaires au bon fonctionnement du site. Ils ne peuvent pas être désactivés.</p>
           <ul>
-            <li>Session WordPress (authentification admin)</li>
             <li>Mémorisation des préférences de consentement</li>
           </ul>
 
