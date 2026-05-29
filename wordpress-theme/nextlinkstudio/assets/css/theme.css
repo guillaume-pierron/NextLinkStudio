@@ -7886,15 +7886,11 @@ body { background-color: #100d2e; }
 }
 
 /* Complianz — liens bannière centrés */
-.cmplz-links.cmplz-information {
-    justify-content: center !important;
-    flex-wrap: wrap !important;
-}
-.cmplz-links.cmplz-information a {
+.cmplz-cookiebanner .cmplz-links ul {
+    display: block !important;
     text-align: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+}
+.cmplz-links a {
     font-size: 11px !important;
 }
 
