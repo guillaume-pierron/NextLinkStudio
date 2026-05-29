@@ -252,7 +252,7 @@ get_header();
       </div>
       <div class="steps">
         <div class="step">
-          <div class="step-head"><div class="step-num">01</div><span class="step-timing">Jour 1 · 30 min</span></div>
+          <div class="step-head"><div class="step-num">01</div></div>
           <div class="step-icon-badge">📞</div>
           <div class="step-content">
             <h3>On fait le point ensemble</h3>
@@ -265,7 +265,7 @@ get_header();
           </div>
         </div>
         <div class="step">
-          <div class="step-head"><div class="step-num">02</div><span class="step-timing">Jours 2 à 5</span></div>
+          <div class="step-head"><div class="step-num">02</div></div>
           <div class="step-icon-badge">✏️</div>
           <div class="step-content">
             <h3>Je crée, vous validez</h3>
@@ -278,7 +278,7 @@ get_header();
           </div>
         </div>
         <div class="step">
-          <div class="step-head"><div class="step-num">03</div><span class="step-timing">Jour 7 · Livraison ✦</span></div>
+          <div class="step-head"><div class="step-num">03</div></div>
           <div class="step-icon-badge">🚀</div>
           <div class="step-content">
             <h3>Mise en ligne & remise des fichiers</h3>
