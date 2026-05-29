@@ -65,3 +65,18 @@ function nls_page_url( $slug ) {
 function nls_active_class( $slug ) {
     return is_page( $slug ) ? ' active' : '';
 }
+
+add_action( 'wp_footer', function() {
+    ?>
+    <script>
+    (function() {
+        var style = document.createElement('style');
+        style.textContent = '#cmplz-cookiebanner-container { opacity: 0 !important; pointer-events: none; }';
+        document.head.appendChild(style);
+        setTimeout(function() {
+            style.textContent = '';
+        }, 4000);
+    })();
+    </script>
+    <?php
+} );

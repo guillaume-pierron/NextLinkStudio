@@ -40,6 +40,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+.screen-reader-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(1px,1px,1px,1px); white-space: nowrap; }
 html { scroll-behavior: smooth; overflow-x: clip; background: var(--bg); }
 body {
   font-family: 'Inter', system-ui, sans-serif;
@@ -7882,4 +7883,33 @@ body { background-color: #100d2e; }
 @media (max-width: 600px) {
   .tc-grid { grid-template-columns: 1fr; }
   .tc-section { padding-top: 16px; }
+}
+
+/* Complianz — liens bannière centrés */
+.cmplz-links.cmplz-information {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+}
+.cmplz-links.cmplz-information a {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 11px !important;
+}
+
+/* Complianz — fix conflit reset global */
+.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header {
+    grid-template-columns: 1fr auto 15px !important;
+    align-items: center !important;
+}
+.cmplz-banner-checkbox {
+    display: flex !important;
+    align-items: center !important;
+}
+.cmplz-label::before,
+.cmplz-label::after {
+    margin: unset !important;
+    padding: unset !important;
+    box-sizing: unset !important;
 }
