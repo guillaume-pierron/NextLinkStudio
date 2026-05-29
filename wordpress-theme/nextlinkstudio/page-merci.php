@@ -4,10 +4,21 @@
  */
 get_header();
 ?>
+<style>html { background: #100d2e !important; }</style>
 
   <section class="merci-section">
     <div class="container">
       <div class="merci-card">
+        <div class="merci-confettis">
+          <span class="mc mc1">✦</span>
+          <span class="mc mc2">✦</span>
+          <span class="mc mc3">·</span>
+          <span class="mc mc4">✦</span>
+          <span class="mc mc5">·</span>
+          <span class="mc mc6">✦</span>
+          <span class="mc mc7">·</span>
+          <span class="mc mc8">✦</span>
+        </div>
 
         <div class="merci-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
@@ -26,4 +37,4 @@ get_header();
     </div>
   </section>
 
-<?php get_footer(); ?>
+<?php get_footer();
