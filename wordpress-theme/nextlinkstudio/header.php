@@ -30,8 +30,8 @@
   <?php wp_head(); ?>
   <style>
     /* Force reset any WordPress-injected margin on html/body (e.g. admin bar) */
-    html, html.admin-bar { margin-top: 0 !important; padding-top: 0 !important; }
-    body, body.admin-bar { margin-top: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
+    html, html.admin-bar { margin-top: 0 !important; padding-top: 0 !important; background: #ffffff; }
+    body, body.admin-bar { margin-top: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; background: #ffffff; }
     .nav-wrapper { top: 0 !important; }
     /* Suppress WordPress 6.x block spacing injected on .wp-site-blocks */
     .wp-site-blocks { padding-block-start: 0 !important; padding-block-end: 0 !important; padding: 0 !important; }
