@@ -21,6 +21,7 @@ get_header();
         </div>
         <div class="sw-hero-actions">
           <a href="<?php echo nls_page_url('realisations'); ?>" class="btn btn-primary btn-lg">Voir des exemples →</a>
+          <p class="hero-price-hint">À partir de <strong>299 €</strong> · <a href="<?php echo nls_page_url('tarifs'); ?>">Voir les tarifs →</a></p>
         </div>
       </div>
       <div class="page-hero-img">
