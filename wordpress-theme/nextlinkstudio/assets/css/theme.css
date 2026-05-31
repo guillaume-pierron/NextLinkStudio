@@ -576,6 +576,7 @@ body {
 .hero-price-hint a:hover { color: #fff; }
 
 .sw-hero-actions .hero-price-hint {
+  font-size: 11px;
   color: var(--text-muted);
   margin-bottom: 0;
   text-align: left;
@@ -8160,8 +8161,8 @@ body { background-color: #100d2e; }
 
 /* ── SITE WEB section ── */
 .tc-sw-section {
-  background: var(--card-bg, rgba(255,255,255,0.03));
-  border: 1px solid var(--border);
+  background: rgba(124,58,237,0.06);
+  border: 1px solid rgba(124,58,237,0.2);
   border-top: 3px solid #7c3aed;
   border-radius: 20px;
   padding: 28px;
@@ -8185,9 +8186,9 @@ body { background-color: #100d2e; }
 .tc-sw-header-actions {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   gap: 8px;
-  min-width: 180px;
+  flex-shrink: 0;
 }
 
 .tc-sw-badge {
@@ -8206,18 +8207,22 @@ body { background-color: #100d2e; }
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-bottom: 24px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .tc-tier-card {
-  background: var(--card-bg, rgba(255,255,255,0.02));
-  border: 1px solid var(--border);
+  background: #fff;
+  border: 1px solid rgba(124,58,237,0.12);
   border-radius: 14px;
   padding: 22px;
   display: flex;
   flex-direction: column;
   gap: 0;
   position: relative;
+}
+
+.tc-tier-card .tc-tier-card-features {
+  flex: 1;
 }
 
 .tc-tier-card--featured {
