@@ -39,7 +39,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site-web'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-identite-visuelle'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-site-web'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

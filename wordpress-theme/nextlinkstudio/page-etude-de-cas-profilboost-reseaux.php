@@ -154,7 +154,7 @@ get_header();
         <p>Je prends en charge vos réseaux de A à Z — stratégie, visuels et publication.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Démarrer mon projet →</a>
-          <a href="<?php echo nls_page_url('posts-linkedin'); ?>" class="btn btn-ghost btn-lg">Voir le service →</a>
+          <a href="<?php echo nls_page_url('reseaux-sociaux'); ?>" class="btn btn-ghost btn-lg">Voir le service →</a>
         </div>
       </div>
     </div>

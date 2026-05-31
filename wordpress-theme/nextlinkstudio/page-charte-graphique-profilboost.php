@@ -32,7 +32,7 @@ $img_url = get_template_directory_uri() . '/assets/images/Plan%20de%20travail%20
         Télécharger la charte graphique
       </a>
       <?php endif; ?>
-      <a href="<?php echo get_permalink( get_page_by_path('etude-de-cas-profilboost') ); ?>" class="btn btn-ghost">
+      <a href="<?php echo get_permalink( get_page_by_path('etude-de-cas-profilboost-identite-visuelle') ); ?>" class="btn btn-ghost">
         ← Retour à l'étude de cas
       </a>
     </div>

@@ -145,7 +145,7 @@ get_header();
             </ul>
             <div class="tc-cta-group">
               <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
-              <a href="<?php echo nls_page_url('posts-linkedin'); ?>" class="tc-cta-secondary">En savoir plus →</a>
+              <a href="<?php echo nls_page_url('reseaux-sociaux'); ?>" class="tc-cta-secondary">En savoir plus →</a>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ get_header();
             </ul>
             <div class="tc-cta-group">
               <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
-              <a href="<?php echo nls_page_url('creation-print'); ?>" class="tc-cta-secondary">En savoir plus →</a>
+              <a href="<?php echo nls_page_url('print'); ?>" class="tc-cta-secondary">En savoir plus →</a>
             </div>
           </div>
 

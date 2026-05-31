@@ -33,11 +33,11 @@ get_header();
           <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></span>
           <span class="hst-content"><span class="hst-title">Identité</span></span>
         </a>
-        <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" class="hero-service-tag">
+        <a href="<?php echo nls_page_url( 'reseaux-sociaux' ); ?>" class="hero-service-tag">
           <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
           <span class="hst-content"><span class="hst-title">Réseaux</span></span>
         </a>
-        <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="hero-service-tag">
+        <a href="<?php echo nls_page_url( 'print' ); ?>" class="hero-service-tag">
           <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></span>
           <span class="hst-content"><span class="hst-title">Print</span></span>
         </a>
@@ -191,7 +191,7 @@ get_header();
           </div>
           <span class="sgs-cta">Voir l'offre →</span>
         </a>
-        <a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>" class="sgs-card sgs-card--blue">
+        <a href="<?php echo nls_page_url( 'reseaux-sociaux' ); ?>" class="sgs-card sgs-card--blue">
           <div class="sgs-card-main">
             <div class="sgs-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><line x1="9" y1="10" x2="9.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="15" y1="10" x2="15.01" y2="10"/></svg>
@@ -208,7 +208,7 @@ get_header();
           </div>
           <span class="sgs-cta">Voir l'offre →</span>
         </a>
-        <a href="<?php echo nls_page_url( 'creation-print' ); ?>" class="sgs-card sgs-card--green">
+        <a href="<?php echo nls_page_url( 'print' ); ?>" class="sgs-card sgs-card--green">
           <div class="sgs-card-main">
             <div class="sgs-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
@@ -369,7 +369,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site-web'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
@@ -411,7 +411,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-identite-visuelle'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

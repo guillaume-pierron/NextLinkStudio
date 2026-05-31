@@ -24,13 +24,13 @@ get_header();
           <p>Logo professionnel, charte graphique et supports de communication qui inspirent confiance dès le premier regard.</p>
           <span class="preview-card-link">Découvrir <span class="pca">→</span></span>
         </a>
-        <a href="<?php echo nls_page_url('posts-linkedin'); ?>" class="preview-card pc-linkedin">
+        <a href="<?php echo nls_page_url('reseaux-sociaux'); ?>" class="preview-card pc-linkedin">
           <div class="preview-card-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--cc)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
           <h3>Réseaux sociaux</h3>
           <p>Je rédige et publie des contenus qui valorisent vos chantiers et attirent clients professionnels et partenaires.</p>
           <span class="preview-card-link">Découvrir <span class="pca">→</span></span>
         </a>
-        <a href="<?php echo nls_page_url('creation-print'); ?>" class="preview-card pc-print">
+        <a href="<?php echo nls_page_url('print'); ?>" class="preview-card pc-print">
           <div class="preview-card-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--cc)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></div>
           <h3>Création print</h3>
           <p>Flyers, kakémonos et cartes de visite à vos couleurs. Des supports imprimés percutants pour vous démarquer partout où vous passez.</p>

@@ -388,7 +388,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-profilboost'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-profilboost-identite-visuelle'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
