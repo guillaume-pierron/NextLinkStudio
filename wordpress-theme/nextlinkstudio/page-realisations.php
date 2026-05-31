@@ -112,7 +112,7 @@ get_header();
 
         <div class="pf-card" data-category="print">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Vert-Nature — flyer publicitaire">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.webp" alt="Vert-Nature — flyer publicitaire">
             <span class="pf-badge pf-badge--green">Print</span>
           </div>
           <div class="pf-card-body">
