@@ -209,6 +209,34 @@ document.querySelectorAll(
   observer.observe(el);
 });
 
+/* ── FADE SIMPLE ── */
+document.querySelectorAll(
+  '.sw-highlight, .sw-stats-point, .sw-real-cta-bar, .faq-contact-item, .ln-post-card, .ln-cal-stat, .pt-format-item, .iv-charte-color, .iv-charte-typo-item, .how-img-col, .how-cta, .section-header, .cta-final-inner'
+).forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(24px)';
+  el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
+  observer.observe(el);
+});
+
+/* ── STAGGER SERVICES ── */
+document.querySelectorAll('.sgs-card').forEach((el, i) => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(32px)';
+  el.style.transition = `opacity 0.6s ease ${i * 0.1}s, transform 0.6s cubic-bezier(0.22,1,0.36,1) ${i * 0.1}s`;
+  observer.observe(el);
+});
+
+/* ── STAGGER CARDS ── */
+['.pf-card', '.av-card', '.sw-cms-pillar', '.th-trust-item', '.tc-card', '.ap-hero-feature', '.ab-stat', '.how-card'].forEach(selector => {
+  document.querySelectorAll(selector).forEach((el, i) => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(28px)';
+    el.style.transition = `opacity 0.55s ease ${i * 0.1}s, transform 0.55s cubic-bezier(0.22,1,0.36,1) ${i * 0.1}s`;
+    observer.observe(el);
+  });
+});
+
 /* ── TESTIMONIALS NAV ── */
 (function () {
   const cards = Array.from(document.querySelectorAll('.tm-card'));
