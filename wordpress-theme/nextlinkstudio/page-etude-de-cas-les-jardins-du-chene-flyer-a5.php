@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Étude de cas — Vert-Nature Flyer
+ * Template Name: Étude de cas — Les jardins du chêne Flyer A5
  */
 get_header();
 ?>
@@ -145,13 +145,13 @@ get_header();
           <span>/</span>
           <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
           <span>/</span>
-          <span>Vert-Nature — Flyer</span>
+          <span>Les jardins du chêne — Flyer</span>
         </div>
         <div class="vnfl-badge">🖨️ Étude de cas — Print &amp; Communication</div>
         <h1 class="vnfl-title">
-          Le flyer publicitaire<br>de <span class="vnfl-title-client">Vert-Nature</span>
+          Le flyer publicitaire<br>de <span class="vnfl-title-client">Les jardins du chêne</span>
         </h1>
-        <p class="vnfl-subtitle">Création d'un flyer imprimé sur mesure pour promouvoir les services de jardinage et paysagisme de Vert-Nature — design percutant, message clair et identité visuelle cohérente.</p>
+        <p class="vnfl-subtitle">Création d'un flyer imprimé sur mesure pour promouvoir les services de jardinage et paysagisme de Les jardins du chêne — design percutant, message clair et identité visuelle cohérente.</p>
         <div class="vnfl-tags">
           <span class="vnfl-tag">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
@@ -170,7 +170,7 @@ get_header();
 
       <div class="vnfl-visual">
         <div class="vnfl-flyer-wrap">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Flyer Vert-Nature" class="vnfl-mockup">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_flyer_a5_les_jardins_du_chene.webp" alt="Flyer Les jardins du chêne" class="vnfl-mockup">
           <div class="vnfl-annot">
             <span class="vnfl-annot-check">
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
@@ -292,11 +292,11 @@ get_header();
     </div>
     <div class="vnfl-apercu-grid">
       <div class="vnfl-apercu-face">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_vert_nature_recto.png" alt="Flyer Vert-Nature — Recto">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_recto.png" alt="Flyer Les jardins du chêne — Recto">
         <span class="vnfl-apercu-face-label">Recto</span>
       </div>
       <div class="vnfl-apercu-face">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_vert_nature_verso.png" alt="Flyer Vert-Nature — Verso">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_verso.png" alt="Flyer Les jardins du chêne — Verso">
         <span class="vnfl-apercu-face-label">Verso</span>
       </div>
     </div>
@@ -325,7 +325,7 @@ get_header();
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
         </div>
         <h3>Un design qui inspire confiance</h3>
-        <p>Un flyer professionnel aux couleurs de la marque renvoie une image <strong>sérieuse et soignée</strong>. Vert-Nature se distingue de la concurrence dès le premier regard, avant même le premier appel.</p>
+        <p>Un flyer professionnel aux couleurs de la marque renvoie une image <strong>sérieuse et soignée</strong>. Les jardins du chêne se distingue de la concurrence dès le premier regard, avant même le premier appel.</p>
       </div>
 
       <div class="vnfl-strat-card">
@@ -333,7 +333,7 @@ get_header();
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
         </div>
         <h3>Cohérence avec la présence digitale</h3>
-        <p>Le flyer reprend exactement les <strong>codes graphiques du site web et des réseaux sociaux</strong> de Vert-Nature. Chaque point de contact renforce la mémorisation de la marque et crédibilise l'entreprise.</p>
+        <p>Le flyer reprend exactement les <strong>codes graphiques du site web et des réseaux sociaux</strong> de Les jardins du chêne. Chaque point de contact renforce la mémorisation de la marque et crédibilise l'entreprise.</p>
       </div>
 
       <div class="vnfl-strat-card">

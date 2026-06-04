@@ -1,11 +1,11 @@
 <?php
 /**
- * Template Name: Étude de cas — Vert-Nature Site Web
+ * Template Name: Étude de cas — Les jardins du chêne Site Web
  */
 get_header();
 ?>
 <style>
-/* ── Vert-Nature — palette officielle ──────────────────────────────
+/* ── Les jardins du chêne — palette officielle ──────────────────────────────
    #2E4E3A vert foncé · #6D8F6A vert moyen · #A7C1A1 vert clair · #1C2B22 noir vert */
 
 /* HERO */
@@ -141,11 +141,11 @@ get_header();
           <span>/</span>
           <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
           <span>/</span>
-          <span>Vert-Nature</span>
+          <span>Les jardins du chêne</span>
         </div>
         <div class="vn-badge">Étude de cas</div>
         <h1 class="vn-title">
-          La présence digitale<br>de <span class="vn-title-client">Vert-Nature</span>
+          La présence digitale<br>de <span class="vn-title-client">Les jardins du chêne</span>
         </h1>
         <p class="vn-subtitle">Création d'un site vitrine moderne et d'une identité visuelle soignée pour un jardinier paysagiste indépendant souhaitant développer sa clientèle en ligne.</p>
         <div class="vn-tags">
@@ -162,14 +162,14 @@ get_header();
             SEO Local
           </span>
         </div>
-        <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+        <a href="https://www.lesjardinsduchene.fr" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           Voir le site
         </a>
       </div>
       <div class="vn-visual">
         <div class="vn-phone-wrap">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Vert-Nature" class="vn-mockup">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_devices_vert_nature.png" alt="Mockup multi-device Les jardins du chêne" class="vn-mockup">
         </div>
         <div class="vn-annot">
           <span class="vn-annot-check">
@@ -292,7 +292,7 @@ get_header();
     <div class="vn-apercu-bar">
       <div class="vn-apercu-dots"><span></span><span></span><span></span></div>
     </div>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Aperçu du site Vert-Nature">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Aperçu du site Les jardins du chêne">
   </div>
 </section>
 
@@ -305,42 +305,42 @@ get_header();
     </div>
     <div class="vn-pages-grid">
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Accueil Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Accueil Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Accueil</div>
           <div class="vn-page-card-desc">Accroche forte, services mis en avant et appel à l'action clair.</div>
         </div>
       </div>
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_realisation.png" alt="Galerie Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_realisation.png" alt="Galerie Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Galerie de réalisations</div>
           <div class="vn-page-card-desc">Photos haute qualité des chantiers réalisés pour convaincre avant le premier contact.</div>
         </div>
       </div>
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Services Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_2.png" alt="Services Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Services</div>
           <div class="vn-page-card-desc">Présentation claire des prestations proposées avec tarifs et zones d'intervention.</div>
         </div>
       </div>
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_resa.png" alt="Réservation Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_resa.png" alt="Réservation Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Réservation de créneaux en ligne</div>
           <div class="vn-page-card-desc">Formulaire intelligent qui qualifie chaque demande avec localisation et type de prestation.</div>
         </div>
       </div>
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="SEO Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_1.png" alt="SEO Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">À propos</div>
           <div class="vn-page-card-desc">Présentation du paysagiste, de son parcours et de ses valeurs pour instaurer la confiance.</div>
         </div>
       </div>
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Contact Vert-Nature" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vert_nature_capture_4.png" alt="Contact Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Contact</div>
           <div class="vn-page-card-desc">Page de contact épurée pour faciliter la prise de rendez-vous.</div>
@@ -348,7 +348,7 @@ get_header();
       </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
-      <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+      <a href="https://www.lesjardinsduchene.fr" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         Voir le site web
       </a>
@@ -397,7 +397,7 @@ get_header();
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         </div>
         <div class="vn-liv-title">Adresses mail pro</div>
-        <div class="vn-liv-desc">Des adresses <strong>liées au nom de domaine</strong> sont créées — <strong>contact@vert-nature.fr</strong>, <strong>devis@vert-nature.fr</strong> — pour une <strong>image professionnelle</strong>.</div>
+        <div class="vn-liv-desc">Des adresses <strong>liées au nom de domaine</strong> sont créées — <strong>contact@lesjardinsduchene.fr</strong>, <strong>devis@lesjardinsduchene.fr</strong> — pour une <strong>image professionnelle</strong>.</div>
       </div>
     </div>
   </div>

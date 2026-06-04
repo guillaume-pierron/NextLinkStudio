@@ -300,7 +300,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_vert_nature.png" data-lightbox-alt="Flyer Vert-Nature">Voir le flyer →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-flyer'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-flyer-a5'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

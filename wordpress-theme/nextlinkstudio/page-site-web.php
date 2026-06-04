@@ -537,7 +537,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-site-web'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-site-web'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
