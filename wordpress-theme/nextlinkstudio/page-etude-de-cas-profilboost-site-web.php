@@ -164,7 +164,7 @@ get_header();
             SEO Local
           </span>
         </div>
-        <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+        <a href="https://www.profilboost.fr/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           Voir le site
         </a>
@@ -306,7 +306,7 @@ get_header();
     </div>
     <div class="pbs-pages-grid">
       <div class="pbs-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_site_hero.png" alt="Accueil ProfilBoost" class="pbs-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profilboost_capture_accueil.png" alt="Accueil ProfilBoost" class="pbs-page-card-img">
         <div class="pbs-page-card-body">
           <div class="pbs-page-card-name">Accueil</div>
           <div class="pbs-page-card-desc">Accroche forte, bénéfices clairs et preuves sociales.</div>
@@ -363,7 +363,7 @@ get_header();
       </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
-      <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+      <a href="https://www.profilboost.fr/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         Voir le site web
       </a>

@@ -24,8 +24,8 @@
         <ul>
           <li><a href="<?php echo nls_page_url( 'site-web' ); ?>">Création de site web</a></li>
           <li><a href="<?php echo nls_page_url( 'identite-visuelle' ); ?>">Identité visuelle</a></li>
-          <li><a href="<?php echo nls_page_url( 'posts-linkedin' ); ?>">Réseaux sociaux</a></li>
-          <li><a href="<?php echo nls_page_url( 'creation-print' ); ?>">Création print</a></li>
+          <li><a href="<?php echo nls_page_url( 'reseaux-sociaux' ); ?>">Réseaux sociaux</a></li>
+          <li><a href="<?php echo nls_page_url( 'print' ); ?>">Création print</a></li>
         </ul>
       </div>
       <div class="footer-links">
