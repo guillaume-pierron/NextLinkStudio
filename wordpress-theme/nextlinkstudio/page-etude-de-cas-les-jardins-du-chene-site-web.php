@@ -292,7 +292,7 @@ get_header();
     <div class="vn-apercu-bar">
       <div class="vn-apercu-dots"><span></span><span></span><span></span></div>
     </div>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Aperçu du site Les jardins du chêne">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardins_du_chene_full_page.webp" alt="Aperçu du site Les jardins du chêne">
   </div>
 </section>
 
@@ -305,7 +305,7 @@ get_header();
     </div>
     <div class="vn-pages-grid">
       <div class="vn-page-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero_vert_nature.png" alt="Accueil Les jardins du chêne" class="vn-page-card-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardins_du_chene_full_page.webp" alt="Accueil Les jardins du chêne" class="vn-page-card-img">
         <div class="vn-page-card-body">
           <div class="vn-page-card-name">Accueil</div>
           <div class="vn-page-card-desc">Accroche forte, services mis en avant et appel à l'action clair.</div>
