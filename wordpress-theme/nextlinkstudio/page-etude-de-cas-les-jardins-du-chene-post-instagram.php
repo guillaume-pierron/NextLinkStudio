@@ -1,11 +1,11 @@
 <?php
 /**
- * Template Name: Étude de cas — Vert-Nature Instagram Carrousel
+ * Template Name: Étude de cas — Les jardins du chêne Instagram Carrousel
  */
 get_header();
 ?>
 <style>
-/* ── Vert-Nature Instagram — palette ────────────────────────────────
+/* ── Les jardins du chêne Instagram — palette ────────────────────────────────
    #2E4E3A vert foncé · #6D8F6A vert moyen · #A7C1A1 vert clair · #1C2B22 noir vert */
 
 /* HERO */
@@ -165,11 +165,11 @@ get_header();
           <span>/</span>
           <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
           <span>/</span>
-          <span>Vert-Nature — Instagram</span>
+          <span>Les jardins du chêne — Instagram</span>
         </div>
         <div class="vnig-badge">📱 Étude de cas — Réseaux sociaux</div>
         <h1 class="vnig-title">
-          Le carrousel Instagram<br>de <span class="vnig-title-client">Vert-Nature</span>
+          Le carrousel Instagram<br>de <span class="vnig-title-client">Les jardins du chêne</span>
         </h1>
         <p class="vnig-subtitle">Création d'une publication carrousel Instagram sur mesure pour valoriser le savoir-faire d'un jardinier paysagiste — visuels cohérents, textes percutants et appel à l'action efficace.</p>
         <div class="vnig-tags">
@@ -190,7 +190,7 @@ get_header();
 
       <div class="vnig-visual">
         <div class="vnig-phone-wrap">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_vertnature_mockup.png" alt="Publication Instagram Vert-Nature" class="vnig-mockup">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.png" alt="Publication Instagram Les jardins du chêne" class="vnig-mockup">
         </div>
         <div class="vnig-annot">
           <span class="vnig-annot-check">
@@ -311,7 +311,7 @@ get_header();
       <div class="vnig-apercu-label">Aperçu de la publication</div>
     </div>
     <div class="vnig-post-wrap">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/post_insta_vertnature.jpg" alt="Publication Instagram Vert-Nature" style="width:100%;display:block;border-radius:12px;">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_les_jardins_du_chene_mockup.png" alt="Publication Instagram Les jardins du chêne" style="width:100%;display:block;border-radius:12px;">
     </div>
   </div>
 </section>
@@ -338,7 +338,7 @@ get_header();
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
         </div>
         <h3>Donner des conseils crée de la confiance</h3>
-        <p>Un contenu utile positionne Vert-Nature comme <strong>expert de son domaine</strong>. En partageant des astuces jardinage, la marque apporte de la valeur avant même le premier contact — ce qui convertit mieux qu'un post purement promotionnel.</p>
+        <p>Un contenu utile positionne Les jardins du chêne comme <strong>expert de son domaine</strong>. En partageant des astuces jardinage, la marque apporte de la valeur avant même le premier contact — ce qui convertit mieux qu'un post purement promotionnel.</p>
       </div>
 
       <div class="vnig-strat-card">
@@ -346,7 +346,7 @@ get_header();
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
         <h3>Toucher une audience qualifiée</h3>
-        <p>Les personnes qui sauvegardent ou partagent un conseil jardinage sont précisément les <strong>futurs clients</strong> de Vert-Nature. Ce format attire naturellement une audience ciblée, sans dépenser en publicité.</p>
+        <p>Les personnes qui sauvegardent ou partagent un conseil jardinage sont précisément les <strong>futurs clients</strong> de Les jardins du chêne. Ce format attire naturellement une audience ciblée, sans dépenser en publicité.</p>
       </div>
 
       <div class="vnig-strat-card">
@@ -369,24 +369,24 @@ get_header();
       <h2 class="vnig-section-title">5 slides, un message clair</h2>
     </div>
     <div class="vnig-slides-grid">
-      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_1.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 1">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_1.png" alt="Carrousel Vert-Nature — Slide 1">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_1.webp" data-lightbox-alt="Carrousel Les jardins du chêne — Slide 1">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_1.webp" alt="Carrousel Les jardins du chêne — Slide 1">
         <div class="vnig-slide-num">Slide 1 — Accroche</div>
       </a>
-      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_2.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 2">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_2.png" alt="Carrousel Vert-Nature — Slide 2">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_2.webp" data-lightbox-alt="Carrousel Les jardins du chêne — Slide 2">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_2.webp" alt="Carrousel Les jardins du chêne — Slide 2">
         <div class="vnig-slide-num">Slide 2 — Conseil n°1</div>
       </a>
-      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_3.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 3">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_3.png" alt="Carrousel Vert-Nature — Slide 3">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_3.webp" data-lightbox-alt="Carrousel Les jardins du chêne — Slide 3">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_3.webp" alt="Carrousel Les jardins du chêne — Slide 3">
         <div class="vnig-slide-num">Slide 3 — Conseil n°2</div>
       </a>
-      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_4.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 4">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_4.png" alt="Carrousel Vert-Nature — Slide 4">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_4.webp" data-lightbox-alt="Carrousel Les jardins du chêne — Slide 4">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_4.webp" alt="Carrousel Les jardins du chêne — Slide 4">
         <div class="vnig-slide-num">Slide 4 — Conseil n°3</div>
       </a>
-      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_5.png" data-lightbox-alt="Carrousel Vert-Nature — Slide 5">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrousel_vertnature_5.png" alt="Carrousel Vert-Nature — Slide 5">
+      <a class="vnig-slide-card" href="#" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_5.webp" data-lightbox-alt="Carrousel Les jardins du chêne — Slide 5">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/les_jardin_du_chene_slide_5.webp" alt="Carrousel Les jardins du chêne — Slide 5">
         <div class="vnig-slide-num">Slide 5 — Appel à l'action</div>
       </a>
     </div>

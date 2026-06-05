@@ -46,13 +46,13 @@ get_header();
 
         <div class="pf-card" data-category="reseaux-sociaux">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_vertnature_mockup.png" alt="Vert-Nature — carrousel Instagram">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.png" alt="Vert-Nature — carrousel Instagram">
             <span class="pf-badge pf-badge--green">Réseaux sociaux</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
+              <div><h4 class="pf-card-title">Les jardins du chêne</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Slides</span><span class="pf-stat-label">prenium</span></div></div>
@@ -61,7 +61,7 @@ get_header();
             </div>
             <div class="pf-card-actions">
               <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_vertnature_mockup.png" data-lightbox-alt="Post Instagram Vert-Nature">Voir le post →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-post-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
