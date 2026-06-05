@@ -3785,7 +3785,7 @@ body {
 .pr-stat small  { font-size: 11px; color: var(--text-subtle); margin-top: 2px; }
 
 /* ── PAGE CTA ── */
-.page-cta { padding: 80px 0; background: #0d0a1a url('../images/beautiful-view-construction-site-city-sunset.jpg') center/cover no-repeat fixed; position: relative; overflow: hidden; }
+.page-cta { padding: 80px 0; background: #0d0a1a url('../images/beautiful-view-construction-site-city-sunset.webp') center/cover no-repeat fixed; position: relative; overflow: hidden; }
 .page-cta::before {
   content: '';
   position: absolute; inset: 0;
@@ -5334,7 +5334,7 @@ body {
 /* ── CTA FINAL ── */
 .cta-final {
   padding: 112px 0;
-  background: #0d0a1a url('../images/beautiful-view-construction-site-city-sunset.jpg') center/cover no-repeat fixed;
+  background: #0d0a1a url('../images/beautiful-view-construction-site-city-sunset.webp') center/cover no-repeat fixed;
   position: relative;
   overflow: hidden;
   text-align: center;

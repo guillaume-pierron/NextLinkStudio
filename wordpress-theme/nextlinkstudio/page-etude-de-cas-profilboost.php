@@ -130,7 +130,7 @@ get_header();
           </a>
         </div>
         <div class="ep-hero-visual">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost.png" alt="Mockup charte graphique ProfilBoost" class="pb-hero-mockup-img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost.webp" alt="Mockup charte graphique ProfilBoost" class="pb-hero-mockup-img">
           <div class="ep-annot">
             <span class="ep-annot-check">
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
