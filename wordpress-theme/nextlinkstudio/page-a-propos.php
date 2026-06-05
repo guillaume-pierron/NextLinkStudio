@@ -36,7 +36,7 @@ get_header();
       </div>
       <div class="ap-hero-right">
         <div class="ap-hero-visual">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_logo_fav.png" alt="NextLink Studio — création digitale" class="ap-hero-img" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_logo_fav.webp" alt="NextLink Studio — création digitale" class="ap-hero-img" />
         </div>
         <div class="ap-hero-stats-card">
           <div class="ap-hero-stat"><span class="ap-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span><strong>7 jours</strong><span>délai moyen de livraison</span></div>

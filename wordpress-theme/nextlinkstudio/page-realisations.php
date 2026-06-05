@@ -30,7 +30,7 @@ get_header();
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--wood"></div>
-              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Création de CV</p></div>
+              <div><h4 class="pf-card-title">www.profilboost.fr</h4><p class="pf-card-desc">Experts en optimisation professionnelle</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
@@ -96,7 +96,7 @@ get_header();
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Les jardins du chêne</h4><p class="pf-card-desc">Jardinier</p></div>
+              <div><h4 class="pf-card-title">www.lesjardinsduchene.fr</h4><p class="pf-card-desc">Paysagiste — Région lyonnaise</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>

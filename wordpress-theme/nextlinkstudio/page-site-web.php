@@ -25,7 +25,7 @@ get_header();
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/websites_images.png" alt="Exemples de sites web créés par NextLink Studio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/websites_images.webp" alt="Exemples de sites web créés par NextLink Studio" />
       </div>
     </div>
   </section>
@@ -528,7 +528,7 @@ get_header();
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Paysagiste — Région parisienne</p></div>
+              <div><h4 class="pf-card-title">www.lesjardinsduchene.fr</h4><p class="pf-card-desc">Paysagiste — Région lyonnaise</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
@@ -536,7 +536,7 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="https://nextlinkstudio.github.io/Vert-nature/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="https://www.lesjardinsduchene.fr" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-site-web'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
@@ -549,7 +549,7 @@ get_header();
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--wood"></div>
-              <div><h4 class="pf-card-title">ProfilBoost</h4><p class="pf-card-desc">Coach LinkedIn — Paris</p></div>
+              <div><h4 class="pf-card-title">www.profilboost.fr</h4><p class="pf-card-desc">Experts en optimisation professionnelle</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">sur mesure</span></div></div>
@@ -557,7 +557,7 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="https://nextlinkstudio.github.io/profilboost/" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="https://www.profilboost.fr" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site-web'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
