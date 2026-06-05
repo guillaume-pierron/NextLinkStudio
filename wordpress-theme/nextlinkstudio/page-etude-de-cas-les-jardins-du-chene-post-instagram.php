@@ -190,7 +190,7 @@ get_header();
 
       <div class="vnig-visual">
         <div class="vnig-phone-wrap">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.png" alt="Publication Instagram Les jardins du chêne" class="vnig-mockup">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.webp" alt="Publication Instagram Les jardins du chêne" class="vnig-mockup">
         </div>
         <div class="vnig-annot">
           <span class="vnig-annot-check">
@@ -311,7 +311,7 @@ get_header();
       <div class="vnig-apercu-label">Aperçu de la publication</div>
     </div>
     <div class="vnig-post-wrap">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_les_jardins_du_chene_mockup.png" alt="Publication Instagram Les jardins du chêne" style="width:100%;display:block;border-radius:12px;">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_les_jardins_du_chene_mockup.webp" alt="Publication Instagram Les jardins du chêne" style="width:100%;display:block;border-radius:12px;">
     </div>
   </div>
 </section>
