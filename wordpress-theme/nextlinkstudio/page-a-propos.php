@@ -54,7 +54,7 @@ get_header();
         <div class="ab-photo-col">
           <div class="ab-photo-card">
             <div class="ab-photo-dots"></div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guillaume.png" alt="Guillaume — NextLink Studio" class="ab-photo" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guillaume.webp" alt="Guillaume — NextLink Studio" class="ab-photo" />
           </div>
           <div class="ab-founder-badge">
             <div class="ab-founder-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>

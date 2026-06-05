@@ -292,11 +292,11 @@ get_header();
     </div>
     <div class="vnfl-apercu-grid">
       <div class="vnfl-apercu-face">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_recto.png" alt="Flyer Les jardins du chêne — Recto">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_recto.webp" alt="Flyer Les jardins du chêne — Recto">
         <span class="vnfl-apercu-face-label">Recto</span>
       </div>
       <div class="vnfl-apercu-face">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_verso.png" alt="Flyer Les jardins du chêne — Verso">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_jardinsduchene_verso.webp" alt="Flyer Les jardins du chêne — Verso">
         <span class="vnfl-apercu-face-label">Verso</span>
       </div>
     </div>
