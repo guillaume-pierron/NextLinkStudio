@@ -60,7 +60,7 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">personnalisé</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_les_jardins_du_chene_mockup.webp" data-lightbox-alt="Post Instagram Les jardins du chêne">Voir le post →</a>
+              <a href="<?php echo nls_page_url('post-instagram-les-jardins-du-chene'); ?>" class="pf-card-site-link">Voir le post →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-post-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
