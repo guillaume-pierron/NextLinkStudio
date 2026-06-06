@@ -557,7 +557,7 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Devis</span><span class="pf-stat-label">24h/24</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="https://www.profilboost.fr" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
+              <a href="https://www.profilboost.fr/?utm_source=nextlinkstudio&utm_medium=portfolio&utm_campaign=bouton_voir_le_site&utm_content=page_site_web" target="_blank" rel="noopener" class="pf-card-site-link">Voir le site web →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-profilboost-site-web'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
             </div>
           </div>
