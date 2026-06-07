@@ -25,7 +25,7 @@ get_header();
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_insta.png" alt="Posts réseaux sociaux créés par NextLink Studio" />
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.webp" alt="Posts réseaux sociaux créés par NextLink Studio" />
       </div>
     </div>
   </section>
@@ -255,13 +255,13 @@ get_header();
       <div class="portfolio-grid--triple" style="grid-template-columns: 1fr; max-width: 380px; margin: 0 auto;">
         <div class="pf-card" data-category="reseaux-sociaux">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_vertnature_mockup.png" alt="Vert-Nature — carrousel Instagram">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Instagram_les_jardins_du_chene_post.webp" alt="Les jardins du chêne — carrousel Instagram">
             <span class="pf-badge pf-badge--green">Réseaux sociaux</span>
           </div>
           <div class="pf-card-body">
             <div class="pf-card-top">
               <div class="pf-card-accent pf-card-accent--green"></div>
-              <div><h4 class="pf-card-title">Vert-Nature</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
+              <div><h4 class="pf-card-title">Les jardins du chêne</h4><p class="pf-card-desc">Carrousel Instagram</p></div>
             </div>
             <div class="pf-stats">
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Slides</span><span class="pf-stat-label">prenium</span></div></div>
@@ -269,8 +269,8 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">personnalisé</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/carroussel_insta_vertnature_mockup.png" data-lightbox-alt="Post Instagram Vert-Nature">Voir le post →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('post-instagram-les-jardins-du-chene'); ?>" class="pf-card-site-link">Voir le post →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-post-instagram'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

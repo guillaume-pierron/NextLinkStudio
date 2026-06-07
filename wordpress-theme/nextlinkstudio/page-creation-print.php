@@ -4,6 +4,14 @@
  */
 get_header();
 ?>
+<style>
+@media (max-width: 768px) {
+  .page-hero--cp .page-hero-img {
+    max-width: 75% !important;
+    margin: 0 auto;
+  }
+}
+</style>
 
   <!-- PAGE HERO -->
   <section class="page-hero page-hero--split page-hero--cp">
@@ -24,8 +32,8 @@ get_header();
           <p class="hero-price-hint">À partir de <strong>49 €</strong> · <a href="<?php echo nls_page_url('tarifs'); ?>">Voir les tarifs →</a></p>
         </div>
       </div>
-      <div class="page-hero-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/print_section.png" alt="Création print par NextLink Studio" />
+      <div class="page-hero-img" style="max-width: 75%;">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_flyer_a5_les_jardins_du_chene.webp" alt="Création print par NextLink Studio" />
       </div>
     </div>
   </section>
@@ -285,7 +293,7 @@ get_header();
       <div class="portfolio-grid--triple" style="grid-template-columns: 1fr; max-width: 380px; margin: 0 auto;">
         <div class="pf-card" data-category="print">
           <div class="pf-card-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/a5-flyers-mockup-vert_nature_bg.png" alt="Vert-Nature — flyer publicitaire">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_flyer_a5_les_jardins_du_chene.webp" alt="Les jardins du chêne — flyer publicitaire">
             <span class="pf-badge pf-badge--green">Print</span>
           </div>
           <div class="pf-card-body">
@@ -299,8 +307,8 @@ get_header();
               <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Design</span><span class="pf-stat-label">pro</span></div></div>
             </div>
             <div class="pf-card-actions">
-              <a href="#" class="pf-card-site-link" data-lightbox="<?php echo get_template_directory_uri(); ?>/assets/images/flyer_vert_nature.png" data-lightbox-alt="Flyer Vert-Nature">Voir le flyer →</a>
-              <a href="<?php echo nls_page_url('etude-de-cas-vert-nature-flyer'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
+              <a href="<?php echo nls_page_url('flyer-les-jardins-du-chene'); ?>" class="pf-card-site-link">Voir le flyer →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-flyer-a5'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>

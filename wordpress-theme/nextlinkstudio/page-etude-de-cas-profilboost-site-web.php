@@ -87,6 +87,47 @@ get_header();
 .pbs-liv-desc { font-size: 13px; color: rgba(14,19,31,0.52); line-height: 1.65; }
 .pbs-liv-desc strong { color: #058ED9; font-weight: 700; }
 
+/* OFFRE CHOISIE */
+.pbs-offre { padding: 48px 0 80px; background: linear-gradient(180deg, rgba(124,58,237,0.04) 0%, #f8faff 40%, #fff 100%); border-top: 1px solid rgba(14,19,31,0.06); }
+.pbs-offre-badge { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid rgba(14,19,31,0.10); border-radius: 99px; padding: 5px 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: rgba(14,19,31,0.40); margin-bottom: 18px; }
+.pbs-offre-header { text-align: center; margin-bottom: 52px; }
+.pbs-offre-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(30px, 5vw, 52px); font-weight: 900; line-height: 1.1; color: #0E131F; margin-bottom: 16px; }
+.pbs-offre-title-accent { background: linear-gradient(135deg, #4CBDFA, #058ED9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.pbs-offre-intro { font-size: 15px; color: rgba(14,19,31,0.50); line-height: 1.75; max-width: 520px; margin: 0 auto; }
+.pbs-offre-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 880px; margin: 0 auto 28px; }
+.pbs-offre-box { border-radius: 20px; padding: 36px; }
+.pbs-offre-box--features { background: #0E131F; }
+.pbs-offre-box--delivered { background: #fff; border: 1px solid rgba(14,19,31,0.08); box-shadow: 0 4px 24px rgba(14,19,31,0.06); }
+.pbs-offre-card-head { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 10px; }
+.pbs-offre-icon { width: 52px; height: 52px; min-width: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pbs-offre-box--features .pbs-offre-icon { background: linear-gradient(135deg, rgba(76,189,250,0.18), rgba(5,142,217,0.18)); color: #4CBDFA; }
+.pbs-offre-box--delivered .pbs-offre-icon { background: linear-gradient(135deg, rgba(76,189,250,0.12), rgba(5,142,217,0.12)); color: #058ED9; }
+.pbs-offre-card-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 3px; }
+.pbs-offre-box--features .pbs-offre-card-label { color: rgba(255,255,255,0.30); }
+.pbs-offre-box--delivered .pbs-offre-card-label { color: rgba(14,19,31,0.32); }
+.pbs-offre-card-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 17px; font-weight: 800; }
+.pbs-offre-box--features .pbs-offre-card-title { color: #fff; }
+.pbs-offre-box--delivered .pbs-offre-card-title { background: linear-gradient(135deg, #4CBDFA, #058ED9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.pbs-offre-card-divider { width: 32px; height: 3px; border-radius: 2px; margin: 14px 0 22px; }
+.pbs-offre-box--features .pbs-offre-card-divider { background: linear-gradient(135deg, #4CBDFA, #058ED9); }
+.pbs-offre-box--delivered .pbs-offre-card-divider { background: linear-gradient(135deg, #4CBDFA, #058ED9); }
+.pbs-offre-list { list-style: none; padding: 0; margin: 0; }
+.pbs-offre-list li { display: flex; align-items: center; gap: 12px; font-size: 13.5px; padding: 10px 0; border-bottom: 1px solid; }
+.pbs-offre-box--features .pbs-offre-list li { color: rgba(255,255,255,0.72); border-bottom-color: rgba(255,255,255,0.06); }
+.pbs-offre-box--delivered .pbs-offre-list li { color: rgba(14,19,31,0.65); border-bottom-color: rgba(14,19,31,0.06); }
+.pbs-offre-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.pbs-offre-list li:first-child { padding-top: 0; }
+.pbs-offre-check { width: 20px; height: 20px; min-width: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pbs-offre-box--features .pbs-offre-check { background: linear-gradient(135deg, rgba(76,189,250,0.20), rgba(5,142,217,0.20)); color: #4CBDFA; }
+.pbs-offre-box--delivered .pbs-offre-check { background: linear-gradient(135deg, rgba(76,189,250,0.15), rgba(5,142,217,0.15)); color: #058ED9; }
+.pbs-offre-stats { display: grid; grid-template-columns: repeat(5, 1fr); background: #fff; border: 1px solid rgba(14,19,31,0.08); border-radius: 16px; overflow: hidden; max-width: 880px; margin: 0 auto; box-shadow: 0 2px 16px rgba(14,19,31,0.05); }
+.pbs-offre-stat { display: flex; align-items: center; gap: 12px; padding: 18px 16px; border-right: 1px solid rgba(14,19,31,0.07); }
+.pbs-offre-stat:last-child { border-right: none; }
+.pbs-offre-stat-icon { width: 36px; height: 36px; min-width: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.pbs-offre-stat-title { font-size: 13px; font-weight: 700; color: #0E131F; line-height: 1.3; }
+.pbs-offre-stat-sub { font-size: 11px; color: rgba(14,19,31,0.42); margin-top: 1px; }
+@media (max-width: 760px) { .pbs-offre { padding-top: 24px; } .pbs-offre-inner { grid-template-columns: 1fr; } .pbs-offre-stats { grid-template-columns: repeat(2, 1fr); } .pbs-offre-stat { border-bottom: 1px solid rgba(14,19,31,0.07); } }
+
 /* CTA */
 .pbs-cta { background: #0E131F; border-top: 1px solid rgba(255,255,255,0.06); padding: 72px 0; text-align: center; }
 .pbs-cta-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(24px,3.5vw,38px); font-weight: 900; color: #fff; margin-bottom: 14px; }
@@ -138,14 +179,13 @@ get_header();
   <div class="container">
     <div class="pbs-hero-inner">
       <div>
-        <div class="pbs-breadcrumb">
-          <a href="<?php echo home_url('/'); ?>">Accueil</a>
-          <span>/</span>
-          <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
-          <span>/</span>
-          <span>ProfilBoost</span>
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:20px;">
+          <div class="pbs-badge" style="margin-bottom:0;">Étude de cas</div>
+          <div class="pbs-badge" style="margin-bottom:0;background:rgba(5,142,217,0.10);color:#058ED9;border-color:rgba(5,142,217,0.25);">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px;"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            Offre Croissance
+          </div>
         </div>
-        <div class="pbs-badge">Étude de cas</div>
         <h1 class="pbs-title">
           La présence digitale<br>de <span class="pbs-title-client">ProfilBoost</span>
         </h1>
@@ -164,7 +204,7 @@ get_header();
             SEO Local
           </span>
         </div>
-        <a href="https://www.profilboost.fr/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+        <a href="https://www.profilboost.fr/?utm_source=nextlinkstudio&utm_medium=portfolio&utm_campaign=bouton_voir_le_site&utm_content=page_etude_de_cas" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           Voir le site
         </a>
@@ -283,10 +323,124 @@ get_header();
   </div>
 </section>
 
+<!-- OFFRE CHOISIE -->
+<section class="pbs-offre">
+  <div class="container">
+    <div class="pbs-offre-header">
+      <div class="pbs-offre-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Offre choisie
+      </div>
+      <h2 class="pbs-offre-title">L'offre <span class="pbs-offre-title-accent">Croissance,</span><br>cas concret</h2>
+      <p class="pbs-offre-intro">Pour lancer ProfilBoost, <strong>l'offre Croissance</strong> a été retenue — l'accompagnement complet, du design sur mesure jusqu'au suivi de positionnement Google.</p>
+    </div>
+    <div class="pbs-offre-inner">
+
+      <div class="pbs-offre-box pbs-offre-box--features">
+        <div class="pbs-offre-card-head">
+          <div class="pbs-offre-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="13" y2="16"/></svg>
+          </div>
+          <div>
+            <div class="pbs-offre-card-label">Ce qui est inclus</div>
+            <div class="pbs-offre-card-title">DANS L'OFFRE</div>
+          </div>
+        </div>
+        <div class="pbs-offre-card-divider"></div>
+        <ul class="pbs-offre-list">
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Design sur mesure mobile-first</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Google Business optimisé</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>SEO avancé + stratégie de mots-clés</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Suivi de positionnement Google</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Rapport mensuel de positionnement</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Nom de domaine + hébergement 1 an offerts</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Délai de livraison prioritaire</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>6 mois de support inclus</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Formation prise en main incluse</li>
+        </ul>
+      </div>
+
+      <div class="pbs-offre-box pbs-offre-box--delivered">
+        <div class="pbs-offre-card-head">
+          <div class="pbs-offre-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+          </div>
+          <div>
+            <div class="pbs-offre-card-label">Ce qui a été réalisé</div>
+            <div class="pbs-offre-card-title">POUR PROFILIBOOST</div>
+          </div>
+        </div>
+        <div class="pbs-offre-card-divider"></div>
+        <ul class="pbs-offre-list">
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Charte graphique ProfilBoost intégrée au design</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>6 pages créées, chacune pensée pour convertir</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>SEO on-page : titres, balises, méta descriptions</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Google Search Console configurée et soumise</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Google Business Profile créé et optimisé</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Nom de domaine profilboost.fr + hébergement</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Adresses mail professionnelles configurées</li>
+          <li><span class="pbs-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Session de formation + 6 mois de support</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="pbs-offre-stats">
+      <div class="pbs-offre-stat">
+        <div class="pbs-offre-stat-icon" style="background:rgba(5,142,217,0.10);color:#058ED9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <div class="pbs-offre-stat-title">Lancement rapide</div>
+          <div class="pbs-offre-stat-sub">Délai prioritaire</div>
+        </div>
+      </div>
+      <div class="pbs-offre-stat">
+        <div class="pbs-offre-stat-icon" style="background:rgba(5,142,217,0.10);color:#058ED9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <div class="pbs-offre-stat-title">Zéro surprise</div>
+          <div class="pbs-offre-stat-sub">Tout est inclus</div>
+        </div>
+      </div>
+      <div class="pbs-offre-stat">
+        <div class="pbs-offre-stat-icon" style="background:rgba(5,142,217,0.10);color:#058ED9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+        </div>
+        <div>
+          <div class="pbs-offre-stat-title">Accompagnement</div>
+          <div class="pbs-offre-stat-sub">6 mois de support</div>
+        </div>
+      </div>
+      <div class="pbs-offre-stat">
+        <div class="pbs-offre-stat-icon" style="background:rgba(5,142,217,0.10);color:#058ED9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div>
+          <div class="pbs-offre-stat-title">Autonomie</div>
+          <div class="pbs-offre-stat-sub">Formation incluse</div>
+        </div>
+      </div>
+      <div class="pbs-offre-stat">
+        <div class="pbs-offre-stat-icon" style="background:rgba(5,142,217,0.10);color:#058ED9;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        </div>
+        <div>
+          <div class="pbs-offre-stat-title">Performance</div>
+          <div class="pbs-offre-stat-sub">Suivi &amp; optimisation</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- APERÇU DU SITE -->
 <section class="pbs-apercu">
   <div class="pbs-apercu-header">
-    <h2 class="pbs-apercu-title">Aperçu du site</h2>
+    <h2 class="pbs-apercu-title">www.profilboost.fr</h2>
   </div>
   <div class="pbs-apercu-browser">
     <div class="pbs-apercu-bar">
@@ -363,7 +517,7 @@ get_header();
       </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
-      <a href="https://www.profilboost.fr/" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
+      <a href="https://www.profilboost.fr/?utm_source=nextlinkstudio&utm_medium=portfolio&utm_campaign=bouton_voir_le_site&utm_content=page_etude_de_cas" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         Voir le site web
       </a>
@@ -383,7 +537,7 @@ get_header();
         <div class="pbs-liv-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
-        <div class="pbs-liv-title">Hébergé sur WordPress</div>
+        <div class="pbs-liv-title">Déployé sur WordPress</div>
         <div class="pbs-liv-desc">Le site est déployé sur <strong>WordPress</strong> — une plateforme <strong>stable et évolutive</strong>, maîtrisée par des millions d'utilisateurs.</div>
       </div>
       <div class="pbs-liv-card">
