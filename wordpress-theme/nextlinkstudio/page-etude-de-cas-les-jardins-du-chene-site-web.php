@@ -107,6 +107,49 @@ get_header();
 .vn-liv-desc { font-size: 13px; color: rgba(28,43,34,0.52); line-height: 1.65; }
 .vn-liv-desc strong { color: #2E4E3A; font-weight: 700; }
 
+/* OFFRE CHOISIE */
+.vn-offre { padding: 88px 0 80px; background: linear-gradient(180deg, rgba(46,78,58,0.04) 0%, #f7fbf8 40%, #fff 100%); border-top: 1px solid rgba(28,43,34,0.06); }
+.vn-offre-badge { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid rgba(28,43,34,0.10); border-radius: 99px; padding: 5px 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: rgba(28,43,34,0.40); margin-bottom: 18px; }
+.vn-offre-header { text-align: center; margin-bottom: 52px; }
+.vn-offre-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(30px, 5vw, 52px); font-weight: 900; line-height: 1.1; color: #1C2B22; margin-bottom: 16px; }
+.vn-offre-title-accent { color: #2E4E3A; }
+.vn-offre-intro { font-size: 15px; color: rgba(28,43,34,0.50); line-height: 1.75; max-width: 520px; margin: 0 auto; }
+.vn-offre-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 880px; margin: 0 auto 28px; }
+.vn-offre-box { border-radius: 20px; padding: 36px; }
+.vn-offre-box--features { background: #1C2B22; }
+.vn-offre-box--delivered { background: #fff; border: 1px solid rgba(28,43,34,0.08); box-shadow: 0 4px 24px rgba(28,43,34,0.06); }
+.vn-offre-card-head { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 10px; }
+.vn-offre-icon { width: 52px; height: 52px; min-width: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vn-offre-box--features .vn-offre-icon { background: rgba(109,143,106,0.20); color: #A7C1A1; }
+.vn-offre-box--delivered .vn-offre-icon { background: rgba(46,78,58,0.10); color: #2E4E3A; }
+.vn-offre-card-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 3px; }
+.vn-offre-box--features .vn-offre-card-label { color: rgba(255,255,255,0.30); }
+.vn-offre-box--delivered .vn-offre-card-label { color: rgba(28,43,34,0.32); }
+.vn-offre-card-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 17px; font-weight: 800; }
+.vn-offre-box--features .vn-offre-card-title { color: #fff; }
+.vn-offre-box--delivered .vn-offre-card-title { color: #2E4E3A; }
+.vn-offre-card-divider { width: 32px; height: 3px; border-radius: 2px; margin: 14px 0 22px; }
+.vn-offre-box--features .vn-offre-card-divider { background: #6D8F6A; }
+.vn-offre-box--delivered .vn-offre-card-divider { background: #2E4E3A; }
+.vn-offre-list { list-style: none; padding: 0; margin: 0; }
+.vn-offre-list li { display: flex; align-items: center; gap: 12px; font-size: 13.5px; padding: 10px 0; border-bottom: 1px solid; }
+.vn-offre-box--features .vn-offre-list li { color: rgba(255,255,255,0.72); border-bottom-color: rgba(255,255,255,0.06); }
+.vn-offre-box--delivered .vn-offre-list li { color: rgba(28,43,34,0.65); border-bottom-color: rgba(28,43,34,0.06); }
+.vn-offre-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.vn-offre-list li:first-child { padding-top: 0; }
+.vn-offre-check { width: 20px; height: 20px; min-width: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vn-offre-box--features .vn-offre-check { background: rgba(109,143,106,0.20); color: #A7C1A1; }
+.vn-offre-box--delivered .vn-offre-check { background: rgba(46,78,58,0.12); color: #2E4E3A; }
+.vn-offre-option { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(109,143,106,0.20); }
+.vn-offre-option-badge { font-size: 11px; font-weight: 700; color: #6D8F6A; background: rgba(109,143,106,0.15); padding: 2px 8px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
+.vn-offre-stats { display: grid; grid-template-columns: repeat(5, 1fr); background: #fff; border: 1px solid rgba(28,43,34,0.08); border-radius: 16px; overflow: hidden; max-width: 880px; margin: 0 auto; box-shadow: 0 2px 16px rgba(28,43,34,0.05); }
+.vn-offre-stat { display: flex; align-items: center; gap: 12px; padding: 18px 16px; border-right: 1px solid rgba(28,43,34,0.07); }
+.vn-offre-stat:last-child { border-right: none; }
+.vn-offre-stat-icon { width: 36px; height: 36px; min-width: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vn-offre-stat-title { font-size: 13px; font-weight: 700; color: #1C2B22; line-height: 1.3; }
+.vn-offre-stat-sub { font-size: 11px; color: rgba(28,43,34,0.42); margin-top: 1px; }
+@media (max-width: 760px) { .vn-offre-inner { grid-template-columns: 1fr; } .vn-offre-stats { grid-template-columns: repeat(2, 1fr); } .vn-offre-stat { border-bottom: 1px solid rgba(28,43,34,0.07); } }
+
 /* CTA */
 .vn-cta { background: #1C2B22; border-top: 1px solid rgba(255,255,255,0.06); padding: 72px 0; text-align: center; }
 .vn-cta-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(24px,3.5vw,38px); font-weight: 900; color: #fff; margin-bottom: 14px; }
@@ -136,14 +179,13 @@ get_header();
   <div class="container">
     <div class="vn-hero-inner">
       <div>
-        <div class="vn-breadcrumb">
-          <a href="<?php echo home_url('/'); ?>">Accueil</a>
-          <span>/</span>
-          <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
-          <span>/</span>
-          <span>Les jardins du chêne</span>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:20px;">
+          <div class="vn-badge" style="margin-bottom:0;">Étude de cas</div>
+          <div class="vn-badge" style="margin-bottom:0;background:rgba(46,78,58,0.08);color:#2E4E3A;border-color:rgba(46,78,58,0.25);">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px;"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            Offre Présence
+          </div>
         </div>
-        <div class="vn-badge">Étude de cas</div>
         <h1 class="vn-title">
           La présence digitale<br>de <span class="vn-title-client">Les jardins du chêne</span>
         </h1>
@@ -283,6 +325,123 @@ get_header();
   </div>
 </section>
 
+<!-- OFFRE CHOISIE -->
+<section class="vn-offre">
+  <div class="container">
+    <div class="vn-offre-header">
+      <div class="vn-offre-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Offre choisie
+      </div>
+      <h2 class="vn-offre-title">L'offre <span class="vn-offre-title-accent">Présence,</span><br>cas concret</h2>
+      <p class="vn-offre-intro">Pour lancer Les jardins du chêne, <strong>l'offre Présence</strong> a été choisie — l'essentiel pour établir une vitrine professionnelle et être trouvé sur Google, avec la réservation en ligne ajoutée en option.</p>
+    </div>
+    <div class="vn-offre-inner">
+
+      <div class="vn-offre-box vn-offre-box--features">
+        <div class="vn-offre-card-head">
+          <div class="vn-offre-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="13" y2="16"/></svg>
+          </div>
+          <div>
+            <div class="vn-offre-card-label">Ce qui est inclus</div>
+            <div class="vn-offre-card-title">DANS L'OFFRE</div>
+          </div>
+        </div>
+        <div class="vn-offre-card-divider"></div>
+        <ul class="vn-offre-list">
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Design sur mesure mobile-first</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Formulaire de contact intégré</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>SEO de base (titres, balises, Google Search Console)</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Mentions légales + conformité RGPD</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Nom de domaine + hébergement 1 an offerts</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Formation prise en main incluse</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>1 mois de support inclus</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Révisions jusqu'à votre satisfaction</li>
+        </ul>
+        <div class="vn-offre-option">
+          <span class="vn-offre-option-badge">Option +90 €</span>
+          <span style="color:rgba(255,255,255,0.65);font-size:13px;">Réservation de créneaux en ligne</span>
+        </div>
+      </div>
+
+      <div class="vn-offre-box vn-offre-box--delivered">
+        <div class="vn-offre-card-head">
+          <div class="vn-offre-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+          </div>
+          <div>
+            <div class="vn-offre-card-label">Ce qui a été réalisé</div>
+            <div class="vn-offre-card-title">POUR LES JARDINS DU CHÊNE</div>
+          </div>
+        </div>
+        <div class="vn-offre-card-divider"></div>
+        <ul class="vn-offre-list">
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Design naturel aux couleurs de la marque</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>5 pages créées, chacune pensée pour convertir</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>SEO on-page : titres, balises, méta descriptions</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Google Search Console configurée et soumise</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Réservation de créneaux en ligne intégrée</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Nom de domaine lesjardinsduchene.fr + hébergement</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Adresses mail professionnelles configurées</li>
+          <li><span class="vn-offre-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Session de formation + 1 mois de support</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="vn-offre-stats">
+      <div class="vn-offre-stat">
+        <div class="vn-offre-stat-icon" style="background:rgba(46,78,58,0.10);color:#2E4E3A;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <div class="vn-offre-stat-title">Livraison rapide</div>
+          <div class="vn-offre-stat-sub">Délai maîtrisé</div>
+        </div>
+      </div>
+      <div class="vn-offre-stat">
+        <div class="vn-offre-stat-icon" style="background:rgba(46,78,58,0.10);color:#2E4E3A;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <div class="vn-offre-stat-title">Zéro surprise</div>
+          <div class="vn-offre-stat-sub">Tout est inclus</div>
+        </div>
+      </div>
+      <div class="vn-offre-stat">
+        <div class="vn-offre-stat-icon" style="background:rgba(46,78,58,0.10);color:#2E4E3A;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+        </div>
+        <div>
+          <div class="vn-offre-stat-title">Accompagnement</div>
+          <div class="vn-offre-stat-sub">1 mois de support</div>
+        </div>
+      </div>
+      <div class="vn-offre-stat">
+        <div class="vn-offre-stat-icon" style="background:rgba(46,78,58,0.10);color:#2E4E3A;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div>
+          <div class="vn-offre-stat-title">Autonomie</div>
+          <div class="vn-offre-stat-sub">Formation incluse</div>
+        </div>
+      </div>
+      <div class="vn-offre-stat">
+        <div class="vn-offre-stat-icon" style="background:rgba(46,78,58,0.10);color:#2E4E3A;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <div>
+          <div class="vn-offre-stat-title">Visibilité Google</div>
+          <div class="vn-offre-stat-sub">SEO de base inclus</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- APERÇU DU SITE -->
 <section class="vn-apercu">
   <div class="vn-apercu-header">
@@ -368,7 +527,7 @@ get_header();
         <div class="vn-liv-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
-        <div class="vn-liv-title">Hébergé sur WordPress</div>
+        <div class="vn-liv-title">Déployé sur WordPress</div>
         <div class="vn-liv-desc">Le site est déployé sur <strong>WordPress</strong> — une plateforme <strong>stable et évolutive</strong>, maîtrisée par des millions d'utilisateurs.</div>
       </div>
       <div class="vn-liv-card">
