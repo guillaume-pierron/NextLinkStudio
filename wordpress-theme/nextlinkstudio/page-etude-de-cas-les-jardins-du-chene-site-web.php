@@ -108,7 +108,7 @@ get_header();
 .vn-liv-desc strong { color: #2E4E3A; font-weight: 700; }
 
 /* OFFRE CHOISIE */
-.vn-offre { padding: 88px 0 80px; background: linear-gradient(180deg, rgba(46,78,58,0.04) 0%, #f7fbf8 40%, #fff 100%); border-top: 1px solid rgba(28,43,34,0.06); }
+.vn-offre { padding: 48px 0 80px; background: linear-gradient(180deg, rgba(46,78,58,0.04) 0%, #f7fbf8 40%, #fff 100%); border-top: 1px solid rgba(28,43,34,0.06); }
 .vn-offre-badge { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1px solid rgba(28,43,34,0.10); border-radius: 99px; padding: 5px 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: rgba(28,43,34,0.40); margin-bottom: 18px; }
 .vn-offre-header { text-align: center; margin-bottom: 52px; }
 .vn-offre-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(30px, 5vw, 52px); font-weight: 900; line-height: 1.1; color: #1C2B22; margin-bottom: 16px; }
@@ -148,7 +148,7 @@ get_header();
 .vn-offre-stat-icon { width: 36px; height: 36px; min-width: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .vn-offre-stat-title { font-size: 13px; font-weight: 700; color: #1C2B22; line-height: 1.3; }
 .vn-offre-stat-sub { font-size: 11px; color: rgba(28,43,34,0.42); margin-top: 1px; }
-@media (max-width: 760px) { .vn-offre-inner { grid-template-columns: 1fr; } .vn-offre-stats { grid-template-columns: repeat(2, 1fr); } .vn-offre-stat { border-bottom: 1px solid rgba(28,43,34,0.07); } }
+@media (max-width: 760px) { .vn-offre { padding-top: 24px; } .vn-offre-inner { grid-template-columns: 1fr; } .vn-offre-stats { grid-template-columns: repeat(2, 1fr); } .vn-offre-stat { border-bottom: 1px solid rgba(28,43,34,0.07); } }
 
 /* CTA */
 .vn-cta { background: #1C2B22; border-top: 1px solid rgba(255,255,255,0.06); padding: 72px 0; text-align: center; }
@@ -445,7 +445,7 @@ get_header();
 <!-- APERÇU DU SITE -->
 <section class="vn-apercu">
   <div class="vn-apercu-header">
-    <h2 class="vn-apercu-title">Aperçu du site</h2>
+    <h2 class="vn-apercu-title">www.lesjardinsduchene.fr</h2>
   </div>
   <div class="vn-apercu-browser">
     <div class="vn-apercu-bar">
