@@ -8205,17 +8205,21 @@ body { background-color: #100d2e; }
 /* Tiers grid */
 .tc-tiers-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-bottom: 24px;
-  align-items: stretch;
+  align-items: start;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tc-tier-card {
   background: #fff;
-  border: 1px solid rgba(124,58,237,0.12);
+  border: 2px solid #7c3aed;
   border-radius: 14px;
   padding: 22px;
+  box-shadow: 0 4px 24px rgba(124,58,237,0.08);
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -8228,7 +8232,6 @@ body { background-color: #100d2e; }
 
 .tc-tier-card--featured {
   border: 2px solid #7c3aed;
-  padding-top: 38px;
 }
 
 .tc-tier-card-popular {
@@ -8243,6 +8246,25 @@ body { background-color: #100d2e; }
   border-radius: 20px;
   padding: 4px 14px;
   white-space: nowrap;
+}
+
+.tc-tier-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.tc-tier-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(124,58,237,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7c3aed;
+  flex-shrink: 0;
 }
 
 .tc-tier-card-name {
@@ -8285,14 +8307,23 @@ body { background-color: #100d2e; }
   color: var(--text-muted);
 }
 
+.tc-tier-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7c3aed;
+  margin: 14px 0 6px;
+}
+
 .tc-tier-card-features li svg {
   flex-shrink: 0;
   color: #7c3aed;
   background: rgba(124,58,237,0.12);
-  border-radius: 6px;
-  padding: 4px;
-  width: 24px;
-  height: 24px;
+  border-radius: 50%;
+  padding: 1px;
+  width: 14px;
+  height: 14px;
 }
 
 .tc-tier-card-delivery {
@@ -8473,27 +8504,27 @@ body { background-color: #100d2e; }
 
 .sw-pricing-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  max-width: 960px;
+  max-width: 760px;
   margin: 0 auto 32px;
   align-items: start;
 }
 
 .sw-pricing-card {
   background: #fff;
-  border: 1px solid rgba(124,58,237,0.12);
+  border: 2px solid #7c3aed;
   border-radius: 20px;
   padding: 28px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 24px rgba(124,58,237,0.08);
   position: relative;
   box-shadow: 0 2px 20px rgba(124,58,237,0.06);
 }
 
 .sw-pricing-card--featured {
   border: 2px solid #7c3aed;
-  padding-top: 44px;
   box-shadow: 0 8px 32px rgba(124,58,237,0.15);
 }
 
@@ -8535,9 +8566,9 @@ body { background-color: #100d2e; }
 
 .sw-pricing-name {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 17px;
-  font-weight: 800;
-  color: #1e1b4b;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
 }
 
 .sw-pricing-tagline {
@@ -8554,16 +8585,15 @@ body { background-color: #100d2e; }
 
 .sw-pricing-price {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 52px;
+  font-size: 34px;
   font-weight: 800;
-  color: #1e1b4b;
+  color: var(--text);
   line-height: 1;
-  margin-bottom: 20px;
-  letter-spacing: -0.02em;
+  margin-bottom: 18px;
 }
 
 .sw-pricing-price span {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   color: #9ca3af;
 }
@@ -8584,11 +8614,48 @@ body { background-color: #100d2e; }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
-  color: #374151;
+  font-size: 13px;
+  color: var(--text-muted);
 }
 
-.sw-pricing-features li svg { flex-shrink: 0; color: #7c3aed; }
+.sw-pricing-features li svg { flex-shrink: 0; color: #7c3aed; background: rgba(124,58,237,0.12); border-radius: 50%; padding: 1px; }
+
+.sw-pricing-option-price {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #7c3aed;
+  background: rgba(124,58,237,0.08);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.sw-pricing-features--option li,
+.tc-tier-card-features--option li {
+  color: #6b7280;
+}
+
+.sw-pricing-footnote {
+  text-align: center;
+  font-size: 0.78rem;
+  color: #9ca3af;
+  margin: 0 auto 24px;
+  max-width: 560px;
+}
+
+.sw-pricing-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7c3aed;
+  margin: 16px 0 8px;
+}
+
+.sw-pricing-section-label--accent,
+.tc-tier-section-label--accent {
+  color: #7c3aed;
+}
 
 .sw-pricing-btn {
   display: block;

@@ -23,7 +23,7 @@ get_header();
         <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit</a>
         <a href="<?php echo nls_page_url( 'realisations' ); ?>" class="btn btn-ghost btn-lg">Voir mes réalisations →</a>
       </div>
-      <p class="hero-price-hint">À partir de <strong>490 €</strong> · <a href="<?php echo nls_page_url( 'tarifs' ); ?>">Voir les tarifs →</a></p>
+      <p class="hero-price-hint">Site web à partir de <strong>490 €</strong> · <a href="<?php echo nls_page_url( 'tarifs' ); ?>">Voir les tarifs →</a></p>
       <div class="hero-services">
         <a href="<?php echo nls_page_url( 'site-web' ); ?>" class="hero-service-tag">
           <span class="hst-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
