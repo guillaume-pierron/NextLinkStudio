@@ -96,14 +96,8 @@ get_header();
     <div class="container">
       <div class="ep-hero-inner">
         <div class="ep-hero-content">
-          <div class="ep-breadcrumb">
-            <a href="<?php echo home_url('/'); ?>">Accueil</a>
-            <span>/</span>
-            <a href="<?php echo nls_page_url('realisations'); ?>">Mes réalisations</a>
-            <span>/</span>
-            <span>ProfilBoost</span>
-          </div>
-          <div class="case-badge case-badge--wood">🎨 Étude de cas — Identité visuelle</div>
+
+          <div class="case-badge case-badge--wood">Étude de cas — Identité visuelle</div>
           <h1 class="ep-hero-title">L'identité visuelle<br>de <span class="gradient-text">ProfilBoost</span></h1>
           <p class="ep-hero-subtitle">Logo, charte graphique et déclinaisons complètes — une identité professionnelle et mémorable pour une entreprise de création de CV.</p>
           <div class="ep-hero-badges">

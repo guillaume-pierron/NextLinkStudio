@@ -160,14 +160,8 @@ get_header();
   <div class="container">
     <div class="vnig-hero-inner">
       <div>
-        <div class="vnig-breadcrumb">
-          <a href="<?php echo home_url('/'); ?>">Accueil</a>
-          <span>/</span>
-          <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
-          <span>/</span>
-          <span>Les jardins du chêne — Instagram</span>
-        </div>
-        <div class="vnig-badge">📱 Étude de cas — Réseaux sociaux</div>
+
+        <div class="vnig-badge">Étude de cas — Réseaux sociaux</div>
         <h1 class="vnig-title">
           Le carrousel Instagram<br>de <span class="vnig-title-client">Les jardins du chêne</span>
         </h1>

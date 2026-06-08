@@ -34,7 +34,7 @@
           <li><a href="<?php echo nls_page_url( 'realisations' ); ?>">Mes réalisations</a></li>
           <li><a href="<?php echo nls_page_url( 'a-propos' ); ?>">À propos</a></li>
           <li><a href="<?php echo nls_page_url( 'tarifs' ); ?>">Tarifs</a></li>
-          <li><a href="<?php echo nls_page_url( 'devis' ); ?>">Devis gratuit</a></li>
+          <li><a href="<?php echo nls_page_url( 'devis' ); ?>">Contact</a></li>
         </ul>
       </div>
       <div class="footer-links">

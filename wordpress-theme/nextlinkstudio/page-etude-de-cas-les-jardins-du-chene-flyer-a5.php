@@ -140,14 +140,8 @@ get_header();
   <div class="container">
     <div class="vnfl-hero-inner">
       <div>
-        <div class="vnfl-breadcrumb">
-          <a href="<?php echo home_url('/'); ?>">Accueil</a>
-          <span>/</span>
-          <a href="<?php echo nls_page_url('realisations'); ?>">Projets</a>
-          <span>/</span>
-          <span>Les jardins du chêne — Flyer</span>
-        </div>
-        <div class="vnfl-badge">🖨️ Étude de cas — Print &amp; Communication</div>
+
+        <div class="vnfl-badge">Étude de cas — Print &amp; Communication</div>
         <h1 class="vnfl-title">
           Le flyer publicitaire<br>de <span class="vnfl-title-client">Les jardins du chêne</span>
         </h1>

@@ -297,7 +297,7 @@ get_header();
         <h2>Un projet ? Parlons-en.</h2>
         <p>Dites-moi en quelques mots ce que vous faites et où vous en êtes — je reviens vers vous sous 24h avec une proposition adaptée.</p>
         <div class="page-cta-actions">
-          <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Demander un devis gratuit →</a>
+          <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance →</a>
           <a href="<?php echo nls_page_url('realisations'); ?>" class="btn btn-ghost btn-lg">Voir les réalisations</a>
         </div>
       </div>

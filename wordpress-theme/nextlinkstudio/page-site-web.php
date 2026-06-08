@@ -619,7 +619,7 @@ get_header();
           <ul class="sw-pricing-features sw-pricing-features--option">
             <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Réservation en ligne <span class="sw-pricing-option-price">+90 €</span></li>
           </ul>
-          <a href="<?php echo nls_page_url('devis'); ?>" class="sw-pricing-btn">Demander un devis →</a>
+          <a href="<?php echo nls_page_url('devis'); ?>" class="sw-pricing-btn">Prendre contact →</a>
         </div>
 
         <!-- Croissance (featured) -->
@@ -654,7 +654,7 @@ get_header();
             <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Formation prise en main incluse</li>
             <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Révisions jusqu'à votre satisfaction</li>
           </ul>
-          <a href="<?php echo nls_page_url('devis'); ?>" class="sw-pricing-btn sw-pricing-btn--featured">Demander un devis →</a>
+          <a href="<?php echo nls_page_url('devis'); ?>" class="sw-pricing-btn sw-pricing-btn--featured">Prendre contact →</a>
         </div>
 
       </div>
@@ -690,7 +690,7 @@ get_header();
         <h2>Un projet ? Parlons-en.</h2>
         <p>Dites-moi en quelques mots ce que vous faites et où vous en êtes — je reviens vers vous sous 24h avec une proposition adaptée.</p>
         <div class="page-cta-actions">
-          <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Demander un devis gratuit →</a>
+          <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance →</a>
           <a href="<?php echo nls_page_url('realisations'); ?>" class="btn btn-ghost btn-lg">Voir les réalisations</a>
         </div>
       </div>

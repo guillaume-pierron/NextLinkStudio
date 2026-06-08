@@ -38,7 +38,7 @@ get_header();
         </a>
       </div>
       <div class="text-center" style="margin-top: 56px;">
-        <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Demander un devis gratuit</a>
+        <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance</a>
       </div>
     </div>
   </section>

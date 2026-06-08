@@ -20,7 +20,7 @@ get_header();
         Site web, identité visuelle, réseaux sociaux et print — plus de visibilité, de crédibilité et d'opportunités.
       </p>
       <div class="hero-actions">
-        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit</a>
+        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Prendre contact</a>
         <a href="<?php echo nls_page_url( 'realisations' ); ?>" class="btn btn-ghost btn-lg">Voir mes réalisations →</a>
       </div>
       <p class="hero-price-hint">Site web à partir de <strong>490 €</strong> · <a href="<?php echo nls_page_url( 'tarifs' ); ?>">Voir les tarifs →</a></p>
@@ -121,7 +121,7 @@ get_header();
           </div>
         </div>
         <div class="pain-result-right">
-          <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary">→ Réserver un appel gratuit</a>
+          <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary">→ Prendre contact</a>
           <span class="pain-result-audit">✅ Audit offert de votre image actuelle</span>
         </div>
       </div>
@@ -325,7 +325,7 @@ get_header();
         </div>
       </div>
       <div class="how-cta">
-        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Demander un devis gratuit →</a>
+        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Prendre contact →</a>
         <p class="how-cta-sub"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Aucun engagement — réponse sous 24h</p>
       </div>
     </div>
@@ -615,7 +615,7 @@ get_header();
       <h2 class="cta-final-title">Prêt à vous lancer ?</h2>
       <p class="cta-final-sub">Décrivez votre projet en 2 minutes. Je reviens vers vous avec une proposition claire, sans jargon et sans surprise.</p>
       <div class="cta-final-actions">
-        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit →</a>
+        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">Prendre contact →</a>
         <a href="<?php echo nls_page_url( 'tarifs' ); ?>" class="btn btn-ghost btn-lg">Voir les tarifs</a>
       </div>
     </div>

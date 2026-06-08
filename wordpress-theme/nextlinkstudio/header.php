@@ -82,7 +82,7 @@
         <li><a href="<?php echo nls_page_url( 'tarifs' ); ?>"<?php echo nls_active_class( 'tarifs' ) ? ' class="active"' : ''; ?>>Tarifs</a></li>
         <li><a href="<?php echo nls_page_url( 'a-propos' ); ?>"<?php echo nls_active_class( 'a-propos' ) ? ' class="active"' : ''; ?>>À propos</a></li>
       </ul>
-      <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary nav-cta<?php echo nls_active_class( 'devis' ); ?>">Devis gratuit</a>
+      <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary nav-cta<?php echo nls_active_class( 'devis' ); ?>">Contact</a>
       <button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">
         <span></span><span></span><span></span>
       </button>
@@ -108,7 +108,7 @@
         <a href="<?php echo nls_page_url( 'a-propos' ); ?>" onclick="toggleMenu()"><span class="nm-num">04</span>À propos</a>
       </div>
       <div class="nav-mobile-cta">
-        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary" onclick="toggleMenu()">Devis gratuit →</a>
+        <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary" onclick="toggleMenu()">Contact →</a>
         <p class="nav-mobile-tagline">Votre projet mérite le meilleur.</p>
       </div>
     </div>

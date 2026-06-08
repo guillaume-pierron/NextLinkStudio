@@ -30,7 +30,7 @@ get_header();
               </div>
             </div>
             <div class="tc-sw-header-actions">
-              <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary">Demander un devis →</a>
+              <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary">Je me lance →</a>
               <a href="<?php echo nls_page_url('site-web'); ?>" class="tc-cta-secondary" style="color:#7c3aed; text-align:center;">En savoir plus →</a>
             </div>
           </div>
@@ -135,7 +135,7 @@ get_header();
               </li>
             </ul>
             <div class="tc-cta-group">
-              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Je me lance →</a>
               <a href="<?php echo nls_page_url('identite-visuelle'); ?>" class="tc-cta-secondary">En savoir plus →</a>
             </div>
           </div>
@@ -166,7 +166,7 @@ get_header();
               </li>
             </ul>
             <div class="tc-cta-group">
-              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Je me lance →</a>
               <a href="<?php echo nls_page_url('reseaux-sociaux'); ?>" class="tc-cta-secondary">En savoir plus →</a>
             </div>
           </div>
@@ -201,7 +201,7 @@ get_header();
               </li>
             </ul>
             <div class="tc-cta-group">
-              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Demander un devis →</a>
+              <a href="<?php echo nls_page_url('devis'); ?>" class="tc-cta">Je me lance →</a>
               <a href="<?php echo nls_page_url('print'); ?>" class="tc-cta-secondary">En savoir plus →</a>
             </div>
           </div>
@@ -292,7 +292,7 @@ get_header();
       <h2 class="cta-final-title">Prêt à vous lancer ?</h2>
       <p class="cta-final-sub">Choisissez votre offre et démarrons ensemble dès aujourd'hui.</p>
       <div class="cta-final-actions">
-        <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Obtenir mon devis gratuit →</a>
+        <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance →</a>
         <a href="<?php echo nls_page_url('realisations'); ?>" class="btn btn-ghost btn-lg">Voir mes réalisations</a>
       </div>
     </div>
