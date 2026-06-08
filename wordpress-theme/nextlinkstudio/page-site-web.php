@@ -576,6 +576,24 @@ get_header();
     </div>
   </section>
 
+  <!-- REFONTE -->
+  <section style="background: linear-gradient(130deg, #1e1b4b 0%, #3b0764 45%, #4c1d95 100%); padding: 40px 0;">
+    <div class="container">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; background:#fff; border:1px solid rgba(124,58,237,0.15); border-radius:16px; padding:32px 40px;">
+        <div style="display:flex; align-items:center; gap:20px; flex:1; min-width:240px;">
+          <div style="width:48px; height:48px; border-radius:12px; background:rgba(124,58,237,0.08); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.99"/></svg>
+          </div>
+          <div>
+            <strong style="display:block; font-size:17px; color:#1a1a2e; margin-bottom:4px;">Vous avez déjà un site qui ne vous ressemble plus ?</strong>
+            <span style="font-size:14px; color:#666;">Je m'occupe aussi de la refonte — même tarif, résultat neuf.</span>
+          </div>
+        </div>
+        <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary" style="white-space:nowrap;">Parlez-moi de votre projet →</a>
+      </div>
+    </div>
+  </section>
+
   <!-- OFFRES -->
   <section class="sw-pricing-section">
     <div class="container">
