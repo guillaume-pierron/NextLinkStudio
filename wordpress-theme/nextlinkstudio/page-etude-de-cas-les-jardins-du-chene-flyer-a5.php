@@ -143,7 +143,7 @@ get_header();
 
         <div class="vnfl-badge">Étude de cas — Print &amp; Communication</div>
         <h1 class="vnfl-title">
-          Le flyer publicitaire<br>de <span class="vnfl-title-client">Les jardins du chêne</span>
+          <span class="vnfl-title-client">Les jardins du chêne</span> : Flyer publicitaire
         </h1>
         <p class="vnfl-subtitle">Création d'un flyer imprimé sur mesure pour promouvoir les services de jardinage et paysagisme de Les jardins du chêne — design percutant, message clair et identité visuelle cohérente.</p>
         <div class="vnfl-tags">
@@ -159,6 +159,9 @@ get_header();
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
             Identité visuelle
           </span>
+        </div>
+        <div style="margin-top:24px;">
+          <a href="<?php echo nls_page_url('flyer-les-jardins-du-chene'); ?>" class="btn btn-primary">Voir le flyer →</a>
         </div>
       </div>
 

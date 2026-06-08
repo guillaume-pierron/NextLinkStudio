@@ -187,7 +187,7 @@ get_header();
           </div>
         </div>
         <h1 class="vn-title">
-          La présence digitale<br>de <span class="vn-title-client">Les jardins du chêne</span>
+          <span class="vn-title-client">Les jardins du chêne</span> : Le site web
         </h1>
         <p class="vn-subtitle">Création d'un site vitrine moderne et d'une identité visuelle soignée pour un jardinier paysagiste indépendant souhaitant développer sa clientèle en ligne.</p>
         <div class="vn-tags">

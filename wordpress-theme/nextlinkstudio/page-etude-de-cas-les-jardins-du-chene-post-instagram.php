@@ -163,7 +163,7 @@ get_header();
 
         <div class="vnig-badge">Étude de cas — Réseaux sociaux</div>
         <h1 class="vnig-title">
-          Le carrousel Instagram<br>de <span class="vnig-title-client">Les jardins du chêne</span>
+          <span class="vnig-title-client">Les jardins du chêne</span> : Carrousel Instagram
         </h1>
         <p class="vnig-subtitle">Création d'une publication carrousel Instagram sur mesure pour valoriser le savoir-faire d'un jardinier paysagiste — visuels cohérents, textes percutants et appel à l'action efficace.</p>
         <div class="vnig-tags">
@@ -179,6 +179,9 @@ get_header();
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
             Direction artistique
           </span>
+        </div>
+        <div style="margin-top:24px;">
+          <a href="<?php echo nls_page_url('post-instagram-les-jardins-du-chene'); ?>" class="btn btn-primary">Voir le post →</a>
         </div>
       </div>
 
