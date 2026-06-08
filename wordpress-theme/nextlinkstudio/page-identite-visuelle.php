@@ -10,7 +10,7 @@ get_header();
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="sw-hero-badge">🎨 Identité visuelle</div>
+        <div class="sw-hero-badge">Identité visuelle</div>
         <h1>Une image qui inspire<br /><span class="gradient-text">confiance au premier regard</span></h1>
         <p>Avant même de vous appeler, votre client vous juge sur votre image. Je vous construis une identité professionnelle cohérente — du logo à la charte graphique complète.</p>
         <div class="sw-hero-tags">
@@ -412,7 +412,7 @@ get_header();
   <section class="page-cta">
     <div class="container">
       <div class="page-cta-inner">
-        <h2>Un projet ? Parlons-en.</h2>
+        <h2 style="font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(36px,5.5vw,62px);font-weight:900;line-height:1.05;">Un projet ? <span style="white-space:nowrap">Parlons-en.</span></h2>
         <p>Dites-moi en quelques mots ce que vous faites et où vous en êtes — je reviens vers vous sous 24h avec une proposition adaptée.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance →</a>

@@ -12,7 +12,7 @@ get_header();
         <h1 class="rl-page-title">Mes <span class="gradient-text">réalisations</span></h1>
       </div>
       <!-- FILTRES -->
-      <div class="pf-filters">
+      <div class="pf-filters" style="margin-top: 32px;">
         <button class="pf-filter active" data-filter="all">Tous</button>
         <button class="pf-filter" data-filter="site-web">Site web</button>
         <button class="pf-filter" data-filter="identite-visuelle">Identité visuelle</button>
@@ -141,7 +141,7 @@ get_header();
   <section class="page-cta">
     <div class="container">
       <div class="page-cta-inner">
-        <h2>Votre réalisation sera la prochaine.</h2>
+        <h2 style="font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(36px,5.5vw,62px);font-weight:900;line-height:1.05;">Votre réalisation sera la prochaine.</h2>
         <p>Rejoignez les artisans qui ont fait confiance à NextLink Studio.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Demander mon devis gratuit</a>

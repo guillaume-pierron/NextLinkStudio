@@ -3734,7 +3734,7 @@ body {
 .filtre.active { background: linear-gradient(135deg, var(--purple), var(--purple-dark)); border-color: transparent; color: var(--white); }
 
 /* ── PORTFOLIO FULL ── */
-.realisations-full { padding: 48px 0 96px; background: var(--bg); }
+.realisations-full { padding: 80px 0 96px; background: var(--bg); }
 .rl-page-header { margin-bottom: 40px; }
 .rl-page-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; line-height: 1.15; margin: 8px 0 0; }
 

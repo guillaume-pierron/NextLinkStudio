@@ -10,7 +10,7 @@ get_header();
     <div class="page-hero-bg"></div>
     <div class="container page-hero-content">
       <div class="page-hero-text">
-        <div class="sw-hero-badge">🔧 Création de site web</div>
+        <div class="sw-hero-badge">Création de site web</div>
         <h1>Un site web qui<br /><span class="gradient-text">travaille pour vous</span></h1>
         <p>Votre site vitrine est votre meilleur commercial : il répond aux clients, accepte les devis et remplit votre agenda — 24h/24, même quand vous avez les mains occupées.</p>
         <div class="sw-hero-tags">
@@ -687,7 +687,7 @@ get_header();
   <section class="page-cta">
     <div class="container">
       <div class="page-cta-inner">
-        <h2>Un projet ? Parlons-en.</h2>
+        <h2 style="font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(36px,5.5vw,62px);font-weight:900;line-height:1.05;">Un projet ? <span style="white-space:nowrap">Parlons-en.</span></h2>
         <p>Dites-moi en quelques mots ce que vous faites et où vous en êtes — je reviens vers vous sous 24h avec une proposition adaptée.</p>
         <div class="page-cta-actions">
           <a href="<?php echo nls_page_url('devis'); ?>" class="btn btn-primary btn-lg">Je me lance →</a>
