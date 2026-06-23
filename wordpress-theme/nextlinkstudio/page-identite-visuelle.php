@@ -368,9 +368,9 @@ get_header();
     <div class="container">
       <div class="sw-real-header">
         <div class="section-badge">Réalisations</div>
-        <h2>Un exemple de <span class="gradient-text">réalisation</span></h2>
+        <h2>Des exemples de <span class="gradient-text">réalisations</span></h2>
       </div>
-      <div class="portfolio-grid--triple" style="grid-template-columns: 1fr; max-width: 380px; margin: 0 auto;">
+      <div class="portfolio-grid--triple" style="grid-template-columns: repeat(2, 1fr); max-width: 800px; margin: 0 auto;">
         <div class="pf-card" data-category="identite-visuelle">
           <div class="pf-card-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_profilboost_bg.png" alt="ProfilBoost — identité visuelle création de CV">
@@ -389,6 +389,28 @@ get_header();
             <div class="pf-card-actions">
               <a href="<?php echo nls_page_url('charte-graphique-profilboost'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
               <a href="<?php echo nls_page_url('etude-de-cas-profilboost-identite-visuelle'); ?>" class="pf-card-cta pf-card-cta--wood">Voir l'étude de cas →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pf-card" data-category="identite-visuelle">
+          <div class="pf-card-img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_charte_graphique_jardins_du_chene_bg.webp" alt="Les Jardins du Chêne — charte graphique">
+            <span class="pf-badge pf-badge--green">Identité visuelle</span>
+          </div>
+          <div class="pf-card-body">
+            <div class="pf-card-top">
+              <div class="pf-card-accent pf-card-accent--green"></div>
+              <div><h4 class="pf-card-title">Les Jardins du Chêne</h4><p class="pf-card-desc">Charte graphique</p></div>
+            </div>
+            <div class="pf-stats">
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Logo</span><span class="pf-stat-label">personnalisé</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Charte</span><span class="pf-stat-label">complète</span></div></div>
+              <div class="pf-stat"><div class="pf-stat-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div class="pf-stat-text"><span class="pf-stat-value">Supports</span><span class="pf-stat-label">inclus</span></div></div>
+            </div>
+            <div class="pf-card-actions">
+              <a href="<?php echo nls_page_url('charte-graphique-les-jardins-du-chene'); ?>" class="pf-card-site-link">Voir la charte graphique →</a>
+              <a href="<?php echo nls_page_url('etude-de-cas-les-jardins-du-chene-identite-visuelle'); ?>" class="pf-card-cta pf-card-cta--green">Voir l'étude de cas →</a>
             </div>
           </div>
         </div>
