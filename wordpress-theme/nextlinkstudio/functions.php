@@ -17,26 +17,23 @@ function nextlinkstudio_setup() {
 add_action( 'after_setup_theme', 'nextlinkstudio_setup' );
 
 function nextlinkstudio_enqueue() {
+    // Polices auto-hébergées (Inter, Plus Jakarta Sans, Poppins, Overpass, Playfair Display)
+    // → servies depuis notre domaine : rendu identique sur tous les navigateurs + conforme RGPD.
     wp_enqueue_style(
-        'google-fonts',
-        'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap',
+        'nextlinkstudio-fonts',
+        get_template_directory_uri() . '/assets/css/fonts.css',
         [],
-        null
+        '1.0.0'
     );
     wp_enqueue_style(
         'nextlinkstudio-theme',
         get_template_directory_uri() . '/assets/css/theme.css',
-        [ 'google-fonts' ],
-        '1.1.7'
+        [ 'nextlinkstudio-fonts' ],
+        '1.1.8'
     );
-    // Polices Playfair Display (Google) + Interstate (Adobe Fonts) — uniquement pour l'étude de cas Les jardins du chêne (identité visuelle)
+    // Police Interstate (Adobe Fonts) — uniquement l'étude de cas identité visuelle.
+    // Si bloquée (anti-traçage), le fallback Overpass auto-hébergé prend le relais.
     if ( is_page_template( 'page-etude-de-cas-les-jardins-du-chene-identite-visuelle.php' ) ) {
-        wp_enqueue_style(
-            'google-fonts-playfair',
-            'https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap',
-            [],
-            null
-        );
         wp_enqueue_style(
             'adobe-fonts-interstate',
             'https://use.typekit.net/sbs0ljq.css',
