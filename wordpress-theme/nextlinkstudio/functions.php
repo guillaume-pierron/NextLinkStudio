@@ -29,6 +29,21 @@ function nextlinkstudio_enqueue() {
         [ 'google-fonts' ],
         '1.1.7'
     );
+    // Polices Playfair Display (Google) + Interstate (Adobe Fonts) — uniquement pour l'étude de cas Les jardins du chêne (identité visuelle)
+    if ( is_page_template( 'page-etude-de-cas-les-jardins-du-chene-identite-visuelle.php' ) ) {
+        wp_enqueue_style(
+            'google-fonts-playfair',
+            'https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap',
+            [],
+            null
+        );
+        wp_enqueue_style(
+            'adobe-fonts-interstate',
+            'https://use.typekit.net/sbs0ljq.css',
+            [],
+            null
+        );
+    }
     wp_enqueue_script(
         'nextlinkstudio-app',
         get_template_directory_uri() . '/assets/js/app.js',

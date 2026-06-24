@@ -5,7 +5,6 @@
 get_header();
 ?>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 /* ── Les jardins du chêne — palette officielle ───────────────────────
    #2E4E3A vert forêt · #6D8F6A vert feuillage · #A7C1A1 vert clair · #1C2B22 vert nuit */
 
@@ -105,7 +104,7 @@ get_header();
 .iv-typo-specimen--serif .iv-typo-name,
 .iv-typo-specimen--serif .iv-typo-alphabet { font-family: 'Playfair Display', Georgia, serif; }
 .iv-typo-specimen--sans .iv-typo-name,
-.iv-typo-specimen--sans .iv-typo-alphabet { font-family: 'Interstate', 'Plus Jakarta Sans', sans-serif; }
+.iv-typo-specimen--sans .iv-typo-alphabet { font-family: 'Interstate', 'Overpass', sans-serif; }
 .iv-typo-desc { font-size: 14px; line-height: 1.7; color: var(--text-muted); margin: 24px 0 0; max-width: 620px; }
 
 </style>
