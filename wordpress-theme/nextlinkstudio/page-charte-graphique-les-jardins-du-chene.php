@@ -27,7 +27,7 @@ get_header();
   max-width: none !important;
   height: auto;
   margin-left: -12.1%;
-  margin-bottom: -7.2%;
+  margin-bottom: -3.5%;
 }
 
 
