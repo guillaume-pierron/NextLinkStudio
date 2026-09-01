@@ -49,81 +49,38 @@ get_header();
   <section class="pain">
     <div class="pain-parallax-bg"></div>
     <div class="container">
-      <div class="pain-header">
-        <div class="section-badge">⭐ La première impression compte</div>
-        <h2>Vos clients vous jugent<br /><span class="gradient-text">avant de vous appeler.</span></h2>
-        <p>Un site bancal, un logo amateur — et le client appelle votre concurrent.<br />Pas parce qu'il est meilleur, mais parce qu'il inspire plus confiance.</p>
-      </div>
-      <div class="pain-cards">
-        <div class="pain-card bad">
-          <div class="pain-card-header">
-            <div class="pain-card-icon">😤</div>
-            <div class="pain-card-header-text">
-              <span class="pain-card-label">Sans image professionnelle</span>
-              <span class="pain-card-subtitle">Ce que vos clients ressentent</span>
+      <div class="proof-grid">
+
+        <div class="proof-text">
+          <div class="section-badge">⭐ La première impression compte</div>
+          <h2>Vos clients décident<br /><span class="gradient-text">avant de vous appeler.</span></h2>
+          <p>Même service, même savoir-faire : votre image en ligne peut faire la différence entre "j'appelle" et "je passe au suivant".</p>
+
+          <div class="proof-checklist">
+            <div class="proof-check-item">
+              <span class="proof-check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <div class="proof-check-text"><strong>Un site qui donne envie de vous contacter</strong></div>
+            </div>
+            <div class="proof-check-item">
+              <span class="proof-check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <div class="proof-check-text"><strong>Une identité qui inspire confiance</strong></div>
+            </div>
+            <div class="proof-check-item">
+              <span class="proof-check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <div class="proof-check-text"><strong>Une image cohérente sur tous vos supports</strong></div>
             </div>
           </div>
-          <div class="pain-card-items">
-            <div class="pain-item">
-              <span class="pi-icon bad">✕</span>
-              <div class="pain-item-text"><strong>Invisible sur Google</strong><span>Vos concurrents prennent toute la visibilité.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon bad">✕</span>
-              <div class="pain-item-text"><strong>Logo inexistant ou amateur</strong><span>Manque de crédibilité instantanée.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon bad">✕</span>
-              <div class="pain-item-text"><strong>Aucun support pour convaincre</strong><span>Difficile de rassurer et de convertir.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon bad">✕</span>
-              <div class="pain-item-text"><strong>Clients perdus avant le premier contact</strong><span>Ils vont chez quelqu'un d'autre, sans même vous connaître.</span></div>
-            </div>
+
+          <div class="proof-cta">
+            <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary btn-lg">🎁 Analyser gratuitement votre présence en ligne</a>
+            <span class="proof-cta-hint">✅ Réponse sous 24h · sans engagement</span>
           </div>
         </div>
-        <div class="pain-vs">VS</div>
-        <div class="pain-card good">
-          <div class="pain-card-header">
-            <div class="pain-card-icon">🚀</div>
-            <div class="pain-card-header-text">
-              <span class="pain-card-label">Avec NextLink Studio</span>
-              <span class="pain-card-subtitle">Ce que vos clients perçoivent</span>
-            </div>
-            <span class="pain-confidence-badge">🛡 Confiance & Croissance</span>
-          </div>
-          <div class="pain-card-items">
-            <div class="pain-item">
-              <span class="pi-icon good">✓</span>
-              <div class="pain-item-text"><strong>Trouvé sur Google, reconnu partout</strong><span>Vous êtes visible quand on a besoin de vous.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon good">✓</span>
-              <div class="pain-item-text"><strong>Identité visuelle qui inspire confiance</strong><span>Un logo et une image à la hauteur de votre professionnalisme.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon good">✓</span>
-              <div class="pain-item-text"><strong>Clients convaincus avant le premier contact</strong><span>Votre site répond aux questions et rassure.</span></div>
-            </div>
-            <div class="pain-item">
-              <span class="pi-icon good">✓</span>
-              <div class="pain-item-text"><strong>Présence cohérente sur tous les supports</strong><span>Une image forte, du digital à l'imprimé.</span></div>
-            </div>
-          </div>
+
+        <div class="proof-visual">
+          <img class="proof-mockup-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/mockup_pack_complet_jardins_du_chene.webp" alt="Site web, carte de visite, flyer et logo réalisés par NextLink Studio">
         </div>
-      </div>
-      <div class="pain-result">
-        <div class="pain-result-left">
-          <div class="pain-result-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
-          <div class="pain-result-body">
-            <strong>Résultat : plus de confiance, plus de clients.</strong>
-            <p>Une image professionnelle n'est pas une dépense, c'est un investissement qui vous positionne comme le choix évident.</p>
-          </div>
-        </div>
-        <div class="pain-result-right">
-          <a href="<?php echo nls_page_url( 'devis' ); ?>" class="btn btn-primary">→ Prendre contact</a>
-          <span class="pain-result-audit">✅ Audit offert de votre image actuelle</span>
-        </div>
+
       </div>
     </div>
   </section>

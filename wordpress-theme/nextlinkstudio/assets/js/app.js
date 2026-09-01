@@ -201,7 +201,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-  '.service-card, .portfolio-card, .portfolio-card-full, .pricing-card, .pricing-card-page, .step, .pain-card, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item, .logo-item, .bm-item'
+  '.service-card, .portfolio-card, .portfolio-card-full, .pricing-card, .pricing-card-page, .step, .proof-mockup-img, .preview-card, .ef-item, .deliverable-item, .option-item, .faq-item, .resultat-item, .logo-item, .bm-item'
 ).forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(24px)';
